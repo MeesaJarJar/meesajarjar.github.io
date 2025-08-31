@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "21": {
+        "pageid": 21,
+        "ns": 0,
+        "title": "Peacemaking",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "[[File:PeaceFlag.gif|thumb]]\n__TOC__\n==Description==\n[[Peacemaking]] is a Bard skill used to \"Peace\" a creature. When successful, the music that you play will relax the target and prevent them from fighting. To be successful with Peacemaking you will need the [[Musicianship]] skill. This skill goes great with [[Animal Taming]] or [[Treasure Map|Treasure Hunting]].\n\n==Range==\nThe range of all bard skills is 8 tiles, each 15 points in the skill increases the range by a single tile. Bards have to be within the range of the target to use the ability on it or it will fail. Bards must remain within their range or the effects of the skill will wear off.\n\n==Usage==\nActivate and you may be prompted to select an instrument on first use, instruments are not automatically selected so you have to set your instrument once the first time. You will be presented with a target reticle, select the creature and if successful, the creature will stop moving and attacking. Attacking the target too often or leaving it's optimal distance will break the creatures peaceful status.\n\n==Instruments==\n{| width=\"75%\"\n|[[File:Bamboo Flute.png]] Bamboo Flute\n|[[File:Drum.png]] Drum \n|[[File:Lap harp.png]] Lap Harp\n|-\n|[[File:Lute.png]] Lute \n|[[File:Standing harp.png]] Standing Harp]\n|[[File:Tambourine.png]] Tambourine \n|[[File:Tambourine tassel.png]] Tambourine (tassel)\n|}\n\n==Recommended Leveling==\n:0-50: Buy from NPC.\n:50-100: Use Peacemaking Skill on self or ground.\n\n==See Also==\n*[[Musicianship]]\n*[[Provocation]]\n*[[Discordance]]\n\n[[Category:Skills]]"
+          }
+        ]
+      }
+    }
+  }
+}

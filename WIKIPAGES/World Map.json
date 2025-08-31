@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "1402": {
+        "pageid": 1402,
+        "ns": 0,
+        "title": "World Map",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "[[File:Uofworldmap.png|Upright|right|World Map]]\n__TOC__\n== [[:Category:Atlas|Cities]] ==\n* [[Yew]]\n* [[Minoc]]\n* [[Skara Brae]]\n* [[Britain]]\n* [[Cove]]\n* [[Vesper]]\n* [[Trinsic]]\n* [[Jhelom]]\n* [[Buccaneer's Den]]\n* [[Nujel'm]]\n* [[Moonglow]]\n* [[Magincia]]\n* [[Ocllo]]\n* [[Serpent's Hold]]\n\n== [[:Category:Dungeons|Dungeons]] ==\n* [[Shame]]\n* [[Spider Cave]]\n* [[Terathan Keep]]\n* [[Orc Cave]]\n* [[Despise]]\n* [[Wind]]\n* [[Wrong]]\n* [[Ice Dungeon]]\n* [[Covetous]]\n* [[Britain Sewers]]\n* [[Defiled Crypt]]\n* [[Destard]]\n* [[Khaldun]]\n* [[Delucia Passageway]]\n* [[Fire Dungeon]]\n* [[Deceit]]\n* [[The Abyss]]\n* [[Hythloth]]\n* [[The Grotto]]\n\n== [[:Category:Places of Note]] ==\n* [[Hedge Maze]]\n* [[Waterfall]]\n* [[Add More!]]\n\n\n\n[[Category:Atlas]]"
+          }
+        ]
+      }
+    }
+  }
+}

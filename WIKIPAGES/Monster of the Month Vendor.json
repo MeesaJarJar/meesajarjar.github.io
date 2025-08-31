@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "2009": {
+        "pageid": 2009,
+        "ns": 0,
+        "title": "Monster of the Month Vendor",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "==Description==\nThe Monster of the Month Vendor sells hued wearables and [[Meta_Pets|Meta Pet]] dyes in exchange for [[Donation_Coin|Donation Coins]]. The vendor can be found just outside the West Britain Bank.\n\n==Monster of the Month Merchandise==\nThe vendor sells various types of aesthetic clothing and [[Meta_Pets|Meta Pet]] dyes hued to match those dropped [[Monster_of_the_Month|Monster of the Month]] creatures.\n\n[[image:motmVendor.jpg]]"
+          }
+        ]
+      }
+    }
+  }
+}

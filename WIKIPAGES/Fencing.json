@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "14": {
+        "pageid": 14,
+        "ns": 0,
+        "title": "Fencing",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "[[File:FencingFlag.gif|thumb]]\n__TOC__\n==Description==\n[[Fencing]] is a skill that allows the wielder to use Spears and some Sword style weapons. High [[Dexterity]] and [[Strength]] is recommended for Fencer to swing faster and harder. It is coupled well with [[Anatomy]] and [[Tactics]] for damage bonuses. One handed fencing weapons can be poisoned for maximum damage in place of a Spear. \n\n===Special Move===\nSpears have a passive chance to strike a ''Paralyzing Blow'' on a target, locking them in place for a short period of time. [[Anatomy]] is factored into your chance to hit a Paralyzing Blow: (Anatomy / 100) * (Paralyzing Blow Base Chance). The maintainers of this archive are unable to provide an accurate value for the base chance. If you are determined enough, you may discover the details of the original base chance but know that the Game Masters have the ability to adjust this value as they see fit.\n\n==Weapons==\n===One Handed===\n:Assassins Dagger\n:Dagger\n:Kryss\n:Lance\n:War Fork\n===Two Handed===\n:Ceremonial Spear\n:Gnarled Spear\n:Pitchfork\n:Savage Spear\n:Short Spear\n:Spear\n\n==How to Train==\n:0-25.0: Buy from an NPC\n:25-100: Attacking Targets\n\n==Notes==\n:Attacking targets in a dungeon will take advantage of the Dungeon skill boost.\n:You can use a Dagger on a friend or alternate character in heavy armor to level quickly.\n\n==See Also==\n*[[Anatomy]]\n*[[Tactics]]\n*[[Macing]]\n*[[Swordsmanship]]\n*[[Archery]]\n\n[[Category:Skills]]"
+          }
+        ]
+      }
+    }
+  }
+}

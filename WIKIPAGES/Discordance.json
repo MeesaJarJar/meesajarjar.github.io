@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "18": {
+        "pageid": 18,
+        "ns": 0,
+        "title": "Discordance",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "[[File:MusicFlag.gif|thumb]]\n__TOC__\n==Description==\n[[Discordance]] is a skill used by bards and requires [[Musicianship]] for successful attempts. Your music produces a clashing sound that weakens strong creatures. If successful, your target will lose a percentage of its [[Skills]] and [[Stats]. The percentage lost is dependent on your [[Discordance]] skill. For instance, at 50.0 skill, the target loses 10% from all [[Stats]] and [[Skills]]; and at 100.0 skill the target loses 20% from all [[Stats]] and [[Skills]]. Once the effect wears off, the target's skill and stats will return to normal. (Does not affect player characters.)\n\n==Range==\nThe range of all bard [[Skills]] is 8 tiles, each 15 points in the skill increases the range by a single tile. Bards have to be within the range of the target to use the ability on it or it will fail. Bards must remain within their range or the effects of the skill will wear off.\n\n==Instruments==\n{| width=\"75%\"\n|[[File:Bamboo Flute.png]] Bamboo Flute\n|[[File:Drum.png]] Drum\n|[[File:Lap harp.png]] Lap Harp\n|-\n|[[File:Lute.png]] Lute\n|[[File:Standing harp.png]] Standing Harp \n|[[File:Tambourine.png]] Tambourine\n|[[File:Tambourine tassel.png]] Tambourine (tassel)\n|}\n\n==Recommended Training==\n:0.0: Buy from an NPC\n:50 - 100: Use Discordance on Creatures\n\n==See Also==\n*[[Musicianship]]\n*[[Peacemaking]]\n*[[Animal Taming]]\n\n\n[[Category:Skills]]"
+          }
+        ]
+      }
+    }
+  }
+}

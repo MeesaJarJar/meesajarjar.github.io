@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "1549": {
+        "pageid": 1549,
+        "ns": 0,
+        "title": "Ship Upgrades",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "__TOC__\n==Description==\n[[Ship Upgrades]] are scrolls that are crafted by various different crafting skills depending on their purpose. They can be used on a Ship to upgrade it or give it passive bonuses. These upgrades are dropped when the ship is destroyed and the enemy vessel can retrieve them from your hull. [[Ship Upgrades]] were introduced with the [[Naval Warfare Reborn]] expansion.\n\n==Upgrades==\n{| cellpadding=\"5\" cellspacing=\"0\" border=\"1\" width=\"90%\"\n! style=\"background-color:#000; color:#FFFFFF;\" | Upgrade\n! style=\"background-color:#000; color:#FFFFFF;\" | Description\n|- align=\"center\"\n| Crow's Nest\n| Increases the range of your \"Scan The Horizons\" command. See [[Ship Commands]]\n|- align=\"center\"\n| Experience Boost\n| Increases the experience gained from killing Creatures, Players and other Ships.\n|- align=\"center\"\n| Improved Munitions\n| Increases damage done to other Ships.\n|- align=\"center\"\n| Chain Shot\n| Increases damage done to Monsters and Players.\n|- align=\"center\"\n| Fishing Trawler\n| Increases chances to find rare items in [[Whirlpool]]s.\n|- align=\"center\"\n| Improved Cannons\n| Increases Cannon Accuracy when fired.\n|- align=\"center\"\n| Superb Sails\n| Gives a boost of speed when using the \"Full speed ahead\" command. See [[Ship Commands]]\n|}\n\n==Crafting==\n{| cellpadding=\"5\" cellspacing=\"0\" border=\"1\" width=\"90%\"\n! style=\"background-color:#000; color:#FFFFFF;\" | Upgrade\n! style=\"background-color:#000; color:#FFFFFF;\" | Materials\n! style=\"background-color:#000; color:#FFFFFF;\" | Skill Required\n|- align=\"center\"\n| Crow's Nest\n| 2000 Logs\n| 85.0 [[Carpentry]]\n|- align=\"center\"\n| Experience Boost\n| 2000 Logs\n| 85.0 [[Carpentry]]\n|- align=\"center\"\n| Improved Munitions\n| 1000 [[Ingots]]\n| 85.0 [[Blacksmithing]]\n|- align=\"center\"\n| Chain Shot\n| 1000 [[Ingots]]\n| 85.0 [[Blacksmithing]]\n|- align=\"center\"\n| Fishing Trawler\n| 1000 [[Ingots]]\n| 85.0 [[Tinkering]]\n|- align=\"center\"\n| Improved Cannons\n| 1000 [[Ingots]]\n| 85.0 [[Tinkering]]\n|- align=\"center\"\n| Superb Sails\n| 2000 Cloth\n| 105.0 [[Tailoring]]\n|}\n\n==See Also==\n*[[Ships]]\n*[[Ship Commands]]\n*[[Whirlpool]]s\n*[[Galleons]]\n*[[Ship Repair Kit]]\n*[[Cannons]]\n*[[Cannon Balls]]"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "1539": {
+        "pageid": 1539,
+        "ns": 0,
+        "title": "Resurrect",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "__TOC__\n==Description==\nWhen a player dies in Ultima Online, they become a ghost. Unable to speak to others, use abilities, items or skills, they are useless. You have a few options for being resurrected: \n\nAnother player with sufficient [[Healing]] skill using [[Bandages]].\n\nAnother player using the resurrect [[Magery]] using [[Reagents]] and [[Mana]].\n\nA Town Healer, usually there is a building dedicated to it.\n\nAn ankh, ankhs are small statues, usually on the ground in various areas. There are Shrines with ankhs and ankhs placed in convenient areas.\n\n==Usage==\nTo resurrect from a town healer or an ankh, a player simply needs to walk within range of it. You will be prompted if you're ready to resurrect or not. Clicking Okay will make you assume your living form again.\n\nTo resurrect by another player with [[Magery]], they will need to cast the Resurrection spell, you will see the spell words \"An Corp\" above their head, once they've succeeded the cast, you will be prompted whether you're ready to accept or not.\n\nTo resurrect by another player with [[Healing]], they will need a minimum of 80 [[Healing]] skill and a few [[Bandages]]. They will target you with a bandage and depending on their dexterity, it will take a few seconds. The same prompt will occur.\n\n==See Also==\n*[[Healing]]\n*[[Anatomy]]\n*[[Magery]]"
+          }
+        ]
+      }
+    }
+  }
+}

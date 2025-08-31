@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "1517": {
+        "pageid": 1517,
+        "ns": 0,
+        "title": "Reagents",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "__TOC__\n==Description==\nReagents are used for casting [[Magery Spells]], [[Alchemy]] and [[Inscription]], they are always in high demand. Usually players carry between 35-100 depending on their level of confidence and skill. Some alchemy potion 10 or more reagents to create, so reagents are purchased in bulk as explained below.\n\nReagents can be purchased from mage, herbalist, and alchemist NPC vendors. They can also be found on the ground in some areas or spawn as loot on specific monsters. It should be noted that the NPC reagent vendors increase their supplies as demand increases. Players wishing to stockpile reagents can mathematically increase the amount of reagents offered by buying from the same NPC vendors. Once an NPC vendor has sold out of a reagent, a timer starts. When that timer is up, the vendor will offer twice the amount of reagents. This process is repeatable.\n\n==Magic Reagents==\nMagic reagents are used for [[Magery]], [[Inscription]] and [[Alchemy]].\n\n{|\n| [[File:Black_Pearl.png|link=Black Pearl]]\n| [[Black Pearl]]\n| [[File:Blood_Moss.png|link=Blood Moss]]\n| [[Blood Moss]]\n| [[File:Garlic.png|link=Garlic]]\n| [[Garlic]]\n| [[File:Ginseng.png|link=Ginseng]]\n| [[Ginseng]]\n|-\n| [[File:Mandrake Root.png|link=Mandrake Root]]\n| [[Mandrake Root]]\n| [[File:Nightshade.png|link=Nightshade]]\n| [[Nightshade]]\n| [[File:Spiders'_Silk.png|link=Spiders'_Silk]]\n| [[Spiders' Silk]]\n| [[File:Sulfurous_Ash.png|link=Sulfurous Ash]]\n| [[Sulfurous Ash]]\n|}\n\n==Overdrive Notes==\n[[File:Eye_of_Newt.png]]  Eye of Newt is available ONLY on [[Overdrive|Overdrive Server]] and is currently used with creating [[Alchemy#Potion_Recipes_2|Overdrive Specific Alchemy Potions]].\n\n==See Also==\n*[[Alchemy]]\n*[[Inscription]]\n*[[Magery]]\n\n[[Category:Crafting]]\n[[Category:Items]]\n[[Category:Overdrive]]"
+          }
+        ]
+      }
+    }
+  }
+}

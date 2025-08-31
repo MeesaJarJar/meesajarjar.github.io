@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "1757": {
+        "pageid": 1757,
+        "ns": 0,
+        "title": "Beekeeper",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "__TOC__\n== Locations ==\n[[Skara Brae]], [[Vesper]]\n== Merchandise == \n*Jar of honey\n*Beeswax\n*Deed for a beehive\n*Hive tool\n*Small wax pot\n*Large wax pot\n== Training ==\n[[Tactics]], [[Wrestling]]\n[[Category:Atlas]]\n[[Category:Shops]]"
+          }
+        ]
+      }
+    }
+  }
+}

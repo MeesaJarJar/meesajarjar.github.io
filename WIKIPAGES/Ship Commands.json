@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "1550": {
+        "pageid": 1550,
+        "ns": 0,
+        "title": "Ship Commands",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "__TOC__\n==Description==\nShips can be either manually commanded to travel in specific directions or commanded to perform certain actions. In the [[Naval Warfare Reborn]] expansion, new [[Ship Commands]] were added to perform additional actions such as Embarking onto the ship or firing cannons. These manual movement commands are no longer required due to the Mouse Movement added to ships in the expansion. See [[Naval Warfare Reborn]]. Some commands can only be activated when the proper [[Ship Upgrades]] have been applied.\n\n==Old Commands==\n:'''Forward''': Travel Forward.\n:'''Forward''' Left: Travel in a Forward Left direction.\n:'''Forward Right''': Travel in a Forward Right direction.\n:'''Back/Backward''': Travel backwards.\n:'''Right''': Travel to the right without turning the ship.\n:'''Left''': Travel to the left without turning the ship.\n:'''Turn Left''': Turn the ship to the left.\n:'''Turn Right''': Turn the ship to the right.\n:'''Stop / Furl Sail''': Stops a moving ship.\n:'''Raise Anchor''': Raise the anchor, allowing the ship to begin movement.\n:'''Drop Anchor''': Lower the anchor, to prevent movement commands from activating.\n:'''Turn About''': Flips the nose of the ship around to face the other direction.\n\n==New Commands==\n:'''Embark''': Speaking embark near a vessel your are a captain, officer or deckhand of will cause you to be transported to a random location on the deck. This only works if you are not currently on a ship. The closest vessel to you is always chosen first. This command can also be accessed through the new vessel gump. Followers will be moved to the ship along with you.\n\n:'''Disembark''': Speaking disembark while on a vessel will allow you to leave your current vessel. After speaking disembark, an aiming reticule will appear on your screen. You can then target land near you. This will move you off the boat and to your specified location. This transports followers off of ships as well.\n\n:'''Fire Left/Fire Port''': Fires a cannon volley from the port-side cannons. This is a criminal action if innocent creatures or humans are hit with the resulting cannon fire.\n\n:'''Fire Right/Fire Starboard''': Fires a cannon volley from the starboard-side cannons. This is a criminal action if innocent creatures or humans are hit with the resulting cannon fire.\n\n:'''Deploy the Cannons''': This will deploy all retracted cannons. Deployed cannons are vulnerable to enemy fire. However, cannons must be deployed in order for them to shoot at the enemy.\n\n:'''Retract the Cannons''': This will deploy all retracted cannons. Retracted cannons are immune to enemy cannon fire but cannot fire until deployed.\n\n:'''Take the Helm''': Allows you to steer your vessel with your mouse. This is only usable by unmounted characters.\n\n:'''Leave the Helm''': Relinquish control of the helm and revert back to normal boat command steering.\n\n:'''Scan The Horizons''': Opens a map that reveals enemy ships as a red dot. [[Tracking]] increases this range as well as the Crow's Nest [[Ship Upgrades|Ship Upgrade]]\n\n==Ship Upgrade Commands==\n:'''Full Speed Ahead / Unfurl Sail''': Gives your ship a temporary boost of speed. This can only be used with the Superb Sails [[Ship Upgrades]]."
+          }
+        ]
+      }
+    }
+  }
+}

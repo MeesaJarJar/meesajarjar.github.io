@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "164": {
+        "pageid": 164,
+        "ns": 0,
+        "title": "Terathan Keep",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "[[Category:Atlas]][[Category:Dungeons]]\n[[File:TerathanKeepDungeonEntranceImage.png|625px|right|]]\n__TOC__\n==Notes==\n*Entrance is inside the [[Spider Cave]]\n*Receives the 50% Dungeon Skill Gain Bonus.\n==[[Champion Spawns]]==\n*[[Champion Spawns#Mephitis - Skull of Venom|Mephitis]]\n==[[Paragons]]==\n*ophidian shaman - Level 1\n*dread spider - Level 1\n==[[Lockpicking|Locked Chests]]==\n*None\n=Level 1=\n[[File:terakeep_1.png|right|]]\n===Legend===\n*1. Entrance\n*2. Balron Nest - cannot hide beyond this point!\n*3. Champion Spawn - [[Champion Spawns#Mephitis - Skull of Venom|Mephitis]]\n*4. One-way drop down\n*5. Portal to [[Deceit]] Level 4\n*6. Portal to [[Fire Dungeon]] Level 1\n*7. Black Moongate to Level 2\n===Monsters===\n*terathan warrior, terathan avenger, silver serpent, snake, terathan drone, terathan matriarch, ophidian matriarch, ophidian avenger, ophidian knight-errant, ophidian shaman, ophidian apprentice mage, ophidian enforcer, ophidian warrior, dread spider, ophidian justicar, ophidian zealot, frosty (ice spider), balron\n===[[Paragons]]===\n*ophidian shaman, dread spider\n===[[Lockpicking|Locked Chests]]===\n*None\n\n\n\n\n\n=Level 2=\n[[File:terakeep_2.png|right|]]\n===Legend===\n*1. From Level 1\n*2. [[Champion Spawns|Champion Spawn Altar]]\n*3. Moongate - part of the main city moongate system, cannot be used to return here\n===Monsters===\n*imp\n===[[Paragons]]===\n*None\n===[[Lockpicking|Locked Chests]]===\n*None"
+          }
+        ]
+      }
+    }
+  }
+}

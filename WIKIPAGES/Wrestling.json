@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "1455": {
+        "pageid": 1455,
+        "ns": 0,
+        "title": "Wrestling",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "[[Category:Skills]][[Category:Overdrive]]\n[[File:Flag_wrestling.gif|thumb]]\n__TOC__\n==Description==\nWrestling is a skill that uses your fists instead of weapons. It does very little damage but can be used to strike a target and interrupt their spell casting. It compliments Mages for this reason as well as mages need 2 free hands to cast spells or meditate. Timing a well placed hit will interrupt a Greater Heal or Flame Strike which can mean everything.\n\n==Special Move==\nWrestling has two special moves: [[Stun]] and [[Disarm]]. With at least 80 Wrestling and 80 [[Anatomy]], you have a chance to [[Stun]] your opponent. With 80 Wrestling and 80 [[Arms_Lore|Arms Lore]], you have a chance to [[Disarm]] an opponent.\n\nThe chance to successfully [[Stun]] and [[Disarm]] takes into considering both your Wrestling and your [[Anatomy]] or [[Arms_Lore|Arms Lore]], respectively. To have the best chance of a successful strike, aim to get both as high as possible, ideally to 100.0 - You will of course first have to successfully hit your opponent as well!\n\nIn a scenario where you and your opponent have 100 Wrestling, you have a 50% chance to hit him with a normal punch. If you have [[Stun]] or [[Disarm]] toggled, then another calculation is used to determine your chance to hit that [[Special_Moves|Special Move]] taking into consideration Wrestling, [[Anatomy]] and a base chance of [[Stun]].\n\nSpecial Moves can be accessed through your client assistance program by setting a hotkey for that skill, or through the client itself through Settings > Macros > New macro > Add:\n\n[[File:Special_Moves_Stun_Disarm_Macro_Preview.PNG]]\n\n==Usage==\n* Simply punching a target will interrupt their spells with Wrestling.\n* To stun, simply \"Arm\" your [[Stun]] (I advise setting this to a hotkey) and hit the target.\n* Stunning a target or failing to stun a target will consume stamina. It's ideal to carry [[Potions#Types_of_Potions|Refresh Potions]] for this.\n* Stunning a target will lock them in place for 3 seconds, keeping them from moving or casting.\n\n==Recommended Leveling==\n:0-50: Train from NPC\n:50-100: Simply attack a target with your fists. Using this on an alternate character is ideal.\n\n==Defensive Wrestling==\nThe [[Evaluate_Intelligence|Evaluate Intelligence]] and [[Anatomy]] skills work together to provide a passive [[Evaluate_Intelligence#Defensive_Ability|Defensive Wrestling]] ability. As it is passive, you do not have a chance to actively hit a player but it does provide a mitigation against incoming melee attacks. This can be used to avoid putting Wrestling on your Template.\n\n==Overdrive Notes==\nStun punch has been disabled on [[Overdrive|Overdrive Server]].\n\n==See Also==\n*[[Arms_Lore|Arms Lore]]\n*[[Anatomy]]\n*[[Disarm]]\n*[[Evaluate_Intelligence|Evaluate Intelligence]]\n*[[Magery]]\n*[[Special_Moves|Special Move]]\n*[[Stun]]\n\n=Contributors=\nThe community would like to thank the following brave adventurers who contributed their time and experiences for others to enjoy:\n* Tahuk"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "2025": {
+        "pageid": 2025,
+        "ns": 0,
+        "title": "Grinch's Grotto",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "[[Category:Atlas]][[Category:Dungeons]]\n\n__TOC__\n\n==Notes==\n* The entrance is located deep within [[Hythloth]]. To enter the dungeon, you must utter the words \"Wis Kal Por Uus\". You may also be able to find a rune marked inside the doors at your local rune library.\n* Creatures may often be very close to the entrance - tread carefully!\n* To teleport back to Hythloth, walk over the flames to the West.\n\n==Level 1==\n===Monsters===\n* Balron, daemon, shadow wyrm, dragon, evil mage, lich, vampires, lich lord\n\n<gallery mode=\"packed\" class=\"right\">\nFile:GrinchGrottoEntrance.png|Entrance Outside\nFile:GrinchGrottoEntranceInside.png|Entrance Inside\nFile:GrinchGrottoVampires.png|Hungry Vampires\n</gallery>"
+          }
+        ]
+      }
+    }
+  }
+}

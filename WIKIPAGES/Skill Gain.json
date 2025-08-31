@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "2314": {
+        "pageid": 2314,
+        "ns": 0,
+        "title": "Skill Gain",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "UOForever has different skill gain rates depending on your location. Following the general theme of risk vs reward, the skill gain works as follows:\n* +50% in dungeons\n* 0% in wilderness/town\n* -25% in house\n* -100% in the [[Britain|West Britain Bank]](which is a no harm zone)"
+          }
+        ]
+      }
+    }
+  }
+}

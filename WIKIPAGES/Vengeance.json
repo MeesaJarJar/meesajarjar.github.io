@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "1941": {
+        "pageid": 1941,
+        "ns": 0,
+        "title": "Vengeance",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "[[Category:Atlas]][[Category:Quests]]\n==Start==\n*You must have [[Young Player Status]]\n*Double click \"a restless spirit\" in the [[Defiled Crypt]] to bring up the quest gump, then click Accept\n==Objectives==\n*1. Kill 10 tomb robbers. They are the red NPCs with the Tomb Robber title. The restless spirit will be following you during this. Double click the spirit while in Peace Mode to check your progress.\n*2. After killing the 10 tomb tobbers, escort the restless spirit to the crypt in the eastern section.\n==Reward==\n*[[Ring of Forgiveness]]\n*[[Candle of Forgiveness]]\n==Dialogue==\nIn life, I was a priestess of this crypt. I would tend the dead and help them on their final journey to the afterlife. All was peaceful here, until word got out that some of the dead were being intered with their belongings.\n\nThis is when the tomb robbers came.\n\nWhere we stand now is the place of my... defilement... and resting place. They took my life for mere trinkets left for the dead.\n\nI was peaceful once, but now I crave vengeance.\n\nGive this to me and I will reward you dearly. Help me kill 10 grave robbers and then guide me to my family's crypt so that I may rest."
+          }
+        ]
+      }
+    }
+  }
+}

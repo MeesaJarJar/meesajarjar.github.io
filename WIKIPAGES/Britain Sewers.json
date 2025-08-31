@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "172": {
+        "pageid": 172,
+        "ns": 0,
+        "title": "Britain Sewers",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "[[Category:Atlas]]\n[[Category:Dungeons]]\n[[File:EntranceImage.png|625px|right|]]\n== Notes ==\n*Located in [[Britain]].\n*Receives the 50% Dungeon Skill Gain Bonus.\n== [[Champion Spawns]] ==\nNone.\n== [[Paragons]] ==\nNone.\n== [[Treasure Chests]] ==\nNone.\n= Level 1 =\n[[File:britsewers.png|right|]]\n*1. Entrance\n*2. Safe ledge reachable with Teleport spell\n*3. One-way drop down ledge\n{| class=\"wikitable\"\n!colspan=\"8\"|Monsters\n|-\n! scope=\"col\" colspan=\"2\"|Name\n! scope=\"col\"|Life\n! scope=\"col\"|Mana\n! scope=\"col\"|Stamina\n! scope=\"col\"|Strength\n! scope=\"col\"|Intelligence\n! scope=\"col\"|Dexterity\n|-\n|colspan=\"2\"|a sewer rat\n|6\n|0\n|25\n|9\n|6-10\n|25\n|-\n|colspan=\"2\"|a snake\n|15-19\n|0\n|16-25\n|22-34\n|6-10\n|16-25\n|-\n|colspan=\"2\"|a shadow wisp\n|10-24\n|16-45\n|11-25\n|16-40\n|16-45\n|11-25\n|-\n|colspan=\"2\"|a bull frog\n|28-42\n|0\n|6-25\n|46-70\n|11-20\n|6-25\n|-\n|colspan=\"2\"|a giant toad\n|46-60\n|0\n|6-25\n|76-100\n|11-20\n|6-25\n|}"
+          }
+        ]
+      }
+    }
+  }
+}

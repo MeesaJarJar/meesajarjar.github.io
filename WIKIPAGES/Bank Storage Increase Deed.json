@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "3476": {
+        "pageid": 3476,
+        "ns": 0,
+        "title": "Bank Storage Increase Deed",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "[[Category:Items]]\n[[File:Bank_Storage_Increase_Deed_Preview.PNG|thumb|This is a special deed that will increase the number of items that your bank can hold.]]\n\n__TOC__\n=Description=\nThis is a special deed that can be used on a player in order to increase the [[Bank]] space. This will increase the current [[Bank]] space by 15 items up to a maximum of 300 item count in a single players [[Bank]]. \n\n==Patch Notes==\n* [https://www.uoforum.com/threads/new-quality-of-life-items.110193/ new-quality-of-life-items.110193]\n\n=Using the Deed=\nThe Bank Storage Increase Deed needs to be used from within your bag, and will tell you what your maximum item count has been increased to upon use:\n\n[[File:Bank_Storage_Increase_Deed_First_Use.PNG|The First use of a Bank Storage Increase Deed. The deed must be used from your backpack and will increase the maximum item count of your characters bank by 15.]]\n\nWhen you can no longer benefit from using a Bank Storage Increase Deed, which is around 290 maximum item count, you will receive a message stating such:\n\n[[File:Bank_Storage_Increase_Deed_Last_Use.PNG|When you can no longer benefit from using a Bank Storage Increase Deed, you will receive a message stating that the deed will have no effect. You cannot go above 300 maximum items in your bank so you will receive this message at 290 items.]]\n\n=Located=\nThe Bank Storage Increase Deed is purchasable with [[Donation_Coin|1000 Donation Coins]] from [[Exotic_Item_Vendor|Nadine the Exotic Item Donation Vendor]] located in front of the [[Britain|West Britain Bank]].\n\n[[File:Bank_Storage_Increase_Deed_Location.PNG|The Bank Storage Increase Deed will increase your banks storage's item count by 15 up to a maximum of 300 items.]]"
+          }
+        ]
+      }
+    }
+  }
+}

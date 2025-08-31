@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "32": {
+        "pageid": 32,
+        "ns": 0,
+        "title": "Cooking",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "[[File:CookingFlag.gif|thumb]]\n__TOC__\n==Description==\nThe [[Cooking]] skill is one of the least useful skills but does offer a few useful items. Most foods do not grant any other benefits than restoring stamina. [[Savage Kin Paint]] can be used to prevent morph spells on the person wearing it. This can be useful against [[Champion Spawns|Barracoon]]\n\nChefs will often need an oven to create their recipes, sometimes a heating stand will be enough. It's useful to place a Flour Mill and Water Trough in your home when you're a cook and you can hire a [[Barkeep]] to buy and sell some supplies.\n\n== Brewery System ==\nWhat accompanies Ultima Online so perfectly? That's right, beer! The Brewery system is an exciting new twist to Ultima Online that the UO Forever team has developed.\n\nTo start off, head to your local tavern and look for a vendor named \"... the Brewer.\" You are allowed to buy necessary goods from him that will let you start your brewing. Scroll to the bottom of his Buy list and select a Brewing Kit. Brewing Kits have 50 charges. Upon opening the Brewing Kit you will see a new gump with multiple selections of different Brews you can craft. Most notably the Special Brews. Right now the only special brew is Moonglow Mead (other will be added soon,) so I will cover the basics of how to create this one brew and the rest should follow the same idea.\n\n'''Moonglow Mead'''\n:80 Cooking\n:1 Water (pitcher from barkeeps).\n:2 Yeast (a sack of yeast made with fruit, craftable on the \"Ingredients\" tab of the Brewing Menu)\n:2 Honey (can be bought from Beekeeper in Skara)\n:2 Nightshade (get this from your local mage shop!)\n\nSimply have all the ingredients in your pack and start making some mead! As far as the effect it has when you drink it... it will get you piss drunk!\n\n==Recommended Leveling==\n:0-50: Buy from NPC\n:50-100: Cook Fish Steaks\n\n==Notes==\nThere are tons of fish up for grabs, people throw thousands of raw fish steaks away due to the high leveling demand from fishing. Check the docks or ask players for free raw fish steaks.\n\n[[Category:Skills]]\n[[Category:Crafting]]"
+          }
+        ]
+      }
+    }
+  }
+}

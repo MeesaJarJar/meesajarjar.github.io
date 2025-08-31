@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "1405": {
+        "pageid": 1405,
+        "ns": 0,
+        "title": "Britain",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "[[Category:Atlas]]\n[[Category:Cities]]\n\n__TOC__\n== Notes ==\nThe city of Britain, home of Lord British, founded on Compassion.\n\nVirtue: Compassion\n\n[[Sigil]]: Portals - A bonus [[Random Dungeon Adventure]] portal will appear in the owning Faction's base.\n\n[[Control Point]]: Bloodshed - Causes your body to be unchoppable anywhere in the overworld, but not dungeons. Does not work account-wide.\n\n==[[:Category:Shops|Shops]]==\n[[File:UOF_Brit_Vendors_Wiki.jpg]]\n\n* [[Alchemist]] x4\n* [[Baker]]\n* [[Bank]] x3\n* [[Bard]]\n* [[Blacksmith]] x3\n* [[Butcher]]\n* [[Carpenter]]\n* [[Fisher]] x3\n* [[Fletcher]] x2\n* [[Healer]] x2\n* [[Inn]] x3\n* [[Jeweler]] x2\n* [[Mage]] x2\n* [[Mapmaker]]\n* [[Provisioner]] x2\n* [[Scribe]] x3\n* [[Shipwright]]\n* [[Stable]] x4\n* [[Tailor]] x3\n* [[Tanner]]\n* [[Tavern]] x4\n* [[Tinker]]\n* [[Weaponsmith]] and [[Armorer]] x3\n\n== [[:Category:Places of Interest|Places of Interest]] ==\n[[File:Map_britain.jpg]]\n\n*1. Moongate\n*2. Animal Farm - Pigs\n*3. Guard Tower - Safe zone, cannot be attacked or stolen from here.\n*4. Lord British's Castle, as well as the [[True Britannians]]' Base.\n*5. [[Blackjack]] and [[Poker]] Dealer\n*6. [[Platinum Vendor]]\n*7. [[Unique Wares Vendor]]\n*8. [[Defiled Crypt]] - Young Player Dungeon\n*9. [[Order]] Recruiter and Shield Giver\n*10. [[Raffle Ticket]] Vendors\n*11. [[Chaos]] Recruiter and Shield Giver\n*12. The [[Janitor]]\n*13. [[The Elder's Hall]] - Young Player Help building - Free items for (young) players here.\n*14. Recruitment stones for all 4 [[Factions]].\n*15. Several custom vendors: [[Exotic Item Vendor]], [[Wearables Vendor]], [[Ethereal Mounts Vendor]], [[Battle Goblin Well]]\n*16. The Fabled \"Skill Gain\" Well - Basically just free water to keep your character hydrated. Being fed and hydrated can have a small impact on skill success rates, therefore this is sometimes referred to as the Skill Gain well.\n*17. Entrance to custom dock with PVP [[Tournament]] stages and a [[Bank]]. You cannot be attacked or stolen from here thus making it an ideal spot to trade with other players.\n*18. [[Bomberman]] game stone\n*19. Britain Graveyard\n*20. Lord Blackthorn's Castle\n*21. [[Britain Crafting Area]] - While here you receive a chance to craft [[Slayer]] weapons, a %10 bonus chance to craft exceptional items, and will use %20 less resources.\n*22. Theater\n*23. Chamber of Virtue\n*24. [[Sigil]] stand - Sigil of Portals - A bonus [[Random Dungeon Adventure]] portal will appear in the owning Faction's base. For use in [[Factions]].\n*25. [[Britain Sewers]]\n*26. [[Control Point]] of Bloodshed - Causes your body to be unchoppable anywhere in the overworld, but not dungeons. Does not work account-wide. For use in [[Factions]].\n*27. [[Pirate]] NPC with information on [[Whirlpool]]s."
+          }
+        ]
+      }
+    }
+  }
+}

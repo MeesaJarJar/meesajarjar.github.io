@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "156": {
+        "pageid": 156,
+        "ns": 0,
+        "title": "Wrong",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "[[Category:Atlas]][[Category:Dungeons]]\n[[File:WrongDungeonEntranceImage.png|625px|right|]]\n__TOC__\n==Notes==\n*Located south of [[Ice Dungeon]], north of the Shrine of Compassion, and northwest of [[Minoc]].\n*Receives the 50% Dungeon Skill Gain Bonus.\n\n==Champion Spawn==\nBeware adventurers, within this treacherous dungeon [[Dungeon_Bosses#Arch_Demon|the Arch Demon]] can be found! [[Dungeon_Bosses#Arch_Demon|The Arch Demon]] is one of the many [[Dungeon_Bosses|Dungeon Bosses]] that inhabit the lands of Sosaria. \n\n==Dungeon Boss==\nBe careful, as you may first encounter [[Champion_Spawns#Lord_Oaks_-_Skull_of_Enlightenment|Lord Oaks]] at the entrance of Wrong. [[Champion_Spawns#Lord_Oaks_-_Skull_of_Enlightenment|Lord Oaks|Lord Oaks]] is one of the many [[Champion_Spawns|Champions]] that can be found in Sosaria.\n\n==[[Paragons]]==\n==[[Lockpicking|Locked Chests]]==\n*3x Low Tier (crates, barrels, kegs) - Level 1 (x3)\n*2x Mid Tier (large wooden or metal chests) - Level 1 (x2)\n*3x High Tier (large wooden or metal chests) - Level 2 (x2),  Level 3(x1)\n=Level 1=\n[[File:wrong_1.png|right|]]\n===Legend===\n*1. Entrance\n*2. To Level 2\n*3. Low Tier (crates, barrels, kegs) [[Lockpicking|Locked Chests]]\n*4. Mid Tier (large wooden or metal chests) [[Lockpicking|Locked Chests]]\n*5. To Level 3\n===Monsters===\n*murderer NPC, evil mage, ratman, ratman archer, fiery gargoyle, snake, troll, ogre, ogre lord, stone harpy\n===[[Paragons]]===\n*?\n===[[Lockpicking|Locked Chests]]===\n*3x Low Tier (crates, barrels, kegs)\n*2x Mid Tier (large wooden or metal chests)\n\n\n\n=Level 2=\n[[File:wrong_2.png|right|]]\n===Legend===\n*1. To Level 1\n*2. High Tier (large wooden or metal chests) [[Lockpicking|Locked Chests]]\n===Monsters===\n*murderer NPC, ogre lord\n===[[Paragons]]===\n*?\n===[[Lockpicking|Locked Chests]]===\n*2x High Tier (large wooden or metal chests)\n\n\n\n\n=Level 3=\n[[File:wrong_3.png|right|]]\n===Legend===\n*1. To Level 1\n*2. Ankh\n*3. High Tier (large wooden or metal chests) [[Lockpicking|Locked Chests]]\n===Monsters===\n*None\n===[[Paragons]]===\n*None\n===[[Lockpicking|Locked Chests]]===\n*1x High Tier (large wooden or metal chests)"
+          }
+        ]
+      }
+    }
+  }
+}

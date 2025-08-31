@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "2315": {
+        "pageid": 2315,
+        "ns": 0,
+        "title": "Player Killing",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "__TOC__\n\n==Description==\nPlayer Killing, Player Killers, PKs, murderers, reds. They have many different names but they have just one goal - Killing innocent players! Player Killing is one of the many features that makes Ultima Online an exciting game to play, even 20 years on.\n\n===Becoming a PK===\nAttacking an blue/innocent player is an attempted murder. If the target dies before the criminal flag timer ends, the attacker is guilty of player killing, regardless of whether he actually struck the killing blow. The victim character can choose to report the player killers. You may see your kill count by saying \"I must consider my sins\" in game. Once a murderer has 5 or more long term murder counts, they will be [[flagging|flagged]] as a red.\n\n===Murder Counts===\nLong term counts take approximately 24 hours per 1 count of IN GAME time to decay. This is based off of the last count you received.\n\nTo see your murder counts say the phrase: I must consider my sins\n\n===Entering Town===\nReds can enter any town here. They will not be guard-hacked if red in any town however there are limitations. They can not attack anyone in town unless they are originally [[flagging|flagged]]. Any criminal act in towns can cause the guards to pop. If a red is flagged by another player that player will appear gray to them so they may participate in regular combat that way. Also any red in factions or warring guilds can fight in town as normal however reds are susceptible to being attacked by other blues not in warring factions/guilds."
+          }
+        ]
+      }
+    }
+  }
+}

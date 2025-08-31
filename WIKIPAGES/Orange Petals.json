@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "208": {
+        "pageid": 208,
+        "ns": 0,
+        "title": "Orange Petals",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "__TOC__\n\n\n[[File:OrangePetals.gif]]\n\n\n==Description==\nOrange Petals, when eaten, provide a means to remove poison from your character without taking further action. Upon the first poison tick, the orange petal will cure a player of the poison they are afflicted with. This effect does not apply to lethal poison.\n\n\n==Duration==\nEach orange petal lasts for 5 minutes.\n\n\n==Where to Obtain==\nOrange petals are grown on plants and are gathered from bright orange Bulrushes, Pampas Grass, and Poppies. They are often seen for sale on player owned vendors.\n\n\n[[Category:Items]]"
+          }
+        ]
+      }
+    }
+  }
+}

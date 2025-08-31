@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "1577": {
+        "pageid": 1577,
+        "ns": 0,
+        "title": "Ship Rune",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "__TOC__\n==Description==\n[[Ship Rune]]s are runes that are generated when placing your boat each time. These [[Ship Rune]]s can be used to go back to the deck of your ship when casting recall on them. Gate Travel cannot be cast on [[Ship Rune]]s. After docking a Ship, [[Ship Rune]]s will vanish and new ones are created each time you summon the ship. It is advised that each time you place your boat, you leave one of the two runes that are generated in your bank or home. Other players can recall from your [[Ship Rune]]s, provided the rune is not locked down (Can be placed in a secure container).\n\n==Usage==\nSimply cast the Recall spell or use a recall scroll on the rune. The rune cannot be directly locked down or it will not work. Keep one rune in a safe place in case you die on your Ship. These runes are recreated each time you place your ship, so bank the new one when this occurs. Ship runes are not blessed and will drop when you die.\n\n==See Also==\n*[[Ships]]\n*[[Ship Commands]]\n*[[Whirlpool]]s\n*[[Galleons]]\n*[[Ship Upgrades]]\n*[[Ship Repair Kit]]\n*[[Cannons]]\n*[[Cannon Balls]]"
+          }
+        ]
+      }
+    }
+  }
+}

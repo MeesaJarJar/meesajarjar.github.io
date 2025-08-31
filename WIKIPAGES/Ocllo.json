@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "1411": {
+        "pageid": 1411,
+        "ns": 0,
+        "title": "Ocllo",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "[[Category:Atlas]]\n[[Category:Cities]]\n[[File:map_ocllo.png|Upright|right|Ocllo]]\n__TOC__\n== Notes ==\nOcllo is on an Island, and not reachable by moongate, but it does have a moongate to get off the island.\n\nVirtue: None\n\n[[Sigil]]: Haste - Doubles capture time on sigils and control points.\n\n[[Control Point]]: None\n== [[:Category:Shops|Shops]] ==\n* [[Alchemist]]\n* [[Baker]]\n* [[Bank]]\n* [[Butcher]]\n* [[Fisher]]\n* [[Healer]]\n* [[Inn]] x2\n* [[Mage]]\n* [[Mapmaker]]\n* [[Provisioner]]\n* [[Scribe]] x2\n* [[Shipwright]]\n* [[Stable]]\n* [[Tailor]]\n* [[Tanner]]\n* [[Weaponsmith]] and [[Armorer]]\n\n== [[:Category:Shops|Points of Interest]] ==\n*1. Moongate - Part of the main city moongate system, however can not be used to travel to Ocllo.\n*2. [[Sigil]] stand - Sigil of Haste - Doubles capture time on sigils and control points. For use in [[Factions]].\n*3. Coliseum"
+          }
+        ]
+      }
+    }
+  }
+}

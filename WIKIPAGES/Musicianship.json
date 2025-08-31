@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "19": {
+        "pageid": 19,
+        "ns": 0,
+        "title": "Musicianship",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "[[File:MusicFlag.gif|thumb]]\n__TOC__\n==Description==\n[[Musicianship]] is the core skill for all bard skills, it is required for [[Provocation]], [[Discordance]] and [[Peacemaking]] to have any chance of success. [[Musicianship]] is required for using a [[Fire Horn]] and required for [[Carpentry]] to craft [[Instruments]].\n\n==Instruments==\n{| width=\"75%\"\n|[[File:Bamboo Flute.png]] Bamboo Flute\n|[[File:Drum.png]] Drum\n|[[File:Lap harp.png]] Lap Harp\n|-\n|[[File:Lute.png]] Lute\n|[[File:Standing harp.png]] Standing Harp\n|[[File:Tambourine.png]] Tambourine\n|[[File:Tambourine tassel.png]] Tambourine (tassel)\n|}\n\n==Recommended Leveling==\n:0-50: Buy from an NPC.\n:30-100: Double-click any musical instrument.\n\n==See Also==\n*[[Peacemaking]]\n*[[Discordance]]\n*[[Provocation]]\n\n[[Category:Skills]]"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "136": {
+        "pageid": 136,
+        "ns": 0,
+        "title": "Server Commands",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "__TOC__\n==Description==\nThere are a series of server commands that players can run from any client in order to execute menus, gumps and actions. You can view a full list of these commands in game with the [help command.\n\n==Notes==\nSome commands can be bound to a \"Say\" hotkey, allowing you to avoid complicated macros, such as the \"[pouch\" command.\n\n==Commands==\n{| class=\"wikitable\"\n! Command\n! Description\n|-\n| [toggletooltips\n| Forcefully turn on or off the Tool Tips, using this command will log you out so use this in a safe location. \n|-\n| [uof\n| Main UOForever menu. Contains many useful features, such as the ability to toggle the UOF Action Camera and your fame title. Here you will also find account information such as Total Account Play Time. \n|-\n| [help\n| Lists all available server commands\n|-\n| -ping\n| Does an in-game ping, this will almost always be higher than a command line ping\n|-\n| [gettype\n| Use this on potions to get their names for use with the [drink command\n|-\n| [gethue\n| Use this to identify the hue of a particular item\n|-\n| [recall 'Name of Recall Rune'\n| Searches your pack through up to 15 [[Runebook|Runebooks]] for the provided name and will attempt to use your [[Magery|Magery Skill]] if you are above the maximum [[Magery|Magery Skill]] required for the [[Recall|Recall Spell]]  and the appropriate [[Reagents|Reagents]]. Otherwise it will use the charges from the [[Runebook|Runebook]] where the [[Rune|Recall Rune]] can be found.\n|-\n| [gate 'Name of Recall Rune'\n| Searches your pack through up to 15 [[Runebook|Runebooks]] for the provided name and will attempt to use your [[Magery|Magery]] Skill if you are above the maximum [[Magery|Magery Skill]] required for the [[Gate_Travel|Gate Travel]] spell and the appropriate [[Reagents|Reagents]].\n|-\n| [pouch\n| Searches your pack server-side for trapped pouches and sets one off if found\n|-\n| [drink 'potion name'\n| This finds and uses the requested [[Potions|potions]] type in the player's pack. Use the [gettype command to get the name of the [[Potions|potions]].\n*[drink greater heal\n*[drink greater cure\n*[drink greater refreshment\n*[drink greater strength\n*[drink greater agility\n|-\n| [invasions\n| Displays the [[invasions|invasion]] gump. It displays current and past town invasions along with player scores and other statistics.\n|-\n| [conquests\n| Displays the conquests gump for your account with completed conquests and those that are still available.\n|-\n| [eventscore\n| Displays the current event score for your account. You may also redeem event points here. Note: This is no longer active used.\n|-\n| [battles\n| Displays a gump showing all ongoing pvp events.\n|-\n| [templates\n| Displays the templates menu for creating skill/character templates for use in pvp events.\n|-\n| [rewards\n| Displays a list of rewards which can be purchased using crystal fragments obtained from invasion events.\n|-\n| [zombierewards\n| Displays the score for your player, for the zombie event. You may also redeem zombie event points here.\n|-\n| [c\n| Broadcasts a message to Companions.\n|-\n| [e\n| Emote with sounds, words and animations.\n|-\n| [guild\n| Opens the guild menu gump.\n|-\n| [MOTD\n| Displays the message of the day set by staff.\n|-\n| [organizeme\n| Organize the items in your backpack into bags by their type.\n|-\n| [time\n| Displays the servers current time.\n|-\n| [shop\n| Displays one of the in game shop menus to purchase items with donation coins.\n|-\n| [titles\n| Displays the collection of [[Titles and Hues Guide|titles]] earned by the character. \n|-\n| [password\n| Allows you to change your current password.\n|}\n\n==See Also==\n[[Ship Commands]]"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "1725": {
+        "pageid": 1725,
+        "ns": 0,
+        "title": "Baker",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "__TOC__\n== Locations ==\n[[Britain]], [[Jhelom]], [[Moonglow]], [[Ocllo]], [[Serpent's Hold]], [[Trinsic]], [[Vesper]], [[Yew]](x2)\n== Merchandise == \n*Breads\n*Cake\n*Cookies\n*Flour\n*Honey\n*Muffins\n*Pizza\n== Training ==\n[[Cooking]], [[Tactics]], [[Wrestling]]\n[[Category:Atlas]]\n[[Category:Shops]]"
+          }
+        ]
+      }
+    }
+  }
+}

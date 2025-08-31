@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "166": {
+        "pageid": 166,
+        "ns": 0,
+        "title": "Orc Mines",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "[[Category:Atlas]]\n[[Category:Dungeons]]\n[[File:OrcMinesDungeonEntranceImage.png|625px|right|]]\n__TOC__\n==Notes==\n*Located northwest of [[Britain]], southeast of [[Yew]], northeast of [[Shame]], and southwest of [[Despise]].\n*Receives the 50% Dungeon Skill Gain Bonus.\n*You won't be attacked by the orcs here if you are wearing an orc mask\n*There are many mushrooms which hurt you when closeby\n==[[Champion Spawns]]==\n*None\n==[[Paragons]]==\n*orcish mine overseer - Level 2\n==[[Lockpicking|Locked Chests]]==\n*None\n=Level 1=\n[[File:orcmines_1.png|right|]]\n===Legend===\n*1. Entrance\n*2. To Level 2\n*3. Field of harmful mushrooms\n===Monsters===\n*orc, orcish mine overseer, orcish mage, orcish brute, orcish lord\n===[[Paragons]]===\n*?\n===[[Lockpicking|Locked Chests]]===\n*None\n=Level 2=\n[[File:orcmines_2.png|right|]]\n===Legend===\n*1. From Level 1\n*2. Slave NPCs\n*3. Area with forges and anvils\n*4. To Level 3\n===Monsters===\n*orc, orc (dark gray), orcish lord, orcish mine overseer, orcish mage, orcish bomber, blood elemental\n===[[Paragons]]===\n*orcish mine overseer\n===[[Lockpicking|Locked Chests]]===\n*none\n\n\n\n\n\n\n=Level 3=\n[[File:orcmines_3.png|right|]]\n===Legend===\n*1. From Level 2\n*2. Forge and anvil\n*3. To Level 4, hidden behind waterfall\n===Monsters===\n*orcish lord, orc, orc (dark gray), orc brute, orcish mage, orcish mine overseer, orcish bomber, earth elemental, orcish leader\n===[[Paragons]]===\n*?\n===[[Lockpicking|Locked Chests]]===\n*None\n=Level 4=\n[[File:orcmines_4.png|right|]]\n===Legend===\n*1. Portal to Level 3\n===Monsters===\n*None\n===[[Paragons]]===\n*None\n===[[Lockpicking|Locked Chests]]===\n*None"
+          }
+        ]
+      }
+    }
+  }
+}

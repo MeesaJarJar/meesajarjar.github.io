@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "1601": {
+        "pageid": 1601,
+        "ns": 0,
+        "title": "Stamina",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "__TOC__\n==Description==\n[[Stamina]] is one of the three stats that your character utilizes with it's skills along with [[Mana]] and [[Hit Points]]. Stamina is determined by the level of [[Dexterity]] which translate into your characters total [[Stamina]]. [[Stamina]] is depleted when your character takes damage, attempts to move when holding more than their maximum carrying weight or when your character passes through another character.\n\nAn enemy with [[Macing]] who strikes you with their mace can reduce your [[Stamina]] more so than other weapons or weapon skills. [[Stamina]] is also required for characters who choose to [[Stun]] and enemy. [[Stamina]] is the third bar represented on your characters status bar in the interface.\n\n==See Also==\n*[[Dexterity]]\n*[[Macing]]\n*[[Stun]]"
+          }
+        ]
+      }
+    }
+  }
+}

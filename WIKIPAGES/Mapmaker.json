@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "1737": {
+        "pageid": 1737,
+        "ns": 0,
+        "title": "Mapmaker",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "__TOC__\n== Notes == \n'''Mapmakers''' are also found with [[Shipwright]]s. \n== Locations ==\n[[Britain]], [[Jhelom]], [[Moonglow]], [[Nujel'm]], [[Ocllo]], [[Skara Brae]], [[Trinsic]], [[Vesper]], [[Yew]](x2)\n== Merchandise == \n*Blank map\n*Mapmaker's pen\n*Blank scroll\n*City and world maps\n== Training ==\n[[Cartography]], [[Tactics]], [[Wrestling]]\n[[Category:Atlas]]\n[[Category:Shops]]"
+          }
+        ]
+      }
+    }
+  }
+}

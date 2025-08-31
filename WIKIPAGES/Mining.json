@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "1471": {
+        "pageid": 1471,
+        "ns": 0,
+        "title": "Mining",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "[[File:Flag_mining.gif|thumb]]\n__TOC__\n==Description==\nMining is a skill required to mine ores from the earth with a pickaxe or shovel. The ores can then be smelted down into ingots which used by a most crafting skills. It couples well with [[Blacksmithing]] and your mining skill determines the type of ores you dig up as well as your proficiency to smelt them into ingots.\n\nThe mining skill is also useful when practicing the creation of smeltable items (which can be recycled back into usable Ingots, with the amount of ingots returned based on the Mining skill). It furthermore gives a bonus to Treasure Hunters looking for [[Treasure Map|Treasure Chests]] underground. You cannot mine while mounted.\n\nWith [[Power Scrolls|Power Scrolls]], you can increase your mining to 105, 110, 115 and finally 120. The higher your mining, the higher your chance to mine colored ore, the less likely you are to fail at smelting colored ore and  the higher your chance to get an increase on the number of ingots when smelting iron (~60% at 120). You will also be able to mine the crystals from [[Random_Dungeon_Adventure#Resources|RDAs]].\n\n==Usage==\nIn order to mine you must use a Pickaxe or Shovel on a cave floor or mountainside tile. Ore may then be smelted by using it on a Forge. Be warned - If you fail to smelt you will lose 50% of the contents of your ore pile! Pickaxes can be purchased from the blacksmith or a tinker.\n\nPeople often use pack horses to move the ore that is mined to a forge, others try to \"bunny hop\" it to the nearest forge. Bunny hopping is a method where you drag the ore in front of you, run past it and drag it again. There are often many houses with forges on the steps near regularly mined mountains to take advantage of.\n\nA level 100 Miner, after the proper research, may also extract High Quality Granite and Sand for use by the more experienced crafters. When you have read the High Quality Granite book, you can click on your pickaxe and set it to mine both stone and ore. When you have read the High Quality Sand book, instead of mining only in rock, you can also mine the beaches and deserts of Britannia (or any random sand tiles available to you).\n\n==Ores==\nAs your skill improves, you become capable of mining and smelting more obscure forms of ore:\n\n{| class=\"wikitable sortable\"\n! Ingot\n! Appearance\n! Mining Skill Required\n|-\n| Iron\n| [[file:Ingots.png]]\n| 0\n|-\n| Dull Copper\n| [[file:Ingots_(Dull_Copper).png]]\n| 65\n|-\n| Shadow\n| [[file:Ingots_(Shadow_Iron).png]]\n| 70\n|-\n| Copper\n| [[file:Ingots_(Copper).png]]\n| 75\n|-\n| Bronze\n| [[file:Ingots_(Bronze).png]]\n| 80\n|-\n| Golden\n| [[file:Ingots_(Golden).png]]\n| 85\n|-\n| Agapite\n| [[file:Ingots_(Agapite).png]]\n| 90\n|-\n| Verite\n| [[file:Ingots_(Verite).png]]\n| 95\n|-\n| Valorite\n| [[file:Ingots_(Valorite).png]]\n| 99\n|}\n\n===Notes===\n* Gargoyle Pickaxes(which can be obtained from killing gargoyle type monsters) can be used to increase the current ore vein's level by one, however there is a chance that an Ore Elemental of that type can spawn and attack your miner!\n* Prospector's Tools can be used to increase the current ore vein's level by one, these can obtained through the [[Blacksmithing_BOD_Rewards|Blacksmithing BOD Reward system]].\n* A combination of both the Gargoyle's Pickaxe and Prospector's Tool can be used to potentially advance an ore vein's level by up to two types (e.g., Agapite to Valorite).\n\n==Recommended Leveling==\nTake advantage of the fact that smelting ore gives gains to mining. Don't forget that you will also get better gains in dungeons.\n\n:0-50: Buy from NPC. It is generally not recommended to mine from 0 as you will fail often. 500gp will get you to 50 instantly.\n:50-100: Mine and smelt ores. Refer to the [[Mining#Ores|Ores]] section for your best gains.\n:100-120: Keep mining and smelting, particularly higher level ores. At this stage you may also want to consider investing in some Mining [[Skill Scroll|Skill Scrolls]].\n\n==See Also==\n*[[Ingots]]\n*[[Blacksmithing]]\n*[[Tinkering]]\n*[[Galleons]]\n\n[[Category:Skills]][[Category:Crafting]]"
+          }
+        ]
+      }
+    }
+  }
+}

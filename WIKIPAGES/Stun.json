@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "1519": {
+        "pageid": 1519,
+        "ns": 0,
+        "title": "Stun",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "[[Category:Player vs Monster‏‎]][[Category:Player vs Player]][[Category:Player vs Player]]\n__TOC__\n<br>\n[[Image:Flag_wrestling.gif]]\n==Description==\nCharacters with 80 or higher in both [[Wrestling]] and [[Anatomy]] can attempt to Stun their opponents. A successful Stun punch will paralyze a target for 4 seconds. This stun punch has the same effects as the paralyze blow for [[Special_Moves#Fencing|Fencing Special Move]]. It's often coupled with [[Magery]] and the combination of [[Evaluate_Intelligence|Evaluating Intelligence]] and [[Anatomy]] provides the passive [[Evaluate_Intelligence#Defensive_Ability|Defensive Wrestling]] ability. Player Templates with [[Animal_Taming|Animal Taming]] cannot perform Stunning Blows. \n\n==Usage==\n*To perform one of these special attacks, players will need to set a macro to put themselves in the appropriate wrestling “mode”. \n*Both hands must be free in order to perform a move.\n*Once in the special attack mode, the character will attempt the maneuver with each successful hit.\n*If a maneuver is performed successfully the wrestler will automatically go out of their wrestling mode. There is a 10 second delay before the wrestler can perform stun.\n*While in a wrestling mode, each attempt to perform a maneuver (each hit or miss) will result in a loss of stamina.\n\nSpecial Moves can be accessed through your client assistance program by setting a hotkey for that skill, or through the client itself through Settings > Macros > New macro > Add:\n\n[[File:Special_Moves_Stun_Disarm_Macro_Preview.PNG]]\n\n==See Also==\n*[[Animal_Taming|Animal Taming]]\n*[[Anatomy]]\n*[[Disarm]]\n*[[Evaluate_Intelligence|Evaluating Intelligence]]\n*[[Magery]]\n*[[Special Moves]]\n*[[Wrestling]]\n\n=Contributors=\nThe community would like to thank the following brave adventurers who contributed their time and experiences for others to enjoy:\n* Tahuk"
+          }
+        ]
+      }
+    }
+  }
+}

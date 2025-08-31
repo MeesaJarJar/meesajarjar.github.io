@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "9": {
+        "pageid": 9,
+        "ns": 0,
+        "title": "Tailoring",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "[[File:TailoringFlag.gif|thumb]]\n__TOC__\n==Description==\nThe [[Tailoring]] skill allows players to create Clothing, Leather armors and even bone armors. In the [[Naval Warfare Reborn]] expansion, a few items were added to the [[tailoring]] skill to upgrade [[Ships]] as well as materials to use with ships. \n\nThere is a special collection of [[Bulk Order Deed]]s available for Tailors to fill out. Returning these provides specially colored cloth and other items as rewards. For higher level players, [[Power Scrolls]] and [[Runic Sewing Kits]] may be earned.\n\n[[Power Scrolls]] and [[Skill Scroll]]s are available for this skill.\n\n==Usage==\nBy double clicking the Sewing Kit you get to the [[Tailoring]] menu where you can select the clothing or armor you want to make, view the success chance, ingredients needed, and minimal tailoring skill to attempt making the item. If you have below the level needed, it will tell you that you’re not skilled enough to try. After you make clothing it can be cut up with scissors or dyed with a dye tub.\n\n==How to Train==\nCloth or bolts of cloth can be purchased from the tailor shops in large quantities.\n\nCutting up your clothes will save you a bit of cloth and trips to the Tailor.\n{| class=\"wikitable\"\n! colspan=\"2\" | Training Tailoring\n|-\n| 0-50\n| Purchase from NPC\n|-\n| 45-55\n| Cloaks\n|-\n| 55-75\n| Robes\n|-\n| 75-99.6\n| Oil Cloths\n|-\n| 99.6-100\n| Studded Tunics \n|-\n| 100-120\n| [[Skill Scroll]]s or Studded Tunics \n|}\n\n==Leather Types==\nThere are 4 types of leathers that can be collected from various monsters or animals which can be used at different skill levels in order to create armor and footwear with additional bonuses:\n\n{| class=\"wikitable sortable\"\n! align=\"center\" style=\"background-color:#FFF; color:#000;\" | '''Name'''\n! align=\"center\" style=\"background-color:#FFF; color:#000;\" | '''Required Skill'''\n! align=\"center\" style=\"background-color:#FFF; color:#000;\" | '''Found'''\n|-\n| align=\"center\" | Normal Leather\n| align=\"center\" | 0\n| align=\"center\" | Most animals, [[Tameables#Taming_Charts|Cows]], [[Tameables#Taming_Charts|Bulls]], [[Tameables#Taming_Charts|Deer]] and [[Tameables#Taming_Charts|Great Hart]] are great for these hides.\n|-\n| align=\"center\" | Spined Leather\n| align=\"center\" | 65\n| align=\"center\" | Centaurs, Giant Serpents\n|-\n| align=\"center\" | Horned Leather\n| align=\"center\" | 80\n| align=\"center\" | [[Tameables#Taming_Charts|Drakes]], Wyverns, Sea Serpents\n|-\n| align=\"center\" | Barbed Leather\n| align=\"center\" | 99\n| align=\"center\" | The Toughest Monsters such as [[Tameables#Taming_Charts|Dragons]], Greater Dragons, and Ancient Wyrms\n|}\n\n==See Also==\n*[[Skills]]\n\n[[Category:Skills]]\n[[Category:Crafting]]"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "273": {
+        "pageid": 273,
+        "ns": 0,
+        "title": "Razor",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "Razor is a launcher and assistant for the Ultima Online classic client.\n\n== Getting Started ==\n\nThere is a [http://www.youtube.com/watch?v=j9aTGXPyFjY comprehensive video tutorial].\n\nWhen Razor starts you will be shown the dialog below. If you have having trouble connecting, verify the server and port number for UOForever.\n\n[[File:Launcher.png]]"
+          }
+        ]
+      }
+    }
+  }
+}

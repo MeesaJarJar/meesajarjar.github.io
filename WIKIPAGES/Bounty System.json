@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "1686": {
+        "pageid": 1686,
+        "ns": 0,
+        "title": "Bounty System",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "[[image:Bountyoffer.jpg|thumb|300px|An example of a bounty offering.]]\n__TOC__\n==Description==\nThe Bounty System allows players to place a bounty on wanted Murderers. The Murderer has the choice to pay this bounty or faces temporary stat and skill loss.\n\n==How it Works==\nIf you die as a red character, your body can be cut and head can be taken by any player. From there, the player in possession of the head has a few options of what to do with it.\n\n#The player can keep the head as a trophy and it will decay and become useless after 10 hours. Decayed heads turn green.\n#The player can double click the head and send a Bounty Offer to the red character to purchase their head back. The red character can accept, counter, or decline the offer. The maximum Bounty a player can offer is 25,000 gold. If the red character declines the offer, they will receive stat loss. Red characters can also initiate a bounty offer by saying the phrase \"I wish to buy my head\" to see if any players are in possession of one of their heads.\n#The player can take the head to and turn it into a Guard by dropping it onto the Guard. Once initiated, the red character will be notified via a System Message and has 4 minutes to purchase their head back at the cost of 35,000 gold. The red character purchases their head back by saying the phrase \"I wish to buy my head\". If you choose to not purchase your head back or you miss the 4 minute window to purchase your head, you will receive stat loss.\n\n==Stat Loss==\nWhen a player chooses to not purchase their head back or misses the 4 minute buy back window from the Guards, they will be penalized with Stat and Skill loss.\n\nEach murder a criminal has equals 30 minutes of stat/skill loss with the maximum stat loss time being 48 hours.\n\n==Commands==\n*I must consider my sins | Shows total kill counts of red character\n*I wish to buy my head | Purchases your head back from Guards or sees if any player is in possession of your head so you may send a Bounty Offer.\n\n==No Cut Zones==\nPK's can avoid having their head cut in certain areas of the map:\n\n===The Bloody Fields===\n[[File:Bloody Fields.JPG|500x500px]]\n\n'''NOTE:''' You can be cut on farm land/soil within the Bloody Fields so avoid PvPing these areas\n\n===Orc Dungeon===\n\n===Orc Fort Region===\n\n==Notes==\n*To see how many kills a criminal has, you can check your local Bounty Board.\n*One murder for a criminal will decay every 24 Hours.\n*If you are Player Killed you will have an option to give a murder count."
+          }
+        ]
+      }
+    }
+  }
+}

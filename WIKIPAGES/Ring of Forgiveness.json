@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "2672": {
+        "pageid": 2672,
+        "ns": 0,
+        "title": "Ring of Forgiveness",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "[[Category:Quests]]\n[[image:ringforgiveness.png|thumb|300px|Ring of Forgiveness]]\n__TOC__\n==Description==\nThe Ring of Forgiveness is a [[Blessed]] item allows you and your pets to be automatically teleported to a [[Healer]] while dead to a healer once every 12 hours. \n\n==How to Use==\nTo activate the ring's ability, you must be currently dead and must type:\n\n'''I seek forgiveness'''\n\nThis will teleport you and your pets to the [[Britain|West Britain Healer]] if you are considered an [[Flagging#Red|Innocent]], meaning there are not enough [[Player_Killing|Player Murder counts]] to permanently label you as a [[Flagging#Red|Murderer]].\n\nOtherwise, you will be sent to the [[Buccaneer%27s_Den|Buccaneer's Den Healer]] if you are considered a [[Flagging#Red|Murderer]].\n\n==How to Obtain==\n* This item is given as a reward for completing the [[Vengeance]] quest in the [[Young Player Dungeon]].\n* This item can be purchased from the [[Unique_Wares_Vendor|Unique Wares Vendor also known as Gold Sink Vendors]].\n\n==Notes==\n* Only usable once per character every 12 hours, multiple rings will NOT allow you to activate the ability more than one time.\n* These rings are bound to your character, make sure if you are buying a ring from the [[Unique_Wares_Vendor|Unique Wares Vendor]], that you purchase the ring with the character you wish to use the ring.\n* Pets will not be teleported with you if they are currently still in combat. In the event of your demise, it might be a good idea to wait until the combat is over to allow them to come with you on this journey!"
+          }
+        ]
+      }
+    }
+  }
+}

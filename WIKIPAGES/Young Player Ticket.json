@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "2671": {
+        "pageid": 2671,
+        "ns": 0,
+        "title": "Young Player Ticket",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "Young Player Ticket is a starting item for [[Young Player Status]]. It was created to help facilitate seeking out fellow Young Players to form comradery and friendship!\n\n[[File:YoungPlayerTicket.JPG|500px|Young Player Ticket]]\n\n=Ticket Options=\n[[File:YoungPlayerTicketOptions.JPG|275px|Young Player Ticket Options]]\n\n* Sextant - Used to get coordinates and navigate [[Britannia]] (not recommended to select)\n* Rehair Style - Use this coupon to get a fresh haircut\n* Wand of Fireworks - Celebrate your new friendship by making some fireworks!\n* Spyglass - Item used to scout areas to understand threat levels (not recommended to select)\n* Dye Tub - Dyes tubs are used to recolor clothes - NOTE: This is not a special dye tub."
+          }
+        ]
+      }
+    }
+  }
+}

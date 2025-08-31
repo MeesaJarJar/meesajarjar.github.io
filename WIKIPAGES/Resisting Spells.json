@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "1456": {
+        "pageid": 1456,
+        "ns": 0,
+        "title": "Resisting Spells",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "[[File:Flag_resisting_spells.gif|thumb]]\n__TOC__\n==Description==\nThe Resisting Spells skill simply grants a passive chance to reduce or prevent damage of offensive spells cast on your character. It is vital in most, if not all Player vs Player, [[templates]]. You can completely resist certain spells such as Mana Vampire or Poison.\n\nIf you have 50 Resisting Spells and you're facing off against someone with 100 [[Magery]] casting Explosion, you will have ~10% chance to resist. If you have 100 Resisting Spells against the same opponent, you will have ~50% chance to resist. Resisting a damage spell results in a 50% reduction to its base damage. Spell damage is also modified by comparing your resist to your opponent's [[Evaluating Intelligence]], whether you successfully resist a spell or not.\n\nResisting Spells is ''not'' enhanced by any other skills but it can be complemented by maintaining the Level 5 [[Magery]] spell Magic Reflection. UO Forever exists in an era before elemental resists were introduced. Higher Resisting Spells will therefore ''not'' alter the elemental resists shown in your [[Status]].\n\n==Recommended Leveling==\n:0-45: Buy from NPC\n:45-65: Mana Drain on Self (Also raising Magery and Evaluating Intelligence)\n:65-75: Mana Vampire or Energy Bolt on Self (Also raising Magery and Evaluating Intelligence)\n:75-100: Mana Vampire or Flamestrike on Self (Also raising Magery and Evaluating Intelligence)\n\n==Overdrive Notes==\nGM Resisting Spells reduces spell damage by 20% ONLY on [[Overdrive|Overdrive Server]].\n\n==See Also==\n*[[Magery]]\n\n[[Category:Skills]]\n[[Category:Overdrive]]"
+          }
+        ]
+      }
+    }
+  }
+}

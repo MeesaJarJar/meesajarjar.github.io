@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "1741": {
+        "pageid": 1741,
+        "ns": 0,
+        "title": "Tailor",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "__TOC__\n== Locations ==\n[[Britain]](x3), [[Buccaneer's Den]], [[Cove]], [[Jhelom]](x2), [[Moonglow]], [[Nujel'm]], [[Ocllo]], [[Serpent's Hold]], [[Skara Brae]], [[Trinsic]], [[Vesper]](x2)\n\n[[Bulk Order Deed]]s can be gotten from '''Tailors'''.\n== Merchandise == \n*Tailor\n**Sewing kit\n**Scissors\n**[[Dye_Tub#Normal_Dye_Tub|Dyeing Tub]]\n**[[Dye_Tub#Normal_Dye_Tub|Dyes]]\n**Shirts, pants, dresses, skirts, kilts, aprons robes, cloaks, hats\n**Bolt of cloth\n**Cut cloth\n**Cotton\n**Wool\n**Flax\n**Spool of thread\n*Weaver\n**Dyes\n**Dyeing tub\n**Scissors\n**Bolt of cloth\n**Yarn\n\n== Training ==\n*Tailor\n**[[Tactics]], [[Tailoring]], [[Wrestling]]\n*Weaver\n**[[Tactics]], [[Tailoring]], [[Wrestling]]\n\n[[Category:Atlas]]\n[[Category:Shops]]"
+          }
+        ]
+      }
+    }
+  }
+}

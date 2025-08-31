@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "1614": {
+        "pageid": 1614,
+        "ns": 0,
+        "title": "Journal",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "[[image:journal.png|frame]]\n__TOC__\n==Description==\nThe Journal is a button located both in the Paperdoll as well as on the menu in your interface. It opens a history of recent text incase you missed something. Simply right clicking the journal will close it. The journal can be expanded up and down to make it larger or smaller and you can scroll through previous texts and messages.\n\n[[Category:Interface]]"
+          }
+        ]
+      }
+    }
+  }
+}

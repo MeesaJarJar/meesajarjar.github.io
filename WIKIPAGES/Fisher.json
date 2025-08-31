@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "1731": {
+        "pageid": 1731,
+        "ns": 0,
+        "title": "Fisher",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "__TOC__\n== Notes == \nCan typically be found near any dock. \n== Locations ==\n[[Britain]](x3), [[Buccaneer's Den]], [[Cove]], [[Jhelom]](x4), [[Moonglow]], [[Ocllo]], [[Serpent's Hold]](x2), [[Skara Brae]](x2), [[Trinsic]], [[Vesper]](x2), \n== Merchandise == \n*Raw fish steak\n*Fresh fish\n*Fishing pole\n*Aquarium Fishing Net\n*Aquarium Food\n*Fish bowl\n*Aquarium Flake Sphere\n*Large Aquarium (north)\n*Large Aquarium (east)\n*Your New Aquarium - Book with aquarium explanation\n== Training ==\n*Fisher NPC\n**[[Fishing]], [[Tactics]], [[Wrestling]]\n*Fisher GM\n**[[Fishing]], [[Tactics]], [[Wrestling]]\n[[Category:Atlas]]\n[[Category:Shops]]"
+          }
+        ]
+      }
+    }
+  }
+}

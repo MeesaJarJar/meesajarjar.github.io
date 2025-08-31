@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "3315": {
+        "pageid": 3315,
+        "ns": 0,
+        "title": "Achievements System",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "[[File:AchievementsSystemMenu.PNG|thumb|Achievements System Menu, you can see the progress of specific achievements, rewards, and the world first names along with your rank in the world.]]\n__TOC__\n=Description=\nThe Achievement System is a record of your characters personal achievements. There are many, many achievements that can be found from things as simple as discovering a town to things as difficult as taming every animal. The achievements cover almost every facet of Ultima and are categorized by:\n* General - Account and player achievements\n* Crafting - Crafting specific items or reaching a number of items\n* Skills - Completing or using skills\n* Player vs Environment - Completing a number of kills for a specific monster or situation\n* Player vs Player - Combat involving other players\n* Atlas - Exploring the world\n\n==How to Access==\nTo access the Achievements Menu, simply click to yourself or another player to bring up the [[Context_Menu]] and select \"View Achievements\":\n<gallery mode=\"nolines\">\nFile:AchievementsContextMenuSelf.PNG|Context Menu used on your own character. This can be done by single clicking yourself, unless you have changed this operation in the Options Menu.\nFile:AchievementsContextMenuOther.PNG|Context Menu used on someone else's character. This can be done by single clicking the character, unless you have changed this operation in the Options Menu.\n</gallery>\n\n==Rewards==\nMost achievements will provide some sort of reward, and some of them will give rewards for completing the achievement multiple times with increasing requirements. Rewards are placed into the players bank and are commonly one of or more of the following:\n* Gold\n* [[Titles_and_Hues_Guide#Custom_Titles|Title and Title Hue Scrolls]]\n* Decorations and Deeds\n\n=Contributors=\nThe community would like to thank the following brave adventurers who contributed their time and experiences for others to enjoy:\n* Dyzzery\n* Khan of Megas"
+          }
+        ]
+      }
+    }
+  }
+}

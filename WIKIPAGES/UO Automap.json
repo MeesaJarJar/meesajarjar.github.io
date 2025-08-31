@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "2319": {
+        "pageid": 2319,
+        "ns": 0,
+        "title": "UO Automap",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "== Description ==\n\nUO Automap is a powerful map utility that helps players navigate the lands of Sosaria. It is particularly useful for things like [[Message in a Bottle|MIBs]] and [[Treasure Map|Treasure Maps]].\n\n=== Getting it to work! ===\n\nUnfortunately UO Automap has not been updated for quite a while. It therefore cannot read the necessary art files from Ultima Online. When you first load the program, it will come up with a black screen. If you are familiar with how to extract MUL from UOP files, then you can fix the problem yourself. If that means nothing to you, don't worry, we have a simple fix for you!\n\nIt is recommended that you create a separate folder for the map files, to keep them distinct from your main client files. By default UOAutomap will install to C:\\Program Files (x86)\\UOAM\\. We recommend creating a folder within that to store the required map files, e.g. C:\\Program Files (x86)\\UOAM\\Map\\\n\nTo instruct UO Automap to look in that folder, open the program then go to Map on the menu, and scroll down to \"UO client data files location\". Untick the checkbox and manually set the UO client folder. Using the example above, this would be C:\\Program Files (x86)\\UOAM\\Map\\\n\nNow you just need to get the right files into that folder!\n\n==== Required Files ====\n\nTo draw Felucca, UO Automap needs access to:\n* MAP0.MUL (Needs to be extracted from UOP)\n* RADARCOL.MUL\n* STAIDX0.MUL\n* STATICS0.MUL\n\nTo draw Ilshenar, it needs access to:\n* MAP2.MUL (Needs to be extracted from UOP)\n* RADARCOL.MUL\n* STAIDX2.MUL\n* STATICS2.MUL\n\n==== Pre-extracted Files & Installer ====\n\nIf all of that means nothing to you or you can't be bothered to extract the files, you can try the following pre-extracted map files:\n* http://www.uoforever.com/wikifiles/uoam/uoam.zip (Last Updated 29 August 2018)\n\nIf you don't have the UOAM installer or can't find it online:\n* http://www.uoforever.com/wikifiles/uoam/UOAM_Install.exe"
+          }
+        ]
+      }
+    }
+  }
+}

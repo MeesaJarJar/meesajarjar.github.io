@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "38": {
+        "pageid": 38,
+        "ns": 0,
+        "title": "Poisoning",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "[[File:PoisoningFlag.gif|thumb]]\n__TOC__\n==Description==\n[[Poisoning]] applies to [[Magery]], Warriors, [[Alchemy]] and some [[Blacksmithing]]. [[Poisoning]] allows a player to apply Poison potions to a weapon or food making it more deadly. There are different levels of poison that can be applied, causing the amount of Cure [[Potions]] or [[cure]] attempts from Magery Spells fail.\n\n==Usage==\n:Apply poison to a Blade or War fork\n:Apply poison to food which will poison the target when eaten\n:\n:At GM Poisoning:\n::The Poison spell has the ability to cast Greater Poison within 10 tiles of the target and a 10% chance to cast Deadly Poison within 3 tiles of target\n::A Poisoned weapon has a 40% chance to inflict poison on a target (up from 20% with no poisoning)\n\n==Weapons==\nYou may apply poison to the following weapons\n\n'''Fencing'''\n:Dagger\n:Kryss\n:Warfork\n\n'''Swords'''\n:Broad Sword\n:Cutlass\n:Katana\n:Longsword\n:Long Sword (thin)\n:Scimitar\n:Viking Sword\n:Skinning Knife\n:Cleaver\n:Butcher Knife\n\n==Types of Poison==\n{| cellpadding=\"5\" cellspacing=\"0\" border=\"1\" width=\"100%\"\n! style=\"background-color:#000; color:#FFFFFF;\" | Type\n! style=\"background-color:#000; color:#FFFFFF;\" | Effects\n! style=\"background-color:#000; color:#FFFFFF;\" | Message When<br>Affected\n! style=\"background-color:#000; color:#FFFFFF;\" | Message When Other<br>Is Affected\n! style=\"background-color:#000; color:#FFFFFF;\" | Duration\n|- align=\"center\"\n|Lesser\n|~4-7% current HP per 2 seconds.\n|*You feel a bit nauseous*\n|*''Target'' looks ill.*\n|30 seconds.\n|- align=\"center\"\n|Standard\n|~5-10% maximum HP per 3 seconds.\n|* You feel disorientated and nauseous! *\n|* ''Target'' looks extremely ill. *\n|30 seconds.\n|- align=\"center\"\n|Greater\n|~7-15% maximum HP per 4 seconds.\n|* You begin to feel pain throughout your body! *\n|* ''Target'' stumbles around in confusion and pain. *\n|40 seconds.\n|- align=\"center\"\n|Deadly\n|~15-30% maximum HP per 5 seconds.\n|* You feel extremely weak and are in severe pain! *\n|* ''Target'' is wracked with extreme pain. *\n|1 minute.\n|- align=\"center\"\n|Lethal\n|~16-33% maximum HP per 5 seconds.\n|* You are in extreme pain, and require immediate aid! *\n|* ''Target'' begins to spasm uncontrollably. *\n|1 minute 20 seconds.\n|}\n\n== Recommended Leveling ==\nRepeatedly poison the same weapon/item.\n:0 - 30: Train at an NPC [[Thieves Guild]] Guildmaster.\n:30 - 40: Apply Lesser Poison\n:40 - 70: Apply Poison\n:70 - 92: Apply Greater Poison\n:92 - 100: Apply Deadly Poison\n\n==See Also==\n*[[Alchemy]]\n*[[Swordsmanship]]\n*[[Fencing]]\n\n[[Category:Skills]]"
+          }
+        ]
+      }
+    }
+  }
+}

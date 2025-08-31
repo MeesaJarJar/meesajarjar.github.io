@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "2253": {
+        "pageid": 2253,
+        "ns": 0,
+        "title": "Armor Modifiers",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "[[File:Indestructableinvul.png|right]]\n\n__TOC__\n\n\n\n\n\n==Armor Defence Modifiers==\n\nKey: /+(Neck, Hands), +(Arms, Head, Legs/Feet), +(Body).\n\n{| class=\"wikitable\"\n! style=\"font-weight: bold;\" | Defence Modifier\n! style=\"font-weight: bold;\" | Bonus\n|-\n| Defence\n| +5 / +0.4, +0.7, +2.2 to AR\n|-\n| Guarding\n| +10 / +0.7, +1.4, +4.4 to AR\n|-\n| Hardening\n| +15 / +1.1, +2.1, +6.6 to AR\n|-\n| Fortification\n| +20 / +1.4, +2.8, +8.8 to AR\n|-\n| Invulnerability\n| +20 / +1.4, +2.8, +8.8 to AR\n|-\n|}\n\nThe AR Bonus to a piece of armour varies greatly depending on what the item is (e.g. since a gorget only adds a small amount to AR, each defensive bonus only increases the base by a small amount).\n\n==Armor Toughness Modifiers==\n{| class=\"wikitable\"\n! style=\"font-weight: bold;\" | Toughness Modifier\n! style=\"font-weight: bold;\" | Bonus\n|-\n| Durable\n| +5 to item HP\n|-\n| Substantial\n| +10 to item HP\n|-\n| Massive\n| +15 to item HP\n|-\n| Fortified\n| +20 to item HP\n|-\n| Indestructible\n| +25 to item HP\n|}\n\n==Armor Metal Colors==\n* Iron\n* Dull Copper\n* Shadow\n* Copper\n* Bronze\n* Gold\n* Apapite\n* Verite\n* Valorite\n\nMetal types/colors for playermade armor affects the durability and armor rating (AR) of the armor. Runic hammers do not have any impact on the armor.\n[[Category:Items]]"
+          }
+        ]
+      }
+    }
+  }
+}

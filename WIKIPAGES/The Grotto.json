@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "165": {
+        "pageid": 165,
+        "ns": 0,
+        "title": "The Grotto",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "[[Category:Atlas]][[Category:Dungeons]]\n[[File:TheGrottoDungeonEntranceImage.png|625px|right|]]\n__TOC__\n==Notes==\n* Located in the middle of the ocean, west of [[Ocllo]], north of [[Serpent's Hold]], south of [[Buccaneer's Den]], southwest of [[Magincia]], and east of [[Trinsic]].\n* You'll have to be quick on your feet in here as it is a no mount area.\n\n=Level 1 - The Grotto=\n[[File:grotto_1.png|right|]]\nThe Entrance of the Grotto opens up to a large undersea lake which has been used by pirates as a place to stash their booty. The Grotto has been used so often that the many pirates over the years have left a small town which contains:\n* A Shanty Town with Cannon Reinforcements\n* Tanner and Winery\n* Gallows\n\n===Legend===\n*1. Purple Moongate back to dock outside\n*2. Black Moongate for ghosts only\n*3. To Level 2\n\n<gallery mode=\"packed\" class=\"right\">\nFile:GrottoLevelTheGrottoEntrance.PNG|Entrance gaurded by very strong ogres!\nFile:GrottoLevelTheGrottoGallows.PNG|The Grotto's undersea Gallows, for pirates that cant follow the rules!\nFile:GrottoLevelTheGrottoShantyTown.PNG|The Grottos Shanty Town, complete with cannon for sneaky Ships in the lake.\nFile:GrottoLevelTheGrottoWinery.PNG|The most important structure in the Grotto, the Winery! Nothing like a bottle of wine to celebrate a successful plunder.\nFile:GrottoLevelTheGrottoEntranceToUnderTheGrotto.PNG|Entrance to Under the Grotto carefully guarded by trapped dragons! \nFile:GrottoLevelTheGrottoSunkenShip.PNG|Grottos Sunken undersea ship\n</gallery>\n\n===Monsters - The Grotto===\n{| border=\"1\" \"\n|-\n| align=\"center\" style=\"background-color:#000; color:#FFF;\" | '''Slayer Group'''\n| align=\"center\" style=\"background-color:#000; color:#FFF;\" | '''Monsters'''\n|-\n| align=\"center\" | [[Slayer_Types#Abyss|Abyss]]\n| align=\"center\" | Fiery Gargoyle, Imp, Scorching Gargoyle, Stone Gargoyle\n|-\n| align=\"center\" | [[Slayer_Types#Elemental|Elemental]]\n| align=\"center\" | Air Elemental, Deep Earth Elemental, Earth Elemental, Efreet, Water Elemental\n|-\n| align=\"center\" | [[Slayer_Types#Humanoid|Humanoid]]\n| align=\"center\" | Ogre Lord, Ogre Mage, Titan, Murderers, \n|-\n| align=\"center\" | [[Slayer_Types#Reptilian|Reptilian]]\n| align=\"center\" | Dragon, Drake, Giant Serpent, Pathaleo Drake, Silver Serpent, Young Dragon\n|-\n| align=\"center\" | [[Slayer_Types#Undead|Undead]]\n| align=\"center\" | Bone Knight, Bone Mage, Skeletal Archer, Skeletal Knight\n|-\n| align=\"center\" | None\n| align=\"center\" | Elder Gazer, Gazer, Giant Rat, Sewer Rat, Slime, Stone Harpy, Undead Rat\n|}\n\n=Level 2 - Under the Grotto=\n[[File:grotto_2.png|right|]]\nUnder the Grotto is where all the booty is stored. The Pirates have the essentials down for this room with 3 main areas:\n* Cave Entrance\n* Booty Room\n* Escape Ladder\n\n===Legend===\n*1. To Level 1\n\n<gallery mode=\"packed\" class=\"right\">\nFile:GrottoLevelUnderTheGrottoEntrance.PNG|The Entrance from the Grotto to Under the Grotto.\nFile:GrottoLevelUnderTheGrottoBootyRoom.PNG|The Booty room under the Grotto, it is rumored that \"Ancient Shadow Wyrms\" are made in that very bed.\nFile:GrottoLevelUnderTheGrottoHiddenLadder.PNG|The escape ladder from Under the Grotto to the Shanty Town.\n</gallery>\n\n===Monsters - Under the Grotto===\n{| border=\"1\" \"\n|-\n| align=\"center\" style=\"background-color:#000; color:#FFF;\" | '''Slayer Group'''\n| align=\"center\" style=\"background-color:#000; color:#FFF;\" | '''Monsters'''\n|-\n| align=\"center\" | [[Slayer_Types#Abyss|Abyss]]\n| align=\"center\" | Ancient Wyrm, Arcane Daemon, Balron, Daemon, Imp, Shadow Balron, Shadow Wyrm\n|-\n| align=\"center\" | [[Slayer_Types#Reptilian|Reptilian]]\n| align=\"center\" | Dragon, Drake, Giant Serpent, Pathaleo Drake, Silver Serpent, Young Dragon\n|}"
+          }
+        ]
+      }
+    }
+  }
+}

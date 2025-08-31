@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "1538": {
+        "pageid": 1538,
+        "ns": 0,
+        "title": "Ingots",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "__TOC__\n==Description==\nUsing a Pickaxe or a Shovel allows a miner with sufficient [[Mining]] skill to dig up Ores, which can then be smelted to produce an Ingot. Low level minors will only be able to produce Iron ore and [[Ingots]], but as they level, they may extract colored ingots. These [[Ingots]] are used by players with [[Blacksmithing]] and [[Tinkering]] for [[Crafting]] purposes.\n\nIngots in addition to basic crafting recipes allows you to craft [[Cannon Balls]] and other useful resources for the Ships in the [[Naval Warfare Reborn]] expansion.\n\nAside from [[Mining]], ore and ingots can be found from certain monsters such as:\n\n*Agapite Elemental\n*Dull copper Elemental\n*Copper Elemental\n*Earth Elemental\n*Golden Elemental\n*Shadow Iron Elemental\n*Stone Gargoyle\n*Valorite Elemental\n*Verite Elemental\n\n==Smelting==\nBefore ores can be used by crafters, they must be smelted down into ingots using a forge. This can be done by dragging or carrying the ore to a forge and either double clicking the ore pile in their backpack or on the ground. If you're within acceptable range of the force, it will smelt.\n\n==Ingot Types==\n{| class=\"wikitable sortable\"\n! Ingot\n! Apperance\n! Mine/Crafting Skill Required\n|-\n| Iron\n| [[file:Ingots.png]]\n| 0\n|-\n| Dull Copper\n| [[file:Ingots_(Dull_Copper).png]]\n| 65\n|-\n| Shadow\n| [[file:Ingots_(Shadow_Iron).png]]\n| 70\n|-\n| Copper\n| [[file:Ingots_(Copper).png]]\n| 75\n|-\n| Bronze\n| [[file:Ingots_(Bronze).png]]\n| 80\n|-\n| Golden\n| [[file:Ingots_(Golden).png]]\n| 85\n|-\n| Agapite\n| [[file:Ingots_(Agapite).png]]\n| 90\n|-\n| Verite\n| [[file:Ingots_(Verite).png]]\n| 95\n|-\n| Valorite\n| [[file:Ingots_(Valorite).png]]\n| 99\n|}\n\n==See Also==\n*[[Mining]]\n*[[Blacksmithing]]\n*[[Tinkering]]"
+          }
+        ]
+      }
+    }
+  }
+}

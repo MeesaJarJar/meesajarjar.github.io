@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "2080": {
+        "pageid": 2080,
+        "ns": 0,
+        "title": "Invasions",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "[[Category:Quests]][[Category:Player vs Monster]]\n__TOC__\n==Description==\nInvasions are custom events run on a regular basis on UOForever. During these invasion events an area, normally a town, is assaulted by all manner of monsters. The challenge for the bold amongst you is to fight back the invading horde and defend the lands! You can see if there are any invasions currently active by visiting the UOForever [http://www.uoforum.com/forums/events.60/ Events] forum or by using the [invasions [[Server_Commands|command]] which will load up a menu similar to this:\n[[File:invasionsMenu.png|center|400px|Invasion Menu]] \n\n==Loot==\nThe monsters at the invasion will have a chance to drop:\n* '''Crystal Fragments''' - You must accumulate many large fragments to earn the best of the Invasion [[Invasions#Rewards|Rewards]].\n* '''Unique Rares''' - These will vary per event but are typically wearables or decorative items.\n\nSome events will also keep a tally of who has cause the greatest collective damage to the invading creatures and reward them accordingly with treasures.\n\n==Fragments==\nThe crystal fragments that drop from monsters must be combined. Three small fragments are required to create one complete crystal fragment. This large crystal fragment is the currency used in the [[Invasions#Rewards|Rewards]] menu. To combine the fragments, double click them and target \n\n:[[File:smallFragment.png]]'''Small Fragment''' - The kind that drops on invasion creatures.\n:[[File:mediumFragment.png]]'''Medium Fragment''' - The result of combining two small fragments.\n:[[File:largeFragment.png]]'''Large Fragment''' - The final form, used as invasion rewards currency.\n\n==Rewards==\nTo spend your well earned crystal fragments, you can bring up the Invasion Rewards menu using the [rewards [[Server_Commands|command]]. The large crystal fragments must be stored in your bank box to be counted:\n[[File:invasionsRewards.png|center|400px|Invasion Menu]]\n\n==Mini Invasions==\nIn June 2017, mini invasions were unleashed upon the citizens of Ultima Online Forever. These smaller scale invasions can occur randomly across the lands at any point, without requiring staff. Game Master JoeB explained all:\n\n* '''What was the process?'''\nI created tons of regions throughout the map on our shard. I found random remote areas, towns, woods, desserts, swamps, ocean, etc. I made region controllers and set a certain name to them so that in our invasions gump we can switch the location to any of them anytime we want. Some are very small areas, some rather large. Then there was the process of making the mini invasions.\n\nThese are not like the invasions you are used to. Multi level high quantity boss's at the end etc. Those will be special for large scale events. These are small 1 level invasions of monsters that would normally not be in that region. I made MOTM ones for every month, Balrons, Daemons, Dragons, Orcs, Ogres, etc. Some have just one mob on them some have up to 10 on them. The only way to end the Mini invasion is to kill the balance of the mobs that we determine. It could be 50. It could be 200. I plan to make them brief but not too brief.\n\n* '''What is the point?''' \nThe point is, at least to me, to give you all something else to do. These will be a surprise, they will not be scheduled. The more random the better. Any Event Master+ can run them so we will be able to run them not just for NA folk but for EU times as well. They are very simple to run and are not stressful on the shard as they are small scale. We can add rares to any of these mini invasions at any time. Anything we want. MOTM will obviously be a high demand mini invasion to find. We can also add crystals to them like the normal large scale invasions. Again the more random the better.\n\n* '''How will I know when a Mini Invasion is going on?''' \nYou won't. These are meant to be stumbled upon and or tracked. I am making enough region controllers that we should not be in a position of using the same areas constantly. We can do gated ones and or announced ones every once in a while as well."
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "79": {
+        "pageid": 79,
+        "ns": 0,
+        "title": "Herding",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "[[File:HerdingFlag.gif|thumb]]\n__TOC__\n==Description==\n[[Herding]] is a skill used to move wild animals or tamable creatures. Pets and untameable creatures can not be herded.\n\nThe [[herding]] skill is accessed by equipping a shepherd's crook, double clicking it, selecting a creature to herd and then selecting a location for the creature to go. The creature will follow the shepherd around indefinitely if the shepherd selects himself as the target for the creature to travel as long as the shepherd continues to move so the creature never reaches the shepherd. The creature can be herded again to make it stop following the shepherd. A creature's normal movement AI will resume once it travels to the location it was herded to or if it enters combat. A shepherd can not herd a creature to follow another player; the creature will travel to the location the player is standing as if the ground under the player was targeted rather than follow them.\n\n* Creatures can follow a shepherd that is invisible.\n* Taming difficulty does apply during training.\n* There is no limit to how many creatures can be following a shepherd. A shepherd can bring the entire forest into town if he so chooses.\n\n==Practical uses for Herding==\n:Many people consider the [[herding]] skill to be one of the most useless [[:Category:Skills|skills]]. This is not the case on OSI servers but the rules are different here and this is arguably a worthless skill in this rule-set.\n\n:Often times an animal tamer will want to tame a specific creature that is surrounded by hostile tameables. A stealth shepherd on OSI can be used to relocate creatures to make it easier for a tamer to tame the specific creature he/she is after. Using herding reveals you on this server so it is less useful here.\n\n==Recommended Leveling==\n:Herding can the trained by simply double clicking a shepherds crook and using it on an animal.  \n\n==See Also==\n*[[Animal Taming]]\n*[[Stealth]]\n\n[[Category:Skills]]"
+          }
+        ]
+      }
+    }
+  }
+}

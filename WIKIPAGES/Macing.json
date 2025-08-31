@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "15": {
+        "pageid": 15,
+        "ns": 0,
+        "title": "Macing",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "[[File:MacingFlag.gif|thumb]]\n__TOC__\n==Description==\n[[Macing]] is a skill that allows the wielder to use Mace style weapons. High [[Dexterity]] and [[Strength]] is recommended for Macers to swing faster and harder. It is coupled well with [[Anatomy]] and [[Tactics]] for damage increases.\n\n===Special Ability===\nTwo handed mace weapons have a special passive chance to ''Crushing Blow'' a target, significantly reducing their stamina as well as damage the opponents armor. [[Anatomy]] is factored into your chance to hit a Crushing Blow: (Anatomy / 100) * (Crushing Blow Base Chance).\n\nThe maintainers of this archive are unable to provide an accurate value for the base chance. If you are determined enough, you may discover the details of the original base chance but know that the Game Masters have the ability to adjust this value as they see fit.\n\n==Weapons==\n===One Handed===\n:Battle Mace\n:Club\n:Hammer Pick\n:Mace\n:Massive War Mace\n:Maul\n:Morning Star\n:Ornate Hammer Pick\n:Royal Scepter\n:Scepter\n:Sledge Hammer\n:Smith's Hammer\n:Wand\n:War Axe\n:War Hammer Pick\n:War Mace\n:War Mallet\n:War Scepter\n\n===Two Handed===\n:Black Staff\n:Gnarled Staff\n:Quarter Staff\n:Shepard's Crook\n:War Hammer\n\n==How to Train==\n:0-25.0: Buy from an NPC\n:25-100: Attacking Targets\n\n==Notes==\n* Attacking targets in a dungeon will take advantage of the Dungeon skill boost.\n* You can use a wand on a friend or alternate character in heavy armor to level quickly.\n* Macing deals damage to armor/shields faster than other weapon skills assuming you are using a ''metal'' mace. Wood mace weapons such as staves do not have this same effect.\n\n==See Also==\n*[[Anatomy]]\n*[[Tactics]]\n\n[[Category:Skills]]"
+          }
+        ]
+      }
+    }
+  }
+}

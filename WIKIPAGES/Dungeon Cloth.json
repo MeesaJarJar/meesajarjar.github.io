@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "20": {
+        "pageid": 20,
+        "ns": 0,
+        "title": "Dungeon Cloth",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "__TOC__\n==Description==\nDungeon cloth drops in many different Hues and available in most Dungeons. The cloth drop rate is also considered very low, but essentially by killing monsters inside the dungeon over time should yield you cloth drops.\n\n\n[[image:DungeonCloth2.PNG|center]]\n\n\n[[image:DungeonClothV2.PNG|500px|center]]\n\n\n[[image:NewClothDungeon.PNG|500px|center]]\n\n==Abyss - Bloodstone - Hue 1670==\nBloodstone cloth is located in the dungeon [[Abyss]] and is Hue 1670. Maybe you really can get blood from a stone.</br>\n[[image:Bloodstone1670.PNG]]\n\n==Covetous - Aquamarine - Hue 1785==\nAquamarine cloth is located in the dungeon [[Covetous]] and is Hue 1785. It shimmers with a touch of bright green and deep blue.</br>\n[[image:1785Cloth.PNG]]\n\n==Deceit - Ancient - Hue 1667==\nAncient cloth is located in the dungeon [[Deceit]] and is hue 1667. While this color may look grey in the character image it can show a stunning white on the character itself.</br>\n[[image:Hue1667.PNG]]\n\n==Despise - Slippery Slope - Hue 1800==\nSlippery Slope cloth is located in the dungeon [[Despise]] and is Hue 1800. This color can be best described as shiny and blue.</br>\n[[image:1800Cloth.PNG]]\n\n==Destard - Blood Bathed - Hue 1788==\nBlood Bathed cloth is located in the dungeon [[Destard]] and is Hue 1788. The color and its naming can make you imagine of all the fallen souls to the dangers of playing with dragons.</br>\n[[image:1788Cloth.PNG]]\n\n==Fire - Greater Gold - Hue 1484==\nGreater Gold cloth is located in the dungeon [[Fire Dungeon]] and is Hue 1484. True to the dungeon it is located in, this color is like fire of yellow and orange.</br>\n[[image:Hue1484.PNG]]\n\n==Hythloth - Ochre - Hue 1784==\nOchre cloth is located in the dungeon [[Hythloth]] and is Hue 1784. It is best described as a two tone orange and purple color.</br>\n[[image:Hue1784.PNG]]\n\n==Ice Dungeon - Polar Ice - Hue 1665==\nPolar Ice cloth is located in the dungeon [[Ice Dungeon]] and is Hue 1665. Don't let this one give you frost bite.</br>\n[[image:PolarIce1665.PNG]]\n\n==Khaldun - Moon River - Hue 1279==\nMoon River cloth is located in the dungeon [[Khaldun]] and is Hue 1279. Beautiful and tranquil like a moonlit summers eve cascading on a flowing stream.</br>\n[[image:1279Cloth.PNG]]\n\n==Orc Mines - Slime - Hue 1780==\nSlime cloth is located in the dungeon [[Orc Mines]] and is Hue 1780. Get your axe and slay the monsters inside, home to many orcs, and you may leave with cloth covered in slime.</br>\n[[image:1780Cloth.PNG]]\n\n==Shame - Lava Touched - Hue 1998==\nLava Touched cloth is located in the dungeon [[Shame]] and is Hue 1998. This cloth might be too hot to handle, sizzle....</br>\n[[image:1998Cloth.PNG]]\n\n==Terathan Keep - Tangerine Oil - Hue 1668==\nTangerine Oil cloth is located in the dungeon [[Terathan Keep]] and is Hue 1668. Overpowering smell of citrus?</br>\n[[image:TangerneOil1668.PNG]]\n\n==Wrong - Glowing Pink - Hue 1485==\nGlowing Pink cloth is located in the dungeon [[Wrong]] and is Hue 1485. Lead the way in this dark nights.</br>\n[[image:GlowingPink1485.PNG]]"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "213": {
+        "pageid": 213,
+        "ns": 0,
+        "title": "Skill Scroll",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "[[Category:Items]]\n__TOC__\n=Description=\nSkill Scrolls are consumable items dropped by Monsters. Using a Skill Scroll yields a +1.0 increase in whatever skill the scroll is labeled for and will increase your skill up to the current maximum skill cap for that skill. All Characters can increase any skill to 100 as long as they have free skill points available, and with the use of [[Power_Scrolls|Power Scrolls]] the maximum for some skill can be increased to as high as 120. Skill Scrolls with +0.1 were available for a time but these no longer drop.\n\n=Skills with Scrolls=\nThe following skills have Skill Scrolls:\n:[[File:blazeSS.png]]Animal Taming\n\n:[[File:plainSS.png]]Archery\n:[[File:plainSS.png]]Bowcraft/Fletching\n\n:[[File:redSS.png]]Anatomy\n:[[File:redSS.png]]Fencing\n:[[File:redSS.png]]Healing\n:[[File:redSS.png]]Mace Fighting\n:[[File:redSS.png]]Parrying\n:[[File:redSS.png]]Swordsmanship\n:[[File:redSS.png]]Tactics\n:[[File:redSS.png]]Wrestling\n:[[File:redSS.png]]Evaluating Intelligence\n:[[File:redSS.png]]Magery\n:[[File:redSS.png]]Resisting Spells\n\n:[[File:brownSS.png]]Alchemy\n:[[File:brownSS.png]]Blacksmithy\n:[[File:brownSS.png]]Carpentry\n:[[File:brownSS.png]]Inscription\n:[[File:brownSS.png]]Lumberjacking\n:[[File:brownSS.png]]MIning\n:[[File:brownSS.png]]Tailoring\n:[[File:brownSS.png]]Tinkering\n:[[File:brownSS.png]]Fishing\n\n:[[File:greySS.png]]Hiding\n:[[File:greySS.png]]Poisoning\n:[[File:greySS.png]]Lockpicking\n:[[File:greySS.png]]Stealth\n:[[File:greySS.png]]Stealing\n\n:[[File:purpleSS.png]]Discordance\n:[[File:purpleSS.png]]Musicianship\n:[[File:purpleSS.png]]Peacemaking\n:[[File:purpleSS.png]]Provocation\n\n==Old Scrolls==\nThe following skill scrolls are considered old scrolls, most of which no longer drop. Begging does still drop from [[Khaldun]] Puzzle chests. You may still come across them from time to time on the UOF Forums or at [[House_Decay|decayed houses]].\n\n:[[File:greenSS.png]]Spirit Speak\n:[[File:greenSS.png]]Animal Lore\n:[[File:greenSS.png]]Fletching (Now drops with plain hue)\n:[[File:plainSS.png]]Begging\n:[[File:brownSS.png]]Cartography\n\n=How to Find Scrolls=\nSkill scrolls drop mainly on high-level mobs. Some examples of mobs that drop them are:\n* Titans\n* Liches\n* Lich lords\n* Balrons\n* Ancient wyrms\n* Evil Mage lords\n* Blood elementals\n* Terathan matriarchs\n* Ophidian matriarchs\n* Ophidian zealots\n* Orc mages\n* Ice elementals\n* Toxic elementals\n* Ratman mages\n* Shadow daemons\n\n=Contributors=\nThe community would like to thank the following brave adventurers who contributed their time and experiences for others to enjoy:\n* Xavier Arcanus\n\n==See Also==\n*[[Power_Scrolls|Power Scrolls]]"
+          }
+        ]
+      }
+    }
+  }
+}

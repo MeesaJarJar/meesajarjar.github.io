@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "2271": {
+        "pageid": 2271,
+        "ns": 0,
+        "title": "Consumable Perks",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "[[Category:Items]]\n__TOC__\n=Description=\nConsumable Perks are rare items dropped by [[Random Dungeon Adventure]] Bosses, [[Champion Spawns]] Bosses, [[Dungeon Bosses]], and [[Paragons]].\n\nThey decay at a certain time and give you rolled amount of time for a perk lasts while activated.\n\nYou will receive these items just like you would a relic or [[Power Scrolls]] at a [[Champion Spawns]], [[Dungeon Bosses]] and [[Random Dungeon Adventure]]. It will appear in your bag after the boss dies and you must be in range of the boss. These items are not as rare as a relic but are still considered a rare drop.\n\nThere is also a chance for perks to appear in [[Paragon Chests]]. The higher the chest level, the greater the chance of receiving a perk.\n\nTo activate them, the item must be in your bag. Upon use, it becomes blessed.\n\n==Notes==\n* During Special Events where Double Experience is given, the bonus is additive, which means that using any Experience Based Perk during these times will set your bonus to Triple Experience for the duration of the perk. This also includes the buffs recieved from [[Celebration_Cake|Celebration cakes]]!\n* The decay and use duration of the perks can vary but the multiplier effects remain consistent.\n* The timer will keep ticking even if you are log out. To make best use of a perk, check that you will be able to stay in-game for its full duration\n\n=Perks=\nThere are many perks that have several specific scenarios, as such, it is a good idea to make sure that you are prepared to use one! If its pet related, make sure you have the pet available, if it is a talisman, make sure its not on cooldown, if its crafting related make sure you have the resources available for the entire duration of the perk. Here is a listing of all the known perks so far, be aware new perks are occasionally added:\n\n==Animal Affinity Perk==\nThis will give you 100% control of your pets when active.\n\n[[File:AnimalAffinityPerk.png|Animal Affinity Perk]]\n\n==Pet XP Perk==\nThis will increase the amount of XP your [[Meta Pets]] will receive when active. The amount of XP will be multiplied by 1.5. A daemon that would normally give 480 XP will give 720 XP while the perk is active.\n\n[[File:Activexpperk.png|Pet XP Perk active]]\n\n==Pet Relic XP Perk==\nThis will increase the amount of XP your [[Meta Pets|meta pet's]] relics will receive when active.\n\n[[File:PetRelicPerk.png|Pet Relic Perk]]\n\n==Bountiful Harvest Perk==\nThis will increase the amount of resources you will receive when active.\n\n[[File:BountifulHarvestPerk.png|Bountiful Harvest Perk]]\n\n==Plentiful Bounty Perk==\nThis increases your chance of getting paragon chests while it is active.\n\n[[File:Consumable_Perks_Plentiful_Bounty_Perk_Preview.PNG|Plentiful Bounty Perk increases your chance of getting paragon chests while it is active.]]\n\n==Talisman XP Perk==\nThis will increase the amount of XP your [[Meta Talismans#Training_Meta_Talismans|Meta Talismans]] will receive when active.\n\n==Talisman Relic XP Perk==\nThis will increase the amount of XP your [[Meta Talismans#Training_Meta_Talismans|Meta Talisman's]] relics will receive when active.\n\n==Wealth Perk==\nThis will increase the amount of gold a mob drops when you kill it when active.\n\n[[File:wealthperk.png|Wealth Perk before use]]\n\n==Craftsmanship Perk==\nThis will increase the success chance, exceptional chance and slayer modifier after crafting when active.\n\n==Skill Gain Perk==\nThis will increase the amount of skill gain you receive when active.\n\n==Champion Perk==\nThis will decrease the cool down of a [[Champion Spawns]]. Once it is in your bag and you have enough players at the alter, it will disappear from your bag and activate the champion spawn. \n\nThe Champion Perk works as follows: [[Champion Spawns|Champion Spawn]] X is down on cooldown. Person Y has a champion perk. Person Y says to their friends \"Hey lets do Champion spawn X, I have a champion perk\". Person Y and friends go to the alter. Person Y double clicks the perk, BAM, the cooldown is removed. Person Y and friends get to do the champion spawn!\n\n=Contributors=\nThe community would like to thank the following brave adventurers who contributed their time and experiences for others to enjoy:\n* JamesHerriot"
+          }
+        ]
+      }
+    }
+  }
+}

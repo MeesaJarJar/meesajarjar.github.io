@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "3480": {
+        "pageid": 3480,
+        "ns": 0,
+        "title": "Slayer Spellbook Storage Bookshelf",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "[[Category:Items]][[Category:Containers]][[Category:Housing]]\n[[File:Slayer_Spellbook_Storage_Bookshelf_Preview.PNG|thumb|This is a special container that holds all of the Slayer Spellbooks.]]\n\n__TOC__\n=Description=\nThis is a special container that holds all of the [[Inscription#Slayer_Spellbooks|Slayer Spellbooks]] listed by Amount and Types of [[Slayer_Types#Slayer_Weapons|Slayers]]. You can drag and drop the single or bagged [[Inscription#Slayer_Spellbooks|Slayer Spellbooks]] on to the Slayer Spellbook Storage Bookshelf or use the \"Deposit\" button to store them in the Slayer Spellbook Storage Bookshelf. You can click the blue button next to any of the green numbers that represent the Amount of [[Inscription#Slayer_Spellbooks|Slayer Spellbooks]] you have for that Name to retrieve a single [[Inscription#Slayer_Spellbooks|Slayer Spellbook]]. The Slayer Spellbook Storage Bookshelf has a maximum of 300 [[Inscription#Slayer_Spellbooks|Slayer Spellbooks]] and these stored [[Inscription#Slayer_Spellbooks|Slayer Spellbooks]] do not count against the lockdown/secure counts of the home. The Slayer Spellbook Storage Bookshelf is dyable with a [[Dye_Tub#Furniture_Dye_Tub|Furniture Dye Tub]], however the freshly purchased color is Hue 1855 which cannot be restored once dyed.\n\n==Warning==\n* '''If this container is not locked down, and you choose to use an axe to destroy the item, all items within the container will be deleted!'''\n\n==Patch Notes==\n* [https://www.uoforum.com/threads/new-quality-of-life-items.110193/ new-quality-of-life-items.110193]\n* [https://uoforum.com/threads/8-7-8-0-quality-of-life-items-redo-and-more.110199/ 8-7-8-0-quality-of-life-items-redo-and-more.110199]\n\n=Retrieving Slayer Spellbooks=\nYou can click the blue button next to any of the green numbers that represent the Amount of [[Inscription#Slayer_Spellbooks|Slayer Spellbooks]] you have for that Name to retrieve a single [[Inscription#Slayer_Spellbooks|Slayer Spellbooks]]. If you cannot carry the [[Inscription#Slayer_Spellbooks|Slayer Spellbooks]] due to weight or item count limitations, the [[Inscription#Slayer_Spellbooks|Slayer Spellbooks]] will drop to your feet!\n\n[[File:Slayer_Spellbook_Storage_Bookshelf_Menu.PNG|This Slayer Spellbook Storage Bookshelf holds all of the Slayer Spellbooks listed by Amount and Types of Slayers. You can click the blue button next to any of the green numbers that represent the Amount of Slayer Spellbooks you have for that Name to retrieve a single Slayer Spellbook. The Slayer Spellbook Storage Bookshelf has a maximum of 300 Slayer Spellbooks and these stored Slayer Spellbooks do not count against the lockdown/secure counts of the home.]]\n\n=Depositing Slayer Spellbooks=\nThere are 3 ways you can deposit [[Inscription#Slayer_Spellbooks|Slayer Spellbooks]] into the Slayer Spellbook Storage Bookshelf:\n* You can drag and drop a single [[Inscription#Slayer_Spellbooks|Slayer Spellbooks]] on to the Slayer Spellbook Storage Bookshelf.\n* You can drag and drop a bag filled with [[Inscription#Slayer_Spellbooks|Slayer Spellbooks]] on to the Slayer Spellbook Storage Bookshelf.\n* There is a \"Deposit\" button that will automatically place any of these [[Inscription#Slayer_Spellbooks|Slayer Spellbooks]] from your backpack into the Slayer Spellbook Storage Bookshelf!\n\n=Storage=\nThe Slayer Spellbook Storage Bookshelf's stored [[Inscription#Slayer_Spellbooks|Slayer Spellbooks]] do not count against the lockdown/secure counts of the home and currently have a maximum storage capacity of 300 [[Inscription#Slayer_Spellbooks|Slayer Spellbooks]].\n\n=Displayability=\nThe Slayer Spellbook Storage Bookshelf can be turned to face south or east by dropping the item in those directions from your player or able to be turned while locked down with an [[Decorator_Tools#Interior_Decorator_Tool|Interior Decorator Tool]] or a [[Decorator_Tools#Royal_Decorator_Tool|Royal Decorator Tool]].\n\nThe Slayer Spellbook Storage Bookshelf is dyable with a [[Dye_Tub#Furniture_Dye_Tub|Furniture Dye Tub]], however the freshly purchased color is Hue 1855 which cannot be restored once dyed. If a fresh [[Dye_Tub#Furniture_Dye_Tub|Furniture Dye Tub]] which comes as Hue 0 is used, the Gem Storage Box will appear white.\n\n=Located=\nThe Slayer Spellbook Storage Bookshelf is purchasable with [[Donation_Coin|4500 Donation Coins]] from [[Exotic_Item_Vendor|Nadine the Exotic Item Donation Vendor]] located in front of the [[Britain|West Britain Bank]]."
+          }
+        ]
+      }
+    }
+  }
+}

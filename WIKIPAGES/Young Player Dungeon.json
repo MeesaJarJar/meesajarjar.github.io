@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "173": {
+        "pageid": 173,
+        "ns": 0,
+        "title": "Young Player Dungeon",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "[[Category:Atlas]][[Category:Dungeons]]\n[[File:YoungPlayerDungeonEntranceImage.png|625px|right|]]\n__TOC__\n==Notes==\n*Located in [[Britain]].\n*You must have [[Young Player Status]] to enter.\n*Receives the 50% Dungeon Skill Gain Bonus.\n*The Quest PLACEHOLDER rewards 1,000 Gold\n*The Quest [[Vengeance]] rewards [[Ring of Forgiveness]] and [[Candle of Forgiveness]].\n\n==[[Champion Spawns]]==\n*None\n==[[Paragons]]==\n*None\n==[[Lockpicking|Locked Chests]]==\n*None\n=Level 1=\n[[File:defiledcrypt.png|right|]]\n===Legend===\n*1. Entrance\n*2. \"Screen all black?\" NPC. Double clicking the NPC will teleport you outside with an explanation of how to fix the issue. As with any healer, will fully heal anyone with [[Young Player Status]] every few minutes.\n*3. Ankh\n*4. restless spirit NPC that starts [[Vengeance]] Quest\n*5. Crypt for [[Vengeance]] Quest objective\n*6. Locked door...?\n===Monsters===\n*murderer NPC, restless soul, zombie, skeletal knight, skeleton, harpy, ghoul, mummy, spectre, shade, stone harpy, slime, lich, snake, giant serpent, fire elemental, earth elemental, water elemental, air elemental, efreet, evil mage\n\n===[[Paragons]]===\n*None\n===[[Lockpicking|Locked Chests]]===\n*None"
+          }
+        ]
+      }
+    }
+  }
+}

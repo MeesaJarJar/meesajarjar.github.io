@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "3815": {
+        "pageid": 3815,
+        "ns": 0,
+        "title": "House Instance Clearer",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "[[Category:Items]][[Category:Housing]]\n[[File:Bank_Storage_Increase_Deed_Preview.PNG|thumb|This is a special deed that will increase the number of items that your bank can hold.]]\n\n__TOC__\n=Description=\nThe House Instance Clearer items were added with the below patch notes. This system gives the ability to Instance House owners to gain more controll over who does and doesn't have access to their Instance House. As relationships in game are ever changing so might the ongoing access to a players instance home. This will help make it alot easier for those owners to manage their house access.\n\n==Patch Notes==\n* [https://uoforever.com/2024/05/25/8-8-4-1-rogue-talisman-changes-and-additions-lots-of-bug-fixes// 8.8.4.1 Patch Notes]\n\n=Using the Clearer=\nThe House Instance Person Clearer will remove all people (other than the user) from a house instance including offline people. This would be best utilized for players you no longer want to have access to your Instance House. Players that might have logged off characters inside, hidden, or visually present. This will eject those individuals. \n\n[[File:PersonClearer.png|Used to remove everyone except user from Instance House.]]\n\nThe House Instance Rune Clearer will remove all runes linked to a house instance. This would be best utilized if over time several players might have been shared marked runes to your Instanced Home and will help to blanket remove all runes. That way the players you no longer want to have runes will have their runes removed and will no longer have access. \n\n[[File:RuneClearer.png|Used to clear all marked runes to Instance House.]]\n\nIn the presented scenarios above, it likely would be best to use both so that once ejected you would also wipe their rune or vice versa. That way you can make sure your home remains safe and only those players you want to have access can be inside.\n\n=Located=\nThe House Instance Clearer items will be purchasable with [[Donation_Coin|2500 Donation Coins]] from .insert vendor. located in front of the [[Britain|West Britain Bank]].\n\n.insert picture."
+          }
+        ]
+      }
+    }
+  }
+}

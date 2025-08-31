@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "158": {
+        "pageid": 158,
+        "ns": 0,
+        "title": "Deceit",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "[[Category:Atlas]]\n[[Category:Dungeons]]\n[[File:DeceitDungeonEntranceImage.png|625px|right|]]\n== Notes ==\n*Located on Dagger Isle, northwest of the Shrine of Honesty.\n*Receives the 50% Dungeon Skill Gain Bonus.\n== [[Champion Spawns]] ==\n[[Champion Spawns#Neira - Skull of Death|Neira]] - Level 3\n== [[Paragons]] ==\n*[[Bestiary#a_lich|Lich]] - Level 1, Level 3, Level 5\n*[[Bestiary#a_rotting_corpse|Rotting Corpse]] - Level 1, Level 3 \n*Lich Lord - Level 5\n\n== [[Lockpicking|Locked Chests]] ==\n*2x Small Crate - Level 1(x1), Level 2(x1)\n*2x Keg - Level 2(x1), Level 4(x1)\n*4x Barrel - Level 2(x4)\n*3x Large Wooden Chest - Level 3(x1), Level 4(x2)\n*5x Large Metal Chest - Level 2(x1), Level 3(x1), Level 4(x1), Level 5(x2)\n= Level 1 = \n[[File:Deceit_1.png|right|]]\n===Legend===\n*1. Entrance\n*2. [[Lockpicking|Locked]] Small Crate\n*3. Bard Table - Safe popular macro spot, especially for [[Provocation]].\n*4. To Level 2\n===Monsters===\n[[Bestiary#a_lich|Lich]], [[Bestiary#a_skeleton|Skeleton]], mummy, giant spider, [[Bestiary#a_rotting_corpse|Rotting Corpse]], zombie, water elemental, deep water elemental\n\n===[[Paragons]]===\n*[[Bestiary#a_lich|Lich]]\n*[[Bestiary#a_rotting_corpse|Rotting Corpse]]\n\n===[[Lockpicking|Locked Chests]]===\n*Small Crate x1\n= Level 2 = \n[[File:Deceit_2.png|right|]]\n===Legend===\n*1. From Level 1\n*2. [[Lockpicking|Locked]] Barrel\n*3. [[Lockpicking|Locked]] Large Metal Chest\n*4. [[Lockpicking|Locked]] Keg\n*5. [[Lockpicking|Locked]] Small Crate\n*6. To Level 3\n===Monsters===\n[[Bestiary#a_skeleton|Skeleton]], zombie, spectre, bogle, skeletal knight, bone knight, bone mage\n\n===[[Paragons]]===\n*None\n===[[Lockpicking|Locked Chests]]===\n*Small Crate x1\n*Keg x1\n*Barrel x4\n*Large Metal Chest\n= Level 3 = \n[[File:Deceit_3.png|right|]]\n=== Legend ===\n*1. From Level 2\n*2. Purple Moongate - Can only enter while dead, takes you to __(NEED INFO)___.\n*3. Champion Spawn - [[Champion Spawns#Neira - Skull of Death|Neira]]\n*4. [[Lockpicking|Locked]] Large Wooden Chest\n*5. [[Lockpicking|Locked]] Large Metal Chest\n*6. To Level 4\n===Monsters===\n[[Bestiary#a_skeleton|Skeleton]], ghoul, [[Bestiary#a_rotting_corpse|Rotting Corpse]], [[Bestiary#a_lich|Lich]], lich lord, spectre, wraith, silver serpent, zombie, skeletal mage, mummy, shade, skeletal knight\n\n=== [[Paragons]] ===\n*[[Bestiary#a_rotting_corpse|Rotting Corpse]]\n*[[Bestiary#a_lich|Lich]]\n\n=== [[Lockpicking|Locked Chests]] ===\n*Large Wooden Chest x1\n*Large Metal Chest x1\n\n\n= Level 4 = \n[[File:Deceit_4.png|right|]]\n=== Legend ===\n*1. From Level 3\n*2. [[Lockpicking|Locked]] Large Wooden Chest\n*3. Secret doorway\n*4. [[Lockpicking|Locked]] Large Metal Chest\n*5. [[Lockpicking|Locked]] Keg\n*6. Portal to [[Despise]] Level 4\n*7. Portal to [[Fire Dungeon]] Level 1\n*8. To Level 5\n\n===Monsters===\nshade, wraith, skeletal mage, spectre, Kaltivel, skeleton, [[Bestiary#a_lich|Lich]], silver serpent, lich lord, daemon, fire elemental, pyroclastic elemental\n\n=== [[Paragons]] ===\n*?\n=== [[Lockpicking|Locked Chests]] === \n*Keg x1\n*Large Wooden Chest x2\n*Large Metal Chest x1\n= Level 5 = \n[[File:Deceit_5.png|right|]]\n=== Legend ===\n*1. From Level 4\n*2. [[Lockpicking|Locked]] Large Metal Chest\n===Monsters===\n[[Bestiary#a_lich|Lich]], lich lord, Murderer NPCs, [[Bestiary#a_skeleton|Skeleton]], dread spider, a rai-ju, skeletal dragon, silver serpent, shadow balron, giant serpent, spectral armor, arctic ogre lord, mummy, ancient lich, Baratoz\n\n=== [[Paragons]] ===\n*[[Bestiary#a_lich|Lich]]\n*lich lord\n\n=== [[Lockpicking|Locked Chests]] ===\n*Large Metal Chest x2"
+          }
+        ]
+      }
+    }
+  }
+}

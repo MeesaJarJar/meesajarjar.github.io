@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "1984": {
+        "pageid": 1984,
+        "ns": 0,
+        "title": "Monster of the Month",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "__TOC__\n==Description==\n'''The Monster of the Month system has been replaced with [[Monster of the Week]] system'''.\n\nThe Monster of the Month is a type of creature / monster that has a chance of dropping a high-end rares such as skill scrolls, relics and more. As you may have guessed, the monster changes every month! Given the potentially bountiful booty, the monsters will obviously be pursued by many. Stay on your toes if you decide to join in the hunt! For the less common monsters, such as snow elementals, additional spawns may be added.\n\n==Rewards==\nIn addition to their normal loot, the Monster of the Month can drop:\n* [[Meta_Pets#Meta_Dragon|Meta Dragon]] Relics\n* [[Meta_Pets#Meta_Steeds|Meta Steed]] Relics\n* [[Meta_Talismans|Meta Talisman]] Relics\n* [[Skill_Scroll|Skill Scrolls]]\n* Rune-etched Chest\n* Title Scroll\n* Hued Spellbook\n* Hued Cloth\n\nEach monster has an associated title scroll and hue, as detailed in the next section.\n\n==Monsters==\n\n{| cellpadding=\"5\" cellspacing=\"0\" border=\"1\" style=\"background-color:#F5F5F5;\" \n! style=\"background-color:#000; color:#FFFFFF;\" | Month\n! style=\"background-color:#000; color:#FFFFFF;\" | Monster\n! style=\"background-color:#000; color:#FFFFFF;\" | Hue\n! style=\"background-color:#000; color:#FFFFFF;\" | Title\n\n|- style=\"vertical-align: top; text-align:center;\"\n| '''January'''\n| Snow Elemental [[image:snowelemental.png|100px|center]]\n| 1986 Besotted [[image:besotted.png|center]]\n| Yeti\n\n|- style=\"vertical-align: top; text-align:center;\"\n| '''February'''\n| Ogre Lord  [[image:ogrelord.png|100px|center]]\n|  2514 Fetid [[image:fetid.png|center]]\n| The Foul\n\n|- style=\"vertical-align: top; text-align:center;\"\n| '''March'''\n| Lizardman [[image:lizardman.png|center]]\n| 2527 Lizard[[image:lizardcloth.png|center]]\n| Herpetologist\n\n|- style=\"vertical-align: top; text-align:center;\"\n| '''April'''\n| Lich [[image:lich.png|center]]\n| 1366 Forsaken Tears[[image:lichcloth.png|center]]\n| The Crier\n\n|- style=\"vertical-align: top; text-align:center;\"\n| '''May'''\n| Balron [[image:balron.png|100px|center]]\n| 1771 Hallowed[[image:balroncloth.png|center]]\n| Hallowed\n\n|- style=\"vertical-align: top; text-align:center;\"\n| '''June'''\n| Elder Gazer [[image:eldergazer.png|center]]\nDragon [[image:dragonplain.png|100px|center]]\n(2019)\n| 1978 Shadow Veil[[image:eldergazercloth.png|center]]\n\n\n2556 Dragon Bile[[image:dragoncloth.png|center]]\n\n\n(2019)\n| Visionary\n\n\n\n\n\n\n\n\nWyrm Wroaster\n\n|- style=\"vertical-align: top; text-align:center;\"\n| '''July'''\n| Daemon [[image:daemon.png|100px|center]]\n| 1982 Infernal[[image:daemoncloth.png|center]]\n| Infernal\n\n|- style=\"vertical-align: top; text-align:center;\"\n| '''August'''\n| Vampires [[image:Vampire1.PNG|50px|center]]\n(2017 - 2019)\n| 2622 Suckered\n\n[[image:vampire2622.png|center]] \n\n\n(2017 - 2019)\n| Counted\n\n|- style=\"vertical-align: top; text-align:center;\"\n| '''September'''\n| Ettin [[image:ettin.png|100px|center]]\n| 2519 Ettin Taint[[image:ettincloth.png|center]]\n| Ettin Greaser\n\n|- style=\"vertical-align: top; text-align:center;\"\n| '''October'''\n| Earth Elemental [[image:earthelemental.png|center]]\n| 2708 Earth Smeared[[image:earthelementalcloth.png|center]]\n| Mud Dauber\n\n|- style=\"vertical-align: top; text-align:center;\"\n| '''November'''\n| Terathan Warrior [[image:terthanwarrior.png|center]]\n| 2709 Venom Stained[[image:terthanwarriorcloth.png|center]]\n| Spider Stomper\n\n|- style=\"vertical-align: top; text-align:center;\"\n| '''December'''\n| Ratman [[image:ratman.png|center]]\n| 1932 Vermin Filth[[image:ratmancloth.png|center]]\n| Splintered\n|- style=\"vertical-align: top; text-align:center;\"\n|}"
+          }
+        ]
+      }
+    }
+  }
+}

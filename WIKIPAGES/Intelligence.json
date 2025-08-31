@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "192": {
+        "pageid": 192,
+        "ns": 0,
+        "title": "Intelligence",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "[[Category:Stats|Strength]]\n__TOC__\n===Description===\nIntelligence is one of the three [[Stats]] and is vital for mages. The amount of Intelligence a character has determines their total [[Mana]], Some spell damage and the use of [[Meditation]]. \n\n===Notes===\nYou can allow or disallow your [[Intelligence]] from gaining by double clicking your health bar and pressing the up or down arrow.\n\nIntelligence will raise when using it's related skills such as Magery or Meditation."
+          }
+        ]
+      }
+    }
+  }
+}

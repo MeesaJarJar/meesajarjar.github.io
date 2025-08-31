@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "1677": {
+        "pageid": 1677,
+        "ns": 0,
+        "title": "Companions",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "[[image:Younggump_zpse145a032.jpg|thumb|300px]]\n__TOC__\n\n\n\n\n\n\n\n\n\n\n==Description==\nThe UOForever's Companion system is designed to assist new players with getting started. It's a volunteered position which can be applied for on the UOForever forum boards. Companions have special in game permissions that allow them to assist players with the Young status. See [[Young Player Status]]\n\n==Unique Powers==\n*A special title of <span style=\"color:blue\">'''\"the Companion\"'''</span> in their name, to be easily recognizable by newer players.\n\n*Companions will receive an overhead message whenever a Young player logs in.\n\n\n[[File:Younglogin.PNG|center|Young Command Menu]] \n\n\n*When a young player dies, all online Companions will automatically receive a message letting them know (They may teleport in and help them)\n\n*When a young player is murdered, all online Companions will automatically receive a message letting them know who murdered them. They can then teleport to that young in order to avenge them, and/or offer a res. This teleportation is only usable when the Companion is not in combat with another player.\n\n*The ability to enter \"The Defiled Crypt\", a unique Young Player dungeon located within Britain. There are four difference points in Britain where you can enter the dungeon.\n\n\n<gallery mode=\"packed\" class=\"right\">\nFile:Youngdungeon0.PNG|Starting Inn\nFile:Youngdungeon1.PNG|Inspector Cave\nFile:Youngdungeon2.PNG|Bank Guardhouse\nFile:Youngdungeon3.PNG|Britain Graveyard\nFile:Youngdungeon4.PNG|Inside Dungeon\n</gallery>\n\n*They will gain access to the <span style=\"color:red\">'''\"[young\"'''</span> command which gives a list of all young players currently online and when they were last helped by a Companion. When they select a young player from the list, it teleports the Companion to that young player if: (1) the young is not alive and is not in a house or boat or (2) the young player has not already been helped by a Companion in the last minute (this delay does not exist if the young player is dead).\n\n\n[[File:Youngcommand1.PNG|center|Young Command Menu]] \n\n\n*They will gain access to the <span style=\"color:red\">'''\"[c\"'''</span> command which gives the ability to chat with other companions and young players. This will be helpful in communication with the companion and young player to assist with questions and assistance.\n\n\n[[File:Youngchat1.PNG|center|Young Command Menu]] \n\n\n*Companions will receive access to our Elder Hall and Companion Help Center, which is the building located directly northeast from Britain main bank.\n\n\n<gallery mode=\"packed\" class=\"right\">\nFile:Younghall.PNG|Second Floor\nFile:Younghall1.PNG|Main Floor\nFile:Younghall2.PNG|Basement\n</gallery>\n\n==FAQ==\n===What if a Companion is led into a trap by a \"fake\" young player.===\n*This is a risk that the Companion must assume, though they will be able to see the Region name that they are teleporting into such that they could precast recall or something. Staff will likely not interfere unless other shard rules were broken.\n\n===Can't a Companion use a [young] player to get into places they shouldn't?===\n*It's not possible to port into houses or boats. However, there is a possibility of a ghost getting places that a normal player shouldn't be able to. However every time a Companion ports to a new player, the location and region are logged and will be reviewed. If any suspicious activity is suspected, the Companion and all their associated accounts will be banned. Companions are expected to uphold a higher standard than regular players.\n\n===What if a Companion generally is being an idiot?===\n*Companion and nearby player speech is logged so if you witness a Companion acting inappropriately, please page in and report it so that staff may investigate and deal accordingly.\n\n===What else should I know before applying?===\n*If accepted into the program you will be periodically reviewed by an Elder Companion, as all logs are kept due to potential system abuse. But this is an exciting opportunity to hunt with and show new players around and generally assist newcomers to UOForever, all of which can be very, very rewarding.\n\n==How To Apply==\n*Post a reply in this thread https://www.uoforum.com/threads/companion-application.108846/\n\n*'''Include the below information:'''\n\nCharacter Name:\n\n\nHow long have you played Ultima Online?\n\n\nHow long have you played UO:Forever?\n\n\nWhy do you want to be a companion?\n\n\nWhat do you have to offer as a companion?"
+          }
+        ]
+      }
+    }
+  }
+}

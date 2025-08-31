@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "1623": {
+        "pageid": 1623,
+        "ns": 0,
+        "title": "Capture The Flag",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "[[Category:Events]][[Category:Player Run Events]]\n__TOC__\n==Description==\nCapture the Flag is a team based Player vs Player event, randomly separating players into four teams. Each team is represented by colors. There are Blue, Red, Yellow and Green team.  [[image:queue_gump.png|frame]]\n\nEach of these teams have the objective of capturing enemy flags while defending their own flag. The first team to capture 5 flags wins the event. Upon starting the event, players are spawned in a small preparing area behind a wall. \n\nOnce the game begins, players will run down a series of hallways into a main room which leads to the other teams bases. Players must run to the opposing team and walk over the enemy flag, which is shown as an icon on the screen. \n\nWalking over the icon will \"capture\" the flag, the carrier will appear neon white to identify them. The flag must then be carried back to your home base. \n\nOnce you've arrived, you walk over the top of your flag on the platform. If your flag isn't present, you may not capture yet.\n\n==Joining Events==\nWhen an event happens, players are given an alert through a gump that allows them to accept or decline the invitation. If you choose to accept, click Okay. If for any reason you miss the gump, you can type [Battles which will bring up a new gump allowing you to queue up.\n\n==Battles Command==\nThe Battles command is executed by typing [Battles [[image:battle_gump1.png|thumb]]\n \nAs mentioned earlier, this will supply you with a Gump that lets you browse through the event options. Whenever there is a battle initiated it will be on this list. If there is nothing on this list then a battle is not going on.  [[image:battle_gump2.png|thumb]]\n\nTo join the Capture The Flag from here, you click the blue arrow near the \"Capture the Flag\" text. [[image:battle_gump3.png|thumb]]\n \nFrom there, you can join the Capture The Flag and view the Teams. In order to join, simply click the \"Join Queue\" button. \n \nOnce you click the arrow you will be teleported into Capture The Flag on a team. There is a balancing system so the team with least amount of players should be the team you get put on. \n\n==Notes==\n*You can use [Templates in all battles which allows you to create a template with 7 skills at 100 and use for events.\n*You can join a Capture The Flag at any time during the Capture The Flag.\n*You can quit any event by reopening the [Battles menu and going through proper gumps."
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "75": {
+        "pageid": 75,
+        "ns": 0,
+        "title": "Evaluate Intelligence",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "[[Category:Skills]][[Category:Overdrive]]\n[[File:EvalIntFlag.gif|thumb]]\n__TOC__\n==Description==\nEvaluate Intelligence can be used to see how much [[Mana]] an opponent has left. It also affects some Magery Spells damage (Similar to [[Tactics]] increasing weapon [[Skills]]). It also has defensive properties when coupled with [[Anatomy]].\n\n==Usage==\nUsing the Evaluate Intelligence skill on a target will give you a percentage of [[Mana]] the target has left. It also estimates their overall [[Intelligence]].\n\n==Spell Damage==\nEvaluate Intelligence is most commonly used for it's Magery Spells damage increase. When you cast spells, the potential damage is calculated based on several factors such as the spell, it's circle, your [[Magery]] skill level, etc. The damage gets scaled by the level of Evaluate Intelligence. At 0 Skill, the damage is reduced by 70%. At 50 Skill, the damage is reduced by 25%. At around 78 Skill it begins to have an actual effect and anything beyond that it provides a bonus up to 20%.\n\n==Defensive Wrestling==\nThe Evaluate Intelligence and [[Anatomy]] skills work together to provide a passive Defensive Wrestling ability. As it is passive, you do not have a chance to actively hit a player but it does provide a mitigation against incoming melee attacks. This can be used to avoid putting [[Wrestling]] on your Template.\n\n==Recommended Leveling==\n:Activate the skill by macro or skill button and target a creature or player.\n:You can passively train Evaluate Intelligence by casting spells on your self or targets.\n\n==Overdrive Notes==\nGM Evaluate Intelligence on Overdrive boosts spell damage by 20% ONLY on [[Overdrive|Overdrive Server]]\n\n==See Also==\n*[[Anatomy]]\n*[[Intelligence]]\n*[[Magery]]\n*[[Mana]]\n*[[Tactics]]\n*[[Skills]]\n*[[Wrestling]]\n\n=Contributors=\nThe community would like to thank the following brave adventurers who contributed their time and experiences for others to enjoy:\n* Tahuk"
+          }
+        ]
+      }
+    }
+  }
+}

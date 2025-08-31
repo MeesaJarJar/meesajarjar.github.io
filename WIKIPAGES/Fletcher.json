@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "1732": {
+        "pageid": 1732,
+        "ns": 0,
+        "title": "Fletcher",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "__TOC__\n== Notes ==\nThe [[Provisioner]] also sells bolts and arrows.\n== Locations ==\n[[Britain]](x2), [[Nujel'm]], [[Serpent's Hold]], [[Skara Brae]], [[Vesper]], [[Yew]](x2)\n== Merchandise == \n*Arrow Fletching\n*Bow, Crossbow, Heavy Crossbow\n*Crossbow bolts\n*Arrows\n*Feather\n*Shaft\n== Training ==\n[[Archery]], [[Fletching]], [[Tactics]], [[Wrestling]]\n[[Category:Atlas]]\n[[Category:Shops]]"
+          }
+        ]
+      }
+    }
+  }
+}

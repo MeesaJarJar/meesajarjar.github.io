@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "216": {
+        "pageid": 216,
+        "ns": 0,
+        "title": "Weapon Modifiers",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "[[File:Vanqweapon.png|right]]\n__TOC__\n\n==Weapon Damage Modifiers==\n\n===Standard Damage Modifiers===\n{| class=\"wikitable\"\n! style=\"font-weight: bold;\" | Damage Modifier\n! style=\"font-weight: bold;\" | Bonus\n|-\n| Exceptional\n| +4 (can stack on top of below modifiers)\n|-\n| Ruin\n| +1\n|-\n| Might\n| +3\n|-\n| Force\n| +5\n|-\n| Power\n| +6\n|-\n| Vanquishing\n| +7\n|}\n\nBonus shown is flat damage increase to a Weapon. For example, if a Weapon has a base damage of 13-17, a Weapon of Vanquishing (+7) would do 20-24 damage. An Exceptional (+4) Weapon of Vanquishing (+7) would do do 24-28 damage.\n\n*Exceptional melee weapons can be crafted via [[Blacksmithing]].\n*Ruin, Might, Force, Power, & Vanquishing modified melee weapons can be crafted using a [[Runic Hammer]] and also be found as loot on monsters.\n*Exceptional archery weapons can be crafted via [[Fletching]].\n*Ruin, Might, Force, Power, & Vanq modified archery weapons can be crafted using [[Fletching]] tools and also be found as loot on monsters. Modifiers are randomized upon crafting.\n\n===Additional Damage Modifiers for Melee (\"Accurate\")===\n{| class=\"wikitable\"\n! style=\"font-weight: bold;\" | Modifier Name\n! style=\"font-weight: bold;\" | Bonus\n! style=\"font-weight: bold;\" | Skill Increased\n|-\n| Accurate\n| +5\n| Tactics\n|-\n| Surpassingly Accurate\n| +10\n| Tactics\n|-\n| Eminently Accurately\n| +15\n| Tactics\n|-\n| Exceedingly Accurate\n| +20\n| Tactics\n|-\n| Supremely Accurate\n| +25\n| Tactics\n|}\n\nContrary to the name, Melee weapons designated with an \"Accurate\" modifier actually increase Tactics of a weapon which increases the damage output.\n\nAccuracy modified melee weapons can be crafted using a [[Runic Hammer]].\n\n==Weapon Accuracy Modifiers==\n===Bows===\n{| class=\"wikitable\"\n! style=\"font-weight: bold;\" | Accuracy Modifier\n! style=\"font-weight: bold;\" | Bonus\n! style=\"font-weight: bold;\" | Skill Increased\n|-\n| Accurate\n| +5\n| Archery\n|-\n| Surpassingly Accurate\n| +10\n| Archery\n|-\n| Eminently Accurately\n| +15\n| Archery\n|-\n| Exceedingly Accurate\n| +20\n| Archery\n|-\n| Supremely Accurate\n| +25\n| Archery\n|}\n\nArchery is the only weapon which has modifiers to improve accuracy. Accuracy modifiers for bows increase your Archery skill which increases accuracy.\n\nAccuracy modified archery weapons can be crafted using a [[Fletching]] tool. Modifiers are randomized upon crafting.\n\n==Weapon Durability==\nDurability for weapons can be increased with Modifiers and Ores. \n\n===Modifiers===\n* Durable\n* Substantial\n* Massive\n* Fortified\n* Indestructible\n\n===Ore Weapons===\n* Iron\n* Dull Copper\n* Shadow\n* Copper\n* Bronze\n* Gold\n* Apapite\n* Verite\n* Valorite\n\nDurability modified melee weapons can be crafted using a [[Runic Hammer]].\n\nDurability modified archery weapons can be crafted using a [[Fletching]] tool.\n\nBlacksmiths can craft Ore Weapons by selecting the appropriate ore in the [[Blacksmithing]] menu.\n\n==Slayer Weapons==\nSlayer weapons are PvM modifiers as they add damage to specific monsters. \n\nSlayer weapons can be found as loot on monsters or in treasure chests. They can also be crafted by crafting weapons in the [[Britain Crafting Area]]. Tinkers can create [[Slayer Deeds]] which can be applied to Runic Weapons and to archery weapons that have at least two other modifiers.\n\nMore info can be found on the [[Slayer Types]] and [[Slayer Deeds]] articles.\n\n[[Category:Items]]"
+          }
+        ]
+      }
+    }
+  }
+}

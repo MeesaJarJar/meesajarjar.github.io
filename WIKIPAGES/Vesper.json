@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "1415": {
+        "pageid": 1415,
+        "ns": 0,
+        "title": "Vesper",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "[[File:Map_vesper.png|Upright|right|Vesper]]\n__TOC__\n== Notes ==\nVirtue: None\n\n[[Sigil]]: Craftsmanship - +%15 crafting chance, +10% exceptional crafting chance.\n\n[[Control Point]]: None\n== [[:Category:Atlas|Shops]] ==\n* [[Alchemist]] x2\n* [[Baker]]\n* [[Bank]]\n* [[Beekeeper]]\n* [[Blacksmith]]\n* [[Butcher]]\n* [[Carpenter]]\n* [[Farmer]]\n* [[Fisher]] x2\n* [[Fletcher]]\n* [[Healer]]\n* [[Inn]] x2\n* [[Jeweler]]\n* [[Mage]] x2\n* [[Mapmaker]]\n* [[Provisioner]]\n* [[Scribe]]\n* [[Shipwright]]\n* [[Stable]]\n* [[Tailor]] x2\n* [[Tavern]]\n* [[Tinker]]\n* [[Weaponsmith]] and [[Armorer]]\n== [[:Category:Atlas|Places of Interest]] ==\n*1. Moongate\n*2. Vesper Graveyard\n*3. Warrior's Guild\n*4. Fisherman's Guild\n*5. [[Sigil]] stand - Sigil of Craftsmanship - +%15 crafting chance, +10% exceptional crafting chance. For use in [[Factions]].\n*6. Miner's Guild\n[[Category:Atlas]]\n[[Category:Cities]]"
+          }
+        ]
+      }
+    }
+  }
+}

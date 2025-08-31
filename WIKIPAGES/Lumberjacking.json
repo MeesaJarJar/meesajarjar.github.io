@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "36": {
+        "pageid": 36,
+        "ns": 0,
+        "title": "Lumberjacking",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "[[File:LumberjackingFlag.gif|thumb]]\n__TOC__\n==Description==\n[[Lumberjacking]] is used to gather wood from trees. Equipping an Axe and double clicking it will bring up a targetting reticle, targetting a tree that has not been chopped recently will then gather logs. Using an axe on logs turns them into boards. There are various types of wood that can be gathered after you've reached 100 Lumberjacking. \n\nLumberjacking also provides a damage boost to Axers which is a 40% damage bonus against both players and monsters at GM Lumberjacking. Greater than GM will not provide any further damage increase but it will increase the chance to gather other type of wood.\n\nStay alert when chopping trees, you may disturb a serpent hidden in the branches, particularly when chopping the rarer wood types! Futher information on these Woods can be found [[Wood|here]].\n\n==Usable Axes==\n:Axe\n:Battle Axe\n:Double Axe\n:Executioner's Axe\n:Large Battle Axe\n:Two Handed Axe\n:Ornate Axe\n:Hatchet\n\n== Recommended Leveling ==\n:Equip an axe and chop wood by double clicking the axe and then a tree.\n:Equip an axe and attack another player or&nbsp;Monsters.\n:Use Lumberjack skill scrolls for harder levels\n\n==See Also==\n*[[Carpentry]]\n*[[Galleons]]\n*[[Wood]]\n\n[[Category:Skills]]"
+          }
+        ]
+      }
+    }
+  }
+}

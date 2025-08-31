@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "1592": {
+        "pageid": 1592,
+        "ns": 0,
+        "title": "Recall",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "[[file:Recall_icon.gif|thumb]]\n__TOC__\n==Description==\n[[Recall]] is a spell that allows the caster to teleport to a location by targeting a [[Mark]]ed [[Rune]].\n\nCasting [[Recall]] requires Black Pearl, Blood Moss and Mandrake Root and costs 11 [[Mana]].\n\nThe words spoken when casting [[Recall]] are Kal Ort Por and it's a Fourth circle spell.\n\n==Usage==\nTo travel with [[Recall]], you will need a [[Mark]]ed [[Rune]]. [[Rune]]s can be purchased from the mage shop and locations can be marked with the [[Mark]] spell while standing in the desired location.\n\nCast the [[Recall]] spell from your spell book or use a [[Recall]] scroll, then target the marked [[Rune]]. You will be teleported to that location. You can also open a [[Runebook]] and simply click on the spell icons shown at each location. (Note: You may also cast recall on [[Ship Rune]]s in the same fashion) [[file:Open_Runebook.png|thumb]]\n\n==See Also==\n*[[Gate Travel]]\n*[[Rune]]s\n*[[Runebook]]s\n*[[Mark]]\n\n[[Category:Magery Spells]]"
+          }
+        ]
+      }
+    }
+  }
+}

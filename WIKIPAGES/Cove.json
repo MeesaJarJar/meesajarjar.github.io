@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "1397": {
+        "pageid": 1397,
+        "ns": 0,
+        "title": "Cove",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "[[File:Map_cove.png|Upright|right|Cove]]\n__TOC__\n== Notes ==\nVirtue: None\n\n[[Sigil]]: None\n\n[[Control Point]]: None\n== [[:Category:Atlas|Shops]] ==\n* [[Bank]]\n* [[Fisher]]\n* [[Healer]]\n* [[Provisioner]]\n* [[Tailor]]\n* [[Weaponsmith]] and [[Armorer]]\n\n== [[:Category:Atlas|Places of Interest]] ==\n*1. [[Brewer]] NPC\n*2. Orc Fort\n[[Category:Atlas]]\n[[Category:Cities]]"
+          }
+        ]
+      }
+    }
+  }
+}

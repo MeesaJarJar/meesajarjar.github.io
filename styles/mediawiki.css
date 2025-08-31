@@ -1,0 +1,265 @@
+/* Basic MediaWiki-like styling */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 0.875em;
+    line-height: 1.6;
+    color: #222;
+    margin: 0;
+    padding: 0;
+    background-color: #f6f6f6;
+}
+
+#sidebar {
+    background-color: #f8f9fa;
+    border-right: 1px solid #a2a9b1;
+    height: 100vh;
+    overflow-y: auto;
+    position: fixed;
+}
+
+#content {
+    background-color: white;
+    border: 1px solid #a2a9b1;
+    border-radius: 2px;
+    padding: 1em 2em;
+    margin: 1em;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+    color: #000;
+    margin: 1em 0 0.5em;
+    border-bottom: 1px solid #a2a9b1;
+    font-family: 'Linux Libertine', 'Georgia', 'Times', serif;
+    font-weight: normal;
+    line-height: 1.3;
+}
+
+h1 { font-size: 1.8em; }
+h2 { font-size: 1.5em; }
+h3 { font-size: 1.2em; }
+
+/* Links */
+a {
+    color: #0645ad;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #0b0080;
+}
+
+/* Lists */
+ul {
+    list-style-type: disc;
+    margin: 0.3em 0 0.3em 1.6em;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 0.1em;
+}
+
+/* Images */
+.wiki-image {
+    margin: 0.5em;
+    padding: 3px;
+    background-color: #f8f9fa;
+    border: 1px solid #c8ccd1;
+    text-align: center;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.wiki-image.thumb {
+    border: 1px solid #c8ccd1;
+    padding: 3px;
+    background-color: #f8f9fa;
+    margin: 0.5em;
+    display: inline-block;
+    max-width: 100%;
+}
+
+.wiki-image.center {
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+}
+
+.wiki-image.right {
+    clear: right;
+    float: right;
+    margin-left: 1.4em;
+    margin-right: 0;
+}
+
+.wiki-image.left {
+    clear: left;
+    float: left;
+    margin-right: 1.4em;
+    margin-left: 0;
+}
+
+.wiki-image img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border: none;
+    display: block;
+}
+
+.wiki-image a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.wiki-image figcaption {
+    font-size: 94%;
+    padding: 3px;
+    text-align: left;
+    line-height: 1.4;
+    color: #202122;
+}
+
+/* Tables */
+.wikitable {
+    background-color: #f8f9fa;
+    border: 1px solid #a2a9b1;
+    border-collapse: collapse;
+    margin: 1em 0;
+}
+
+.wikitable th, 
+.wikitable td {
+    border: 1px solid #a2a9b1;
+    padding: 0.2em 0.4em;
+}
+
+.wikitable th {
+    background-color: #eaecf0;
+}
+
+/* Navigation */
+#pageList {
+    font-size: 0.9em;
+}
+
+#pageList div {
+    padding: 2px 0;
+}
+
+#pageList a {
+    display: block;
+    padding: 2px 8px;
+    color: #0645ad;
+    text-decoration: none;
+}
+
+#pageList a:hover {
+    background-color: #eaecf0;
+    text-decoration: none;
+}
+
+#searchBox {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #a2a9b1;
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+
+/* Loading states */
+.loading {
+    color: #72777d;
+    font-style: italic;
+    text-align: center;
+    padding: 2em;
+}
+
+/* Infobox */
+.infobox {
+    border: 1px solid #a2a9b1;
+    background-color: #f8f9fa;
+    color: black;
+    padding: 0.2em;
+    font-size: 88%;
+    line-height: 1.5em;
+    margin: 0.5em 0 0.5em 1em;
+    float: right;
+    clear: right;
+    width: 22em;
+}
+
+@media (max-width: 640px) {
+    #content {
+        margin-left: 0;
+    }
+
+    #sidebar {
+        position: static;
+        width: 100% !important;
+        height: auto;
+        margin-bottom: 1em;
+    }
+
+    .infobox {
+        float: none;
+        width: 100%;
+        margin: 0 0 1em 0;
+    }
+
+    .wiki-image.right,
+    .wiki-image.left {
+        float: none;
+        margin: 1em auto;
+        display: table;
+    }
+}
+
+/* Basic text formatting */
+strong, b {
+    font-weight: bold;
+}
+
+em, i {
+    font-style: italic;
+}
+
+/* Blockquotes */
+blockquote {
+    margin: 1em 0;
+    padding: 0.5em 1.5em;
+    border-left: 3px solid #c8ccd1;
+    background-color: #f8f9fa;
+}
+
+/* Code blocks */
+pre {
+    padding: 1em;
+    border: 1px solid #c8ccd1;
+    background-color: #f8f9fa;
+    overflow-x: auto;
+}
+
+/* Table of contents */
+#toc {
+    border: 1px solid #a2a9b1;
+    background-color: #f8f9fa;
+    padding: 5px;
+    margin: 1em 0;
+    display: table;
+}
+
+/* Category links */
+.catlinks {
+    border: 1px solid #a2a9b1;
+    background-color: #f8f9fa;
+    padding: 5px;
+    margin: 1em 0;
+    clear: both;
+}

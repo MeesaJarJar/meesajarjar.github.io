@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "1528": {
+        "pageid": 1528,
+        "ns": 0,
+        "title": "Tactics",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "[[File:Flag_tactics.gif|thumb]]\n__TOC__\n==Description==\nTactics is a skill used with Weapons skills to provide a boost of damage to your weapons. Some weapons will add to the tactics attribute giving between 5 and 25 extra points depending on the item properties. It is also coupled well with [[Anatomy]] for even more damage, It works the same way [[Magery]] works with [[Evaluate Intelligence]]. Warriors templates with a weapons skill will do significantly less damage without [[Tactics]] on the following skills:\n\n*[[Swordsmanship]]\n*[[Fencing]]\n*[[Macing]]\n*[[Archery]]\n\n==Usage==\nTactics is a passive damage boost to weapons, meaning you do not need to activate it or use it. \n\n==Recommended Leveling==\n:Simply attacking creatures or players will increase tactics.\n\n==See Also==\n*[[Swordsmanship]]\n*[[Fencing]]\n*[[Macing]]\n*[[Archery]]\n*[[Anatomy]]\n\n[[Category:Skills]]"
+          }
+        ]
+      }
+    }
+  }
+}

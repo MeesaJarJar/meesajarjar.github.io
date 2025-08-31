@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "12": {
+        "pageid": 12,
+        "ns": 0,
+        "title": "Blacksmithing",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "[[File:Flag_blacksmithy.gif|thumb]]\n__TOC__\n== Description ==\nThe skill of Blacksmithy involves: smelting metal&nbsp;Items&nbsp;and ores;&nbsp;Crafting&nbsp;arms and armaments; enhancing certain metal&nbsp;Items; and repairing applicable&nbsp;Items.\n\nThere is a special collection of [[Bulk Order Deed]]s available for Smiths to fill out. Returning these provides special mining tools and other&nbsp;Items&nbsp;as rewards. For the Smith in training, these can help speed the time it takes to acquire more [[ingots]] - For advanced players,&nbsp;Power Scrolls&nbsp;and [[Runic Hammer]]s may be earned.\n\nIn the Blacksmith menu a player can choose to use different types of ore. The stronger the ore the more durability a weapon has, or the more AR (armor rating) the created armor will carry. For example a simple dexer suit in Iron provides 34 AR but a valorite version of that same armor gives 51AR.\n\nBlacksmiths can also make \"repair deeds\" by using a smith tool at a forge - selecting repair, and clicking a blank scroll. Once a player obtains GM they may \"mark\" any exceptional crafted item created with his/her name. Lady/Lord titles are included in the mark. [[Britain Crafting Area]] will also have a chance to create [[Slayer Types]] weapons. See the [[Slayer Types]] wiki for more details.&nbsp;\n\n[[Power Scrolls]] and [[Skill Scroll]]s are available for this skill.\n\n==Smelting==\nThe process for smelting ores and recycling metal&nbsp;Items&nbsp;into their constituent ingots differs.\n\n'''Ores'''\n\n:Stand near a forge.\n:Double-click the ore pile you wish to smelt into ingots.\n\n'''Metal&nbsp;Items'''\n\nThe manual, or old school, method of smelting, or recycling, metal&nbsp;Items&nbsp;into their constituent ingots involves:\n\n:Double-click a smith’s hammer, tongs, or sledgehammer that is located in your backpack.\n:A menu will appear.\n:Select the Smelt Item button in the lower left-hand corner.\n:Target the item you wish to melt into ingots. (If smelting self-crafted&nbsp;Items, will yield half of ingots used to create the item.)\n\n==Crafting==\nTo create an item using the Blacksmithy skill:\n:Stand near a forge and anvil (either, alone is insufficient).\n:Double-click a smith’s hammer, tongs, or sledgehammer that is located in your backpack.\n:A menu will appear displaying the different categories of&nbsp;Items&nbsp;you can craft.\n:Select a category and click on the button next to the item you wish to craft.\n\nIf successful, the crafted item will appear in your backpack. If successful and lucky, the crafted item will be exceptional. A Blacksmith can opt to include his or her maker’s mark on such exceptional&nbsp;Items. The&nbsp;Crafting menu contains a toggle in the lower right-hand corner to turn the maker’s mark option on or off.\n\n==Ingot Types==\nSpecial Ingots can be used when crafting, however you must meet the following minimum skill levels in order to craft with these [[Ingots]]\n\n{| class=\"wikitable sortable\"\n! Ingot\n! Appearance\n! Mine/Crafting Skill Required\n|-\n| Iron\n| [[file:Ingots.png]]\n| 0\n|-\n| Dull Copper\n| [[file:Ingots_(Dull_Copper).png]]\n| 65\n|-\n| Shadow\n| [[file:Ingots_(Shadow_Iron).png]]\n| 70\n|-\n| Copper\n| [[file:Ingots_(Copper).png]]\n| 75\n|-\n| Bronze\n| [[file:Ingots_(Bronze).png]]\n| 80\n|-\n| Golden\n| [[file:Ingots_(Golden).png]]\n| 85\n|-\n| Agapite\n| [[file:Ingots_(Agapite).png]]\n| 90\n|-\n| Verite\n| [[file:Ingots_(Verite).png]]\n| 95\n|-\n| Valorite\n| [[file:Ingots_(Valorite).png]]\n| 99\n|}\n\n\n== Recommended Leveling ==\n{| class=\"wikitable\"\n! Level\n! What to Craft\n|-\n| 40.0 - 45.0\n| Mace\n|-\n| 45.0 - 50.0\n| Maul\n|-\n| 50.0 - 55.0\n| Cutlass\n|-\n| 55.0 - 59.5\n| Longsword or Katana\n|-\n| 59.5 - 95.6\n| Short Spear\n|-\n| 95.6 - 106.4\n| Platemail Gorget\n|-\n| 106.4 - 108.9\n| Platemail Gloves\n|-\n| 108.9 - 116.3\n| Platemail Arms\n|-\n| 116.3 - 118.8\n| Platemail Legs\n|-\n| 118.8 - 120.0\n| Platemail Tunics\n|}\n\n==Alternate Leveling Method==\nThe below method is determined to be the best route to obtain GM Blacksmith as far as lowest cost.\n\n{| class=\"wikitable\"\n! Level\n! What to Craft\n|-\n| 0 – 50\n| Train from NPC\n|-\n| 50 – 72\n| Kryss/Cutlass with Short Spear for variety\n|-\n| 72 – 90\n| Short Spears with the odd gorget for variety\n|-\n| 90 – 100\n| Making Plate gorgets with Arms for variety\n|-\n| 100 - 120\n| Skill Scrolls\n|}\n\n==Notes==\n:Crafting Weapons at the [[Britain_Crafting_Area|Britain Crafting Area]] will grant a chance to craft a [[Slayer_Types|Slayer]] or [[Slayer_Types|Super Slayer]] weapon.\n\n==See Also==\n*[[Carpentry]]\n*[[Ingots]]\n*[[Mining]]\n*[[Tinkering]]\n\n[[Category:Skills]]\n[[Category:Crafting]]"
+          }
+        ]
+      }
+    }
+  }
+}

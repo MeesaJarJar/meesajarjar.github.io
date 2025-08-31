@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "1875": {
+        "pageid": 1875,
+        "ns": 0,
+        "title": "Ethereal Mounts Vendor",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "__TOC__\n== Description ==\nThe Ethereal Mounts Vendor exchanges rare mounts for [[Donation Coins]]. They can be found just outside the West [[Britain]] Bank.\n== Ethereal Mounts Vendor Merchandise ==\n{| cellpadding=\"3\" cellspacing=\"0\" border=\"1\" width=\"50%\"\n! style=\"background-color:#000; color:#FFFFFF;\" | Item\n! style=\"background-color:#000; color:#FFFFFF;\" | Description\n! style=\"background-color:#000; color:#FFFFFF;\" | Cost\n|- align=\"center\"\n|[[File:ethereal_horse.png|Ethereal Horse]]<br>Ethereal Horse\n|(need image)\n|1,000\n|- align=\"center\"\n|[[File:ethereal_llama.png|Ethereal Llama]]<br>Ethereal Llama\n|(need image)\n|1,000\n|- align=\"center\"\n|[[File:ethereal_ostard.png|Ethereal Ostard]]<br>Ethereal Ostard\n|(need image)\n|1,000\n|- align=\"center\"\n|[[File:ethereal_polarbear.png|Ethereal Polar Bear]]<br>Ethereal Polar Bear\n|(need image)\n|2,500\n|- align=\"center\"\n|[[File:ethereal_cusidhe.png|Ethereal Cu Sidhe]]<br>Ethereal Cu Sidhe\n|(need image)\n|4,000\n|- align=\"center\"\n|[[File:ethereal_hiryu.png|Ethereal Hiryu]]<br>Ethereal Hiryu\n|(need image)\n|6,000\n|- align=\"center\"\n|[[File:ethereal_unicorn.png|Ethereal Unicorn]]<br>Ethereal Unicorn\n|(need image)\n|6,000\n|}\n[[Category:Atlas]]\n[[Category:Shops]]"
+          }
+        ]
+      }
+    }
+  }
+}

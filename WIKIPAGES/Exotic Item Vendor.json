@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "1824": {
+        "pageid": 1824,
+        "ns": 0,
+        "title": "Exotic Item Vendor",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "__TOC__\n== Description ==\nThe Exotic Item Vendor exchanges rare items for [[Donation Coin]]s. They can be found just outside the West [[Britain]] Bank. \n== Exotic Item Vendor Merchandise ==\n{| cellpadding=\"3\" cellspacing=\"0\" border=\"1\" width=\"50%\"\n! style=\"background-color:#000; color:#FFFFFF;\" | Item\n! style=\"background-color:#000; color:#FFFFFF;\" | Description\n! style=\"background-color:#000; color:#FFFFFF;\" | Cost\n|- align=\"center\"\n|[[File:deed_purple.png|Gender Change Deed]]<br>Gender Change Deed\n|Blessed.\n|500\n|- align=\"center\"\n|[[File:deed_purple.png|Pet Bonding Deed]]<br>Pet Bonding Deed\n|Instantly bond a pet rather than waiting 7 days.\n|1,000\n|- align=\"center\"\n|[[File:crystalball.png|Pet Summoning Ball]]<br>Pet Summoning ball\n|Allows you to link one pet to the ball and summon it at will. Great for when you have lost your pet or it has been trapped by another player. Has 10 charges.\n|1,500\n|- align=\"center\"\n|[[File:transpowder.png|Powder of Translocation]]<br>Powder of Translocation\n|Blessed. Charges the Pet Summoning Ball.\n|100\n|- align=\"center\"\n|[[File:deed_lightblue.png|Sash Layering Deed]]<br>Sash Layering Deed\n|Allows your sash to display above everything else, including clothes and robes. Takes place of an earring.\n|2,500\n|- align=\"center\"\n|[[File:blackdyetub.png|Black Dye Tub]]<br>Black Dye Tub\n|Dyes clothing true black.\n|2,000\n|- align=\"center\"\n|[[File:runetub.png|Leather Dye Tub]]<br>Leather Dye Tub\n|Blessed.\n|2,000\n|- align=\"center\"\n|[[File:runetub.png|Furniture Dye Tub]]<br>Furniture Dye Tub\n|Blessed.\n|2,000\n|- align=\"center\"\n|[[File:runetub.png|Runebook Dye Tub]]<br>Runebook Dye Tub\n|Blessed.\n|2,000\n|- align=\"center\"\n|[[File:runetub.png|Special Dye Tub]]<br>Special Dye Tub\n|Blessed. Has colors you can't get from normal tubs.\n|2,000\n|- align=\"center\"\n|[[File:deed.png|Wooden Display Case Deed]]<br>Wooden Display Case Deed\n|Blessed. (need image)\n|1,000\n|- align=\"center\"\n|[[File:deed.png|House Ladder Deed]]<br>House Ladder Deed\n|Blessed. Works best with castle and keeps do you can get on the roof. (need image)\n|2,000\n|- align=\"center\"\n|[[File:woodenbox_teal.png|Commodity Deed box]]<br>Commodity Deed Box\n|Allows you to use commodity deeds in your own home. Must be secured. Be sure to take the items out after releasing them.\n|1,000\n|- align=\"center\"\n|[[File:tuscany.png|Tuscany Pine Tree]]<br>Tuscany Pine Tree\n|Blessed. Decoration. (need image)\n|2,500\n|- align=\"center\"\n|[[File:tealdeed.png|Jewelry Bless Deed]]<br>Jewelry Bless Deed\n|Bless any piece of jewelry.\n|2,500\n|- align=\"center\"\n|[[File:metapetdye.png|Meta Pet Dye]]<br>Meta Pet Dye\n|Blessed. Hue 1194 meta pet dye. (need image)\n|15,000\n|- align=\"center\"\n|[[File:deed.png|Gray Brick Fireplace (east)]]<br>Gray Brick Fireplace (east)\n|(need image)\n|2,000\n|- align=\"center\"\n|[[File:deed.png|Gray Brick Fireplace (south)]]<br>Gray Brick Fireplace (south)\n|(need image)\n|2,000\n|- align=\"center\"\n|[[File:deed.png|Small Fire Pit]]<br>Small Fire Pit\n|Blessed. (need image)\n|1,000\n|- align=\"center\"\n|[[File:deed.png|Termur Throne Chair]]<br>Termur Throne Chair\n|(need image)\n|1,000\n|- align=\"center\"\n|[[File:deed.png|Apple Tree]]<br>Apple Tree\n|(need image)\n|2,000\n|- align=\"center\"\n|[[File:deed.png|Amethyst Tree]]<br>Amethyst Tree\n|(need image)\n|2,000\n|- align=\"center\"\n|[[File:deed.png|Peach Tree]]<br>Peach Tree\n|(need image)\n|2,000\n|- align=\"center\"\n|[[File:deed.png|Red Maple Tree]]<br>Red Maple Tree\n|(need image)\n|2,000\n|- align=\"center\"\n|[[File:deed.png|Cherry Blossom Tree]]<br>Cherry Blossom Tree\n|(need image)\n|2,000\n|- align=\"center\"\n|[[File:metapetdye2.png|Meta Pet Dye]]<br>Meta Pet Dye\n|Blessed. Hue 2503 meta pet dye. (need image)\n|15,000\n|- align=\"center\"\n|[[File:metapetdye3.png|Meta Pet Dye]]<br>Meta Pet Dye\n|Blessed. Hue 1158 meta pet dye. (need image)\n|18,000\n|- align=\"center\"\n|[[File:idwand.png|Ultimate Supporter ID Wand]]<br>Ultimate Supporter ID Wand\n|Blessed. Spell channelling. 50,000 charges.\n|10,000\n[[Category:Atlas]]\n[[Category:Shops]]"
+          }
+        ]
+      }
+    }
+  }
+}

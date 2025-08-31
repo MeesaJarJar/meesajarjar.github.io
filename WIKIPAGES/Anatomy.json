@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "73": {
+        "pageid": 73,
+        "ns": 0,
+        "title": "Anatomy",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "[[File:AnatomyFlag.gif|thumb]]\n__TOC__\n==Description==\n[[Anatomy]] is a supplementary skill that enhances weapon damage and bandage [[Healing|healing]]. [[Anatomy]] can be raised by using the skill and selecting a creature or player or it will go up on its own as a player participates in melee or [[Archery]] combat. Anatomy levels up slightly faster from Melee and [[Archery]] combat against humanoid creatures.\n\n[[Anatomy]] is required for the [[Stun]] ability when combined with the [[Wrestling]] skill. See [[Wrestling]] for details about Stun.\n\n[[Anatomy]] is also taken into consideration when calculating the chances of a successful Stun for [[Wrestling]], Crushing Blow for [[Macing|Mace fighters]] using a two handed mace, Paralyzing Blow for [[Fencing|Fencers]] using a spear and Concussion Blow for [[Swordsmanship|Sword fighters]] wielding an axe. \n\nThe [[Anatomy]] and [[Evaluate Intelligence]] skills work together to provide a passive defensive wrestling ability. As it is passive, you do not have a chance to actively hit a player but it does provide a mitigation against incoming melee attacks. This can be used to avoid putting [[Wrestling]] on your Template.\n\n==Damage Enhancement==\nThe damage bonus from [[Anatomy]] is applied using this equation (Anatomy / 5) as a percentage (20% at 100 skill).\n\n==Healing Enhancement==\n60 [[Anatomy]] is required to Cure with [[Bandages]].\n80 [[Anatomy]] is required to [[Resurrect]] a player with [[Bandages]].\n\n== Recommended Training ==\n[[Anatomy]] can be trained by directly using the [[Anatomy|anatomy skill]] on another player or passively by using one of the following skills:\n:[[Swordsmanship]]\n:[[Macing|Mace Fighting]]\n:[[Fencing]]\n:[[Healing]]\n\n==See Also==\n*[[Stun]]\n*[[Wrestling]]\n*[[Swordsmanship]]\n*[[Macing]]\n*[[Fencing]]\n*[[Healing]]\n*[[Veterinary]]\n\n[[Category:Skills]]"
+          }
+        ]
+      }
+    }
+  }
+}

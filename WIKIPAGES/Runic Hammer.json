@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "215": {
+        "pageid": 215,
+        "ns": 0,
+        "title": "Runic Hammer",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "[[Category:Quests]][[Category:Crafting]]\n__TOC__\n==Description==\nRunic hammers are rewards for turning in certain [[Blacksmithing_BOD_Rewards|Bulk Order Deeds (BODs)]] to NPC blacksmiths. There are eight (8) different types of runic hammers based upon ingot colors (note there is not an iron runic hammer). New hammers will be given a standard number of charges:\n* '''Dull Copper''' - 45 charges\n* '''Shadow Iron''' - 40 charges\n* '''Copper''' - 35 charges\n* '''Bronze''' - 30 charges\n* '''Gold''' - 25 charges\n* '''Agapite''' - 20 charges\n* '''Verite''' - 15 charges\n* '''Valorite''' - 10 charges\n\n==How They Work==\nRunic hammers can be used to craft exceptional magical '''weapons'''. Each of these will have additional modifiers based on the type of runic hammer. The more rare the color of the runic hammer, the better modifiers it grants to weapons and armor. You '''must''' use the correct ingot type for each hammer or the properties will not be applied. Bronze runic hammer needs to use bronze ingots for example. Below are a list of the modifiers received per runic hammer:\n\n===Weapon Properties===\n{| class=\"wikitable\"\n! style=\"font-weight: bold;\" | Hammer Color\n! style=\"font-weight: bold;\" | Durability Modifier\n! style=\"font-weight: bold;\" | Damage Modifier\n! style=\"font-weight: bold;\" | Accuracy Modifier\n|-\n| style=\"font-weight: bold;\" | Dull Copper\n| Durable\n| None\n| Accurate\n|-\n| style=\"font-weight: bold;\" | Shadow Iron\n| Durable\n| Ruin\n| Accurate\n|-\n| style=\"font-weight: bold;\" | Copper\n| Fortified\n| Ruin\n| Surpassingly Accurate\n|-\n| style=\"font-weight: bold;\" | Bronze\n| Fortified\n| Might\n| Surpassingly Accurate\n|-\n| style=\"font-weight: bold;\" | Gold\n| Indestructable\n| Force\n| Eminently Accurate\n|-\n| style=\"font-weight: bold;\" | Agapite\n| Indestructable\n| Power\n| Eminently Accurate\n|-\n| style=\"font-weight: bold;\" | Verite\n| Indestructable\n| Power\n| Exceedingly Accurate\n|-\n| style=\"font-weight: bold;\" | Valorite\n| Indestructable\n| Vanquishing\n| Supremely Accurate\n|}\n\n===Advantages===\nThe biggest advantage of runic weapons are that since they are crafted by blacksmiths, they can have the exceptional modifier on top of the properties provided by the runic hammer. This means that runic weapons are much more powerful than a magical weapon with the same durability, damage, and accuracy modifiers. \n\n===Examples===\n\n*'''Vanquishing War hammer'''\n**+9 damage modifier (vanquishing) = +9 damage modifier total\n*'''Valorite Runic War hammer'''\n**+9 damage modifier (vanquishing) + 4 damage modifier (exceptional) = +13 damage modifier total\n\n[[Category:Items]]\n[[Category:Crafting]]"
+          }
+        ]
+      }
+    }
+  }
+}

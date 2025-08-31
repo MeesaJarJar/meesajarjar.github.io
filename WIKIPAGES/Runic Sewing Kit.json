@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "2570": {
+        "pageid": 2570,
+        "ns": 0,
+        "title": "Runic Sewing Kit",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "__TOC__\n\n\n==Description==\nRunic sewing kits are rewards for turning in certain [[Tailoring_BOD_Rewards|Bulk Order Deeds (BODs)]] to NPC tailors. There are three (3) different types of runic sewing kits based upon leather colors (note there is no normal runic sewing kit). New sewing kits will be given a standard number of charges:\n* '''Spined''' - 45 charges\n* '''Horned''' - 30 charges\n* '''Barbed''' - 15 charges\n\n[[image:RunicKits.PNG|Runic Sewing Kits]]\n\n==How They Work==\nRunic sewing kits can be used to craft exceptional magical leather, studded and bone armor. Each of these will have additional modifiers based on the type of runic sewing kit. The more rare the color of the runic sewing kit, the better modifiers it grants to leather, studded and bone armor. You must use the correct [[Tailoring#Leather_Types|leather types]] for each sewing kit and the appropriate skill level or the properties will not be applied. Barbed runic sewing kit needs to use barbed leather for example. Below are a list of the modifiers received per runic sewing kit:\n\n===Armor Properties===\n{| class=\"wikitable\"\n! style=\"font-weight: bold;\" | Leather Color\n! style=\"font-weight: bold;\" | Durability Modifier\n! style=\"font-weight: bold;\" | Armor Modifier\n|-\n| style=\"font-weight: bold;\" | Spined\n| Durable\n| Defense\n|-\n| style=\"font-weight: bold;\" | Horned\n| Substantial\n| Guarding\n|-\n| style=\"font-weight: bold;\" | Barbed\n| Massive\n| Hardening\n|-\n|}\n\n<gallery mode=\"packed\" class=\"right\">\nFile:SpinedArmor.PNG|Spined Armor\nFile:HornedArmor.PNG|Horned Armor\nFile:BarbedArmor.PNG|Barbed Armor\n</gallery>\n\n===Advantages===\nThe biggest advantage of runic sewing kits are that since they are crafted by tailors, they can have the exceptional modifier on top of the properties provided by the runic sewing kit. This means that runic sewing kit are much more powerful than a magical armor with the same durability and armor modifiers. \n\n===Values===\n\n*'''GM Leather Armor - Normal Craft'''\n**Barbed Suit = 22AR\n**Horned Suit = 20AR\n**Spined Suit = 18AR\n**Normal Suit = 15AR\n\n*'''GM Leather Armor - Runic Sewing Kit'''\n**Barbed Suit = 40AR\n**Horned Suit = 32AR\n**Spined Suit = 24AR\n**Normal Suit = No Runic Normal\n\n\n*'''GM Bone Armor/Studded Gorget - Normal Craft'''\n**Barbed Suit = 42AR\n**Horned Suit = 39AR\n**Spined Suit = 37AR\n**Normal Suit = 35AR\n\n*'''GM Bone Armor/Studded Gorget - Runic Sewing Kit'''\n**Barbed Suit = 60AR\n**Horned Suit = 51AR\n**Spined Suit = 43AR\n**Normal Suit = No Runic Normal\n\n[[Category:Items]]\n[[Category:Crafting]]"
+          }
+        ]
+      }
+    }
+  }
+}

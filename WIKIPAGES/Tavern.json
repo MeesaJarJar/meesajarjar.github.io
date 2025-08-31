@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "1742": {
+        "pageid": 1742,
+        "ns": 0,
+        "title": "Tavern",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "__TOC__\n== Notes == \n'''Taverns''' contain various NPCs: Waiter, Barkeeper, Tavern keeper, Cook, and Brewer. \n\nLike the [[Inn]], if you haven't been in combat for a couple of minutes, you may log out instantly from the game world from within a Tavern.\n== Locations ==\n[[Britain]](x4), [[Buccaneer's Den]], [[Jhelom]], [[Minoc]], [[Nujel'm]](x2), [[Serpent's Hold]](x2), [[Trinsic]], [[Vesper]]\n== Merchandise == \n*Waiter\n**Food, drinks, liquor\n*Barkeeper\n**Food, drinks, liquor\n**Chessboard, checkerboard, backgammon board, dice and cup\n**Contract of employment\n**Barkeep contract\n**Vendor rental contract\n*Tavern keeper\n**Food, drinks, liquor\n**Chessboard, checkerboard, backgammon board, dice and cup\n**Contract of employment\n**Barkeep contract\n**Vendor rental contract\n*Cook\n**Food\n**Flour\n**Flour sifter\n**Honey\n**Rolling pin\n**Skillet\n*Brewer\n**Drinks, liquor\n**Honey\n**Brewing kit\n== Training ==\n*Waiter\n**[[Tactics]], [[Wrestling]]\n*Barkeeper\n**[[Tactics]], [[Wrestling]]\n*Tavern keeper\n**[[Tactics]], [[Wrestling]]\n*Cook\n**[[Cooking]], [[Tactics]], [[Taste Identification]], [[Wrestling]]\n*Brewer\n**[[Tactics]], [[Wrestling]]\n[[Category:Atlas]]\n[[Category:Shops]]"
+          }
+        ]
+      }
+    }
+  }
+}

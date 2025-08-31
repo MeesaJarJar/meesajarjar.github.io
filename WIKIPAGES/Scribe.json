@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "1739": {
+        "pageid": 1739,
+        "ns": 0,
+        "title": "Scribe",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "__TOC__\n== Notes ==\nWhile there are Libraries with scribes, they can also be found in [[Mage]] shops.\n== Locations ==\n[[Britain]](x3), [[Jhelom]], [[Moonglow]](x5), [[Ocllo]](x2), [[Skara Brae]], [[Trinsic]](x2), [[Vesper]]\n== Merchandise == \n*Scribe's pen\n*Blank scroll\n*Books\n*Around 49 of the 64 [[Magery]] spell scrolls\n== Training ==\n[[Evaluating Intelligence]], [[Inscription]], [[Tactics]], [[Wrestling]]\n[[Category:Atlas]]\n[[Category:Shops]]"
+          }
+        ]
+      }
+    }
+  }
+}

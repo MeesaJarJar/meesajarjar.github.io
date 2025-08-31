@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "160": {
+        "pageid": 160,
+        "ns": 0,
+        "title": "Ice Dungeon",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "[[Category:Atlas]][[Category:Dungeons]]\n[[File:IceDungeonEntranceImage.png|625px|right|]]\n__TOC__\n==Notes==\n*Located northwest of [[Wrong]] and north of the Shrine of Compassion. \n*Receives the 50% Dungeon Skill Gain Bonus.\n==[[Champion Spawns]]==\nBeware adventurers, within this frozen cave the [[Champion_Spawns#Queen_of_the_Snow_-_Ice_Witch|Queen of the Snow - Ice Witch]] reigns! She is one of the many [[Champion_Spawns|Champions]] that inhabit the lands of Sosaria.\n\n==[[Paragons]]==\n*ice fiend - Level 2b\n*white drake - Level 2b\n==[[Lockpicking|Locked Chests]]==\n=Level 1=\n[[File:icedung_1.png|right|]]\n===Legend===\n*1. Entrance\n*2. Low Tier (crates, barrels, kegs) [[Lockpicking|Locked Chest]]\n*3. To Level 2a\n*4. To Level 2b\n*5. To Level 3 - Cannot come back\n===Monsters===\n*ice snake, frost ooze, ratman, frost spider, arctic ogre lord, frost troll, snow elemental, white wyrm, ice elemental, giant ice serpent, white drake, snow harpy, lady of the snow, glacial giant\n===[[Paragons]]===\n*?\n===[[Lockpicking|Locked Chests]]===\n*4x Low Tier (crates, barrels, kegs)\n=Level 2a=\n[[File:icedung_2a.png|right|]]\n===Legend===\n*1. From Level 1\n*2. Jail cell full of slave NPCs\n===Monsters===\n*None\n===[[Paragons]]===\n*None\n===[[Lockpicking|Locked Chests]]===\n*None\n=Level 2b=\n[[File:icedung_2b.png|right|]]\n===Legend===\n*1. To Level 1\n*2. Hidden door\n*3. Low tier (crates, barrels, kegs) [[Lockpicking|Locked Chest]]\n*4. High tier (large wooden or metal chests) [[Lockpicking|Locked Chest]]\n===Monsters===\n*ice fiend, white drake\n===[[Paragons]]===\n*ice fiend, white drake\n===[[Lockpicking|Locked Chests]]===\n=Level 3=\n[[File:icedung_3.png|right|]]\n===Legend===\n*1. From Level 1, cannot go back\n*2. Portal to Level 2b\n*3. Ankh\n===Monsters===\n*ice fiend, ice elemental, arch ice fiend, lady of the snow, frost troll, skeletal steed, death beetle\n\n===[[Paragons]]===\n*?\n===[[Lockpicking|Locked Chests]]===\n*None"
+          }
+        ]
+      }
+    }
+  }
+}

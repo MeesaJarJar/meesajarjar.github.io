@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "1590": {
+        "pageid": 1590,
+        "ns": 0,
+        "title": "Runebook",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "[[Category:Items]][[Category:Crafting]]\n[[file:Runebookicon.jpg|thumb]]\n__TOC__\n==Description==\nRunebooks are books that hold [[Mark]]ed Runes. They are used with the [[Magery Spells]] [[Recall]] and [[Gate Travel]] to go to the locations contained within them using [[Rune]]s. [[Rune]]s are small stones that you cast [[Mark]] on while standing in a location, the location is stored within the [[Rune]] and that [[Rune]] can be placed into the Runebook. Opening the Runebook will allow you to travel to the locations inside of it.\n\nRunebooks are blessed and weigh only 1 stone.\n\n==Usage==\n===Steps to Using===\nAcquire a Runebook which are crafted by players with sufficient [[Inscription]] skill. Cast the [[Mark]] spell on a [[Rune]] which can be purchased from the Mage NPC vendor. Target the [[Rune]] with the [[Mark]] spell while standing in a location you wish to save. Double click on the [[Rune]] and then entered the name of the location. Simply drag and drop the [[Rune]] into the Runebook. [[file:Open_Runebook.png|thumb]]\n\nDouble click the Runebook to see a list of [[Rune]]s inside of the book. Clicking the blue button next to the name will consume a recall scroll (See \"Charges\" below). Flipping the page will present you with the [[Gate Travel]] and [[Recall]] spells for that location. Click one and it will cast the spell.\n\nYou cannot cast a [[Gate Travel]] spell if the location is blocked from the other side. You must have sufficient mana to cast these spells.\n\n===Travel Without Magery===\nTo travel with a Runebook by consuming a charge, click the blue gem next to the location to which you wish to travel. You do not need a spellbook in your possession to use charges on your Runebook. You will need the proper mana which is only 11. Though no spellbook or reagents are needed to travel in this manner, the magery spell Recall is being effected, therefore all non-Spell Channeling items in the Hands Slot will drop to your backpack.\n\n===Default Location===\nYou can set a default location for your Runebook. To do so, go to the page that displays the desired location, and click the \"Set Default\" button at the top of that page. The button will turn red to indicate that the selected location is the default location.\n\nTo [[Gate Travel]] or [[Recall]] to the default location, you can simply cast the appropriate spell and target the cover of the Runebook, just as you would target a rune.\n\n==Naming Runebooks==\nA Runebook can also be named to distinguish it from other Runebooks in your collection. To name a Runebook, open it and click the Rename Book button on the top left page. Type in the new name and press Enter on your keyboard. Runebook names may only contain letters and spaces; no punctuation or special characters are allowed.\n\n===Dying Runebooks===\nRunebooks may further be personalized by dyeing them using [[Dye_Tub#Runebook_Dye_Tub|Runebook Dye Tubs]]. New players in need of a dyed Runebook are advised to ask a friend or buy a colored Runebook from a player vendor.\n\n==Charges==\nRunebooks have refillable charges that allow you to store [[Recall]] scrolls inside of them. Dropping a [[Recall]] scroll onto the book will add charges to the book and consume the scrolls. This allows you to cast recall without Magery or [[Reagents]]. Maximum charges are displayed on the right side of the book when opening it and the amount of charges remaining on the left.\n\nScribes crafting in the [[Britain Crafting Area]] will also have a chance to create Runebooks with more than 10 recall charges. The highest charge possible is 100. Runebooks with greater than 95 charges will have a different hue. At 100 Inscription, the chance will be around 1%. At 120 Inscription, it will be around 2%.\n\n==See Also==\n*[[Recall]]\n*[[Gate Travel]]\n*[[Rune]]"
+          }
+        ]
+      }
+    }
+  }
+}

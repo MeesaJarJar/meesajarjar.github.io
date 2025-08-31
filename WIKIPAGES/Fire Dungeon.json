@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "168": {
+        "pageid": 168,
+        "ns": 0,
+        "title": "Fire Dungeon",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "[[Category:Atlas]]\n[[Category:Dungeons]]\n[[File:FireDungeonEntranceImage.png|625px|right|]]\n__TOC__\n==Notes==\n*Located on [[Serpent's Hold]] island.\n*Receives the 50% Dungeon Skill Gain Bonus.\n==[[Champion Spawns]]==\n*None\n==[[Paragons]]==\n*fire elemental - Level 1, Level 2\n*titan - Level 2\n*lich - Level 1\n==[[Lockpicking|Locked Chests]]==\n*3x Low tier (crates, barrels, kegs) - Level 1\n*3x Mid/high tier (large wooden or metal chests) - Level 1(x2), Level 2(x1)\n=Level 1=\n[[File:firedung_1.png|right|]]\n===Legend===\n*1. Entrance\n*2. Low tier (crates, barrels, kegs) [[Lockpicking|Locked Chest]]\n*3. Mid/high tier (large wooden or metal chests) [[Lockpicking|Locked Chest]]\n*4. Portal to [[Despise]] Level 3\n*5. Portal to [[Destard]] Level 3\n*6. To Level 2\n===Monsters===\n*slime, giant serpent, giant rat, murderer NPC, pyroclastic elemental, lava snake, fire elemental, hell hound, hellcat (small), hellcat (large), lava lizard, efreet, lava serpent, lich, Baratoz, skeletal mage, bone mage, magma elemental, balron, shadow balron, cyclops, titan, \n===[[Paragons]]===\n*fire elemental, lich\n===[[Lockpicking|Locked Chests]]===\n*3x Low tier (crates, barrels, kegs)\n*2x Mid/high tier (large wooden or metal chests)\n=Level 2=\n[[File:firedung_2.png|right|]]\n===Legend===\n*1. From Level 1\n*2. Mid/high tier (large wooden or metal chests) [[Lockpicking|Locked Chest]]\n===Monsters===\n*fire elemental, pyroclastic elemental, hell hound, hell cat (small), hell cat (large), lava serpent, lava lizard, lich, lich lord, murderer NPC, daemon, cyclops, titan, lava snake, skeleton, balron\n===[[Paragons]]===\n*fire elemental, titan\n===[[Lockpicking|Locked Chests]]===\n*1x Mid/high tier (large wooden or metal chests)"
+          }
+        ]
+      }
+    }
+  }
+}

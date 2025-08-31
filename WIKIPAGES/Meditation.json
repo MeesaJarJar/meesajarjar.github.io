@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "1453": {
+        "pageid": 1453,
+        "ns": 0,
+        "title": "Meditation",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "[[File:Flag_meditation.gif|thumb]]\n__TOC__\n==Description==\n[[Meditation]] is a skill used to recover [[Mana]] more quickly. [[Meditation]] works passively to regain [[Mana]] but can also be used to invoke the skill directly, increasing [[Mana]] regeneration even more. Meditation is often used in conjunction with the [[Magery]] skill but [[Mana]] is required for [[Inscription]] when making scrolls as well. It is typical for a player to have [[Meditation]] with a [[Magery]] template. \n\nUsing the [[Meditation]] skill is useful when a character has reached low [[Mana]] and can be used during breaks in Player vs Player scenarios as well as pauses in combat with creatures. Any actions performed when [[Meditation|Meditating]] will cancel it's invoked regeneration.\n\nA character receives neither passive nor active [[Meditation]] bonuses while wearing non-medable armor. Warriors who wear plate or chain typically do not regenerate [[Mana]] quickly enough to cast Magery Spells effectively. Mages who want to conserve and regenerate [[Mana]] typically wear Leather Armor.\n\n==Recommended Leveling==\n:0-50: Buy from NPC\n:Simply casting Magery Spells will passively gain [[Meditation]].\n:Invoking the [[Meditation]] skill after casting a series of spells\n:See [[Magery]]\n\n==See Also==\n*[[Magery]]\n*[[Mana]]\n\n[[Category:Skills]]"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "2270": {
+        "pageid": 2270,
+        "ns": 0,
+        "title": "Britain Crafting Area",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "__TOC__\n==Description==\n[[File:Britaincraftingarea.png|right|250px]]\nA crafter's haven! This special area, found in the north of [[Britain]], provides the following benefits to crafters:\n* Adds a 10% bonus chance to craft exceptional items.\n* Reduces resource use by 20%.\n* Gives a chance to create [[Slayer_Types#Slayer_Weapons|Slayer Weapons]] with [[Blacksmithing]], [[Bowcraft]], [[Carpentry]] scales from ~1% at 100 crafting skill, up to ~2% at 120 skill. \n* [[Inscription]] also has a chance to create Slayer Spell Books, however you must be 120 Skill and the slayer chance is 2.5%.\n* When using [[Wood|special wood types]] in the Britain Crafting Area, you will have a chance to create weapons with up to 3 magical properties. The more rare a [[Wood|wood type]] is, the better chance at greater properties!\n* Gives a chance to create \"a bent rod\" with [[Carpentry]] when crafting fishing poles. Similar concept to making [[Slayer_Types#Slayer_Weapons|Slayer Weapons]].\n\n===Notes===\n* This is NOT a safe zone like [[Britain|West Britain]] [[Bank|Bank]]. Be on the look out for thieves and griefers luring spawn from the graveyard! If you are running a crafting macro, consider adding a line to regularly call guards.\n\n==See Also==\n* [[Blacksmithing]]\n* [[Fishing]]\n* [[Lumberjacking]]\n* [[Galleons]]\n* [[Magery]]\n* [[Musicianship]]\n* [[Stone crafter]]\n* [[Tailoring]]\n* [[Tinkering]]\n* [[Wood]]\n\n\n[[Category:Atlas]]\n[[Category:Places of Note‏‎]]\n[[Category:Crafting]]\n[[Category:Skills]]"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "2103": {
+        "pageid": 2103,
+        "ns": 0,
+        "title": "Message in a Bottle",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "[[Category:Quests]][[Category:Player vs Monster]]\n__TOC__\n=Description=\nMessage in a Bottle (MIB) [[Image:Bottle_of_ale.gif]] is the [[Treasure Map]] of the high seas. When you look inside the bottle, you will find either a Waterstained SOS [[File:Waterstained_sos.png]] or, less commonly, an Ancient SOS [[File:Ancient_sos.png]]. Within the message, you will find coordinates to a [[Message_in_a_Bottle#Sunken Treasure Chests|Sunken Treasure Chest]]. You will need at least 80 [[Fishing]] to have a chance of pulling up the chest. Some patience may be required to fish up the chest, you may find many an old boot before you hit the jackpot. Using a [[Bent rod]] will pull up the treasure chest without pulling up junk items first. It is generally recommended that you collect a few MIBs and then group them up by location before sailing out.\n\n=Sunken Treasure Chests=\nSunken Treasure Chests have 3 levels of loot which are randomly chosen when fished up starting at 80 [[Fishing|Fishing Skill]]. Ancient Sunken Treasure Chests always contain level 4 loot. Both chests will be trapped even if found unlocked. All chests have a low chance for a [[Random_Dungeon_Adventure#Fragments| Portal Fragment]] and always come with a type of [[Special Fishing Net]] which can also show up as one of the many available [[Special_Fishing_Net#Colors| special colors]]. The Sunken Treasure Chest is also an item in the game you get to keep and has been found in the various [[Paragons#Paragon_Chest_Hues|Paragon Chest Hues]], and as of recently other colors have been found for the Ancient Sunken Treasure Chests. \n</br></br>The following items can be found in either chest:\n* Gold\n* Gems \n* Scrolls\n* [[Reagents]]\n* [[Armor]]\n* [[Weapons]]\n* [[Wands]] - a very high chance for [[Item_Identification#Item_Identification_Wand|Item Identification Wands]]\n* [[Random_Dungeon_Adventure#Fragments|RDA Fragments]] - 1% chance to drop. Note that these portal fragments share the same graphic ID as star sapphires but have a different hue (1161).\n* [[Meta_Talismans#Relic_Qualities|Crumbling Relics]] or [[Meta_Pets#Relic_Qualities|Crumbling Relics]]\n\n</br>\n{| border=\"1\"\n|-\n| width=\"50px\" align=\"center\" style=\"background-color:#000; color:#FFF;\" | '''Level'''\n| width=\"50px\" align=\"center\" style=\"background-color:#000; color:#FFF;\" | '''SoS'''\n| width=\"50px\" align=\"center\" style=\"background-color:#000; color:#FFF;\" | '''Fishing Skill''' \n| width=\"50px\" align=\"center\" style=\"background-color:#000; color:#FFF;\" | '''Lockpicking Skill'''\n| width=\"100px\" align=\"center\" style=\"background-color:#000; color:#FFF;\" | '''Gold'''\n| width=\"50px\" align=\"center\" style=\"background-color:#000; color:#FFF;\" | '''Items'''\n| align=\"center\" style=\"background-color:#000; color:#FFF;\" | '''Notes'''\n|-\n| align=\"center\" | '''1'''\n| align=\"center\" | [[File:Waterstained_sos.png]]\n| align=\"center\" | 80.0\n| align=\"center\" | Unlocked\n| align=\"center\" | 2000-4000 gp\n| align=\"center\" | 36\n| align=\"center\" | [[Image:Special fishing net.png]] Always contains a [[Special Fishing Net]]<br/>Low Chance for a [[Random_Dungeon_Adventure#Fragments| Portal Fragment]]\n|-\n| align=\"center\" | '''2'''\n| align=\"center\" | [[File:Waterstained_sos.png]]\n| align=\"center\" | 80.0\n| align=\"center\" | Unlocked\n| align=\"center\" | 3000-6000 gp\n| align=\"center\" | 53\n| align=\"center\" | [[Image:Special fishing net.png]] Always contains a [[Special Fishing Net]]<br/>Low Chance for a [[Random_Dungeon_Adventure#Fragments| Portal Fragment]]\n|-\n| align=\"center\" | '''3'''\n| align=\"center\" | [[File:Waterstained_sos.png]]\n| align=\"center\" | 80.0\n| align=\"center\" | Unlocked\n| align=\"center\" | 4000-8000 gp\n| align=\"center\" | 70\n| align=\"center\" | [[Image:Special fishing net.png]] Always contains a [[Special Fishing Net]]<br/>Low Chance for a [[Random_Dungeon_Adventure#Fragments| Portal Fragment]]\n|-\n| align=\"center\" | '''4'''\n| align=\"center\" | [[File:Ancient_sos.png]]\n| align=\"center\" | 95.0\n| align=\"center\" | Locked, Level Unknown\n| align=\"center\" | 5000-10000 gp\n| align=\"center\" | 87\n| align=\"center\" | [[File:Fabled_fishing_net.png]] Always contains a [[Special Fishing Net|Fabled Fishing Net]]<br/>Low Chance for a [[Random_Dungeon_Adventure#Fragments| Portal Fragment]]\n|-\n|}\n\n=Contributors=\nThe community would like to thank the following brave adventurers who contributed their time and experiences for others to enjoy:\n* Colin#1767\n* Khan#6354"
+          }
+        ]
+      }
+    }
+  }
+}

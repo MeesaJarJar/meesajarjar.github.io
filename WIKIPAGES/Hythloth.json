@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "159": {
+        "pageid": 159,
+        "ns": 0,
+        "title": "Hythloth",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "[[Category:Atlas]][[Category:Dungeons]]\n[[File:HythlothDungeonEntranceImage.png|625px|right|]]\n__TOC__\n==Notes==\n*Located on Fire Island, east of the Shrine of Humility and south of the [[Abyss]]. \n*Receives the 50% Dungeon Skill Gain Bonus.\n==[[Champion Spawns]]==\n*None\n==[[Paragons]]==\n*elder gazer - Level 1\n*balron - Level 4\n==[[Lockpicking|Locked Chests]]==\n*2x Low Tier (crates, barrels, kegs)\n=Level 1=\n[[File:Hythloth_1.png|right|]]\n===Legend===\n*1. Entrance\n*2. Low Tier (crates, barrels, kegs) [[Lockpicking|Locked Chest]]\n*3. Portal To Level 2\n===Monsters===\n*wailing banshee, vampire bat, skittering hopper, hell hound, elder gazer, smoldering gargoyle, blazing gargoyle, fiery gargoyle, blistering gargoyle, gargoyle enforcer, sweltering gargoyle, gibberling\n===[[Paragons]]===\n*elder gazer\n===[[Lockpicking|Locked Chests]]===\n*4x Low Tier (crates, barrels, kegs) - Level 1 (x2), Level 2(x2)\n*3x Mid/High Tier (large wooden or metal chests) - Level 4(x3)\n\n\n\n\n\n\n\n=Level 2=\n[[File:Hythloth_2.png|250px|right|]]\n===Legend===\n*1. Portal to and from Level 1\n*2. Low Tier (crates, barrels, kegs) [[Lockpicking|Locked Chest]]\n*3. Jail cell full of slaves\n*4. Follow-The-Hidden-Path puzzle. If you fail you get teleported to the start of the hall. As roughly outlined by the image, follow the left wall up to the spider web, the walk to the middle and walk up the center through the 2 identical piles of scattered garbage. The correct tile is the 2nd pile from the left. Walk to the crystal ball. Then follow the left wall again. [[File:Hth2teleporters.gif|150px|right]]\n*5. To Level 3\n===Monsters===\n*skittering hopper, elder gazer, betrayer, daemon, arcane daemon, shadow gazer, vampire bat, devourer of souls, burning gargoyle, blazing gargoyle, fiery gargoyle, flaming gargoyle, searing gargoyle, scorching gargoyle, sweltering gargoyle, gargoyle destroyer\n===[[Paragons]]===\n*?\n===[[Lockpicking|Locked Chests]]===\n*2x Low Tier (crates, barrels, kegs)\n\n=Level 3=\n[[File:Hythloth_3.png|right|]]\n===Legend===\n*1. From Level 2\n*2. Hidden portal into next room - YOU CANNOT COME BACK OUT.\n*3. Portal to the entrance of the dungeon\n*4. Hidden portal in and out of closed off room\n*5. To Level 4\n===Monsters===\n*vampire bat, skittering hopper, flaming gargoyle, shadow gazer, betrayer, devourer of souls, balron, scorching gargoyle, smoldering gargoyle, blazing gargoyle, arcane daemon, gargoyle enforcer, ancient shadow wyrm, stone gargoyle\n===[[Paragons]]===\n*?\n===[[Lockpicking|Locked Chests]]===\n*None\n=Level 4=\n[[File:Hythloth_4.png|right|]]\n===Legend===\n*1. From Level 3\n*2. Portal to Level 3 entrance\n*3. Mid/High Tier [[Lockpicking|Locked Chest]]\n===Monsters===\n*balron, devourer of souls, burning gargoyle, blistering gargoyle, imp, searing gargoyle, gargoyle enforcer, ancient shadow wyrm, flaming gargoyle, stone gargoyle, elder gazer, vampire bat, scorching gargoyle\n===[[Paragons]]===\n*balron\n===[[Lockpicking|Locked Chests]]===\n*3x Mid/High Tier [[Lockpicking|Locked Chest]]"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "1964": {
+        "pageid": 1964,
+        "ns": 0,
+        "title": "Discord",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "== Discord ==\n\nDiscord is a cloud-based communication service similar to IRC, except it allows voice interactions via VOIP. It has persistent rooms and other features we see within IRC and similar services. To connect to the UOF discord chat, use the following link: http://discord.uoforever.com/ You will be brought to the acceptance screen. Click the Accept Invite button to begin:\n\n[[File:discordInvite.png|thumb|none]]\n\nYou will then need to create a free account and verify it via email. Once logged in, you will be brought directly to the general chat room:\n\n[[File:chatwindow.png|thumb|none]]\n\n=== Rules ===\n\nRules of Discord are ''strict'' - We can not monitor the chat 24/7 but all lobby chat is logged. If you see people breaking these rules please send us a private message and when we get to it we will handle it.\n\n1. Scamming players through the use of Discord is bannable both in game and Discord!\n2. Discord is ''not'' your personal soapbox - keep the drama in a Private Messages.\n3. Do not use this channel to produce negative attitudes towards the server/staff/players if you have an issue with the server contact the staff.\n4. No advertising any other server of any kind this includes script websites.\n5. Racial slurs are an instant ban.\n6. Constant Trolling, ''flaming'' or personal attacks will not be tolerated. Keep your childish name calling to yourself.\n7. Implying that you are staff or Impersonating staff will result in a ban from Discord and could result in a ban from the shard itself. \n\nFailure to follow these rules will result in banned from Discord.\n\nDiscord is a privilege, treat it as such."
+          }
+        ]
+      }
+    }
+  }
+}

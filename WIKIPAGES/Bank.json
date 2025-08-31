@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "1726": {
+        "pageid": 1726,
+        "ns": 0,
+        "title": "Bank",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "__TOC__\n== Notes ==\n'''Banks''' are a place to store gold and items. Visiting a bank and saying aloud \"bank\" will open your bank box. You can also single left click bank NPCs and click Open Bankbox. Saying \"balance\" will show your total amount of banked gold pieces. When you wish to carry large amounts of gold, type \"check #\", where # is any value of gold 5000 or above. Checks are blessed.\n\nBankboxes can store no more than 125 items, and an unlimited amount of stones.\n== Locations ==\n[[Britain]](x3), [[Buccaneer's Den]], [[Cove]], [[Jhelom]], [[Minoc]], [[Moonglow]], [[Nujel'm]], [[Ocllo]], [[Serpent's Hold]], [[Skara Brae]], [[Trinsic]](x2), [[Vesper]], [[Yew]]\n== Merchandise == \n*Banker\n**Contract of Employment\n**Vendor Rental Contract\n**Commodity Deed\n*Minter\n**Contract of Employment\n**Vendor Rental Contract\n**Commodity Deed\n== Training ==\n* Banker\n**[[Tactics]], [[Wrestling]]\n* Minter\n**[[Tactics]], [[Wrestling]]\n[[Category:Atlas]]\n[[Category:Shops]]"
+          }
+        ]
+      }
+    }
+  }
+}

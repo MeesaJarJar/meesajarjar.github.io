@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "1543": {
+        "pageid": 1543,
+        "ns": 0,
+        "title": "Galleons",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "__TOC__\n==Description==\n[[Galleons]] were introduced to Ultima Online Forever in the [[Naval Warfare Reborn]] expanson and are very powerful ships that can be crafted by a player with [[Carpentry]] at 100 skill points. Galleon recipes must be learned before Carpenters are able to attempt crafting them. The [[Ship Recipes]] can be obtained through [[Fishing]], there is a higher chance of obtaining one in a [[Whirlpool]]. There are different types of [[Galleons]] and each one has different designs, durability, amounts of cannons, damage and shot cooldown timers.\n\n==Galleons==\n{| cellpadding=\"2\" cellspacing=\"0\" border=\"1\" width=\"90%\"\n! style=\"background-color:#000; color:#FFFFFF;\" | Tokuno Galleon\n! style=\"background-color:#000; color:#FFFFFF;\" | Orc Galleon\n! style=\"background-color:#000; color:#FFFFFF;\" | Gargoyle Galleon\n! style=\"background-color:#000; color:#FFFFFF;\" | Britain Galleon\n|- align=\"center\"\n| [[file:104px-TokunoGalleon.png]]\n| [[file:95px-OrcishGalleon.png]]\n| [[file:74px-GargishGalleon.png]]\n| [[file:108px-Britannian_ship.png]]\n|- align=\"center\"|-\n|}\n\n{| cellpadding=\"5\" cellspacing=\"0\" border=\"1\" width=\"90%\"\n! style=\"background-color:#000; color:#FFFFFF;\" | Name\n! style=\"background-color:#000; color:#FFFFFF;\" | Hull Durability\n! style=\"background-color:#000; color:#FFFFFF;\" | Cannon Durability\n! style=\"background-color:#000; color:#FFFFFF;\" | Sails Durability\n! style=\"background-color:#000; color:#FFFFFF;\" | Cannon Volley Cooldown\n! style=\"background-color:#000; color:#FFFFFF;\" | Number of Cannons\n|- align=\"center\"\n|Tokuno Galleon\n|1500\n|1125\n|1500\n|15 Seconds\n|10 Heavy Cannons\n|- align=\"center\"\n|Orc Galleon\n|1900\n|1425\n|1900\n|25 Seconds\n|16 Heavy Cannons\n|- align=\"center\"\n|Gargoyle Galleon\n|2300\n|1725\n|2300\n|35 Seconds\n|19 Heavy Cannons\n|- align=\"center\"\n|Britain Galleon\n|2700\n|2025\n|1700\n|50 Seconds\n|18 Heavy Cannons\n|- align=\"center\"\n|}\n\n===Crafting Materials===\n{| cellpadding=\"5\" cellspacing=\"0\" border=\"1\" width=\"90%\"\n! style=\"background-color:#000; color:#FFFFFF;\" | Galleon\n! style=\"background-color:#000; color:#FFFFFF;\" | Required Materials\n! style=\"background-color:#000; color:#FFFFFF;\" | Required Skills\n|- align=\"center\"\n| Tokuno Galleon\n| 200 Cloth, 15 Forged Metal, 30 Ship Ribs, 1 Ancient Anchor, 1000 Bloodwood Logs, 10 Barnacle Encrusted Ingots\n| 100.0\n|- align=\"center\"\n| Orc Galleon\n| 200 Cloth, 20 Forged Metal, 40 Ship Ribs, 1 Ancient Anchor, 1000 HeartLogs, 10 Barnacle Encrusted Ingots\n| 105.0\n|- align=\"center\"\n| Gargoyle Galleon\n| 200 Cloth, 25 Forged Metal, 50 Ship Ribs, 1 Ancient Anchor, 1000 Frostwood Logs, 10 Barnacle Encrusted Ingots\n| 110.0\n|- align=\"center\"\n| Britain Galleon\n| TBD\n| TBD\n|-\n|}\n\n<span style=\"color:red\">'''Note:'''</span> Galleons will take on the '''COLOR''' of the 200 cloth that is used when it is crafted. This could be any cloth color as long as you have 200, '''try to avoid color mixing and only bring the color you want the galleon to be'''.\n\n==See Also==\n* [[Blacksmithing]]\n* [[Fishing]]\n* [[Lumberjacking]]\n* [[Tailoring]]\n* [[Tinkering]]\n* [[Wood]]\n\n[[Category:Crafting]]"
+          }
+        ]
+      }
+    }
+  }
+}

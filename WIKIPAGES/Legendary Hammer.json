@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "57": {
+        "pageid": 57,
+        "ns": 0,
+        "title": "Legendary Hammer",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "[[Category:Crafting]]\n__TOC__\n\n\nThe [[Legendary Hammer|legendary hammer]] is made by combining ten(10) ancient hammer shards. The shards are dropped as loot in:\n\n* [[Random Dungeon Adventure|Random Dungeon Adventures]] (RDA)\n* Select monsters in [[Covetous]] Level 4 \n* Select monsters in [[Ice Dungeon]] Level 3\n* Gargoyle Alchemists\n\n'''The shards are combined by double clicking and targeting other shards.''' \n\n''Note: Since there is no way to tell how many shards have been combined, it is wise to delay combining until you acquire all ten(10).''\n\n\n[[File:LegendaryHammer1.jpg]]\n\n\n\n[[Category:Crafting]]"
+          }
+        ]
+      }
+    }
+  }
+}

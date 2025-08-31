@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "1576": {
+        "pageid": 1576,
+        "ns": 0,
+        "title": "Whirlpool",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "[[Category:Quests]][[Category:Player vs Monster]]\n__TOC__\n==Description==\n[[Whirlpool]]s were introduced in the [[Naval Warfare Reborn]] expansions. They are whirlpool water tiles that occur randomly over periods of time, similar to how [[Random Dungeon Adventure|Random Dungeon Adventures]] work. [[Fishing]] in these [[Whirlpool]]s offers unique and rare rewards, mostly pertaining but not limited to the new [[Galleons]] and [[Ships]]. [[Whirlpool]]s are dangerous ventures not only due to other Pirates but the creatures that dwell within. [[Fishing]] is required to fish items from these [[Whirlpool]]s\n\n==Whirlpool Quest==\nLocated near the bridge exiting the town of Britain, there is an NPC named \"Bearss The Pirate\".\n[[File:IrWn668.png|thumb|Bearss The Pirate]]\n[[File:8d8d8e70cd97b121fad607c217f6c3cf.png|thumb|The map location of Bearss The Pirate]]\nSpeaking with him will open a quest gump offering the location of [[Whirlpool]]s as they occur. In order to accept this quest, you pay the pirate 10,000 gold. Having the money in your bank is acceptable and will automatically be removed if you agree to his terms. Note that once you've accepted his quest and paid him, the [[Whirlpool]]s will not be instantly revealed. They happen randomly and all other pirates who have accepted the quest will receive the same coordinates that you do, so be ready to sail on the fly and fight over the resources.\n[[file:NVxete5.png|thumb|The quest accepting dialogue gump]]\nOnce enough time has passed and a [[Whirlpool]] has spawned, a gump will appear on your screen. This gump contains the coordinates to the [[Whirlpool]] and the adventure begins.\n\n==Finding the Coordinates==\nFinding the coordinates can be tough if you're not familiar with the waters or old fashioned Treasure Hunting. It is recommended that you use UOAM or an online coordinate map to assist in the process. The [[Whirlpool]] will be located at the exact tile of the coordinates.\n\n==Fishing in Whirlpools==\nOnce you've reached your [[Whirlpool]], it's best to get an idea of your surroundings. Saying \"Scan The Horizons\" will reveal potential enemy pirates on a Mini Map. \n[[file:A7712eb6676c48a644498a140fcf88e0.png|thumb|Using the Scan The Horizons command to find enemy vessels]]\nIf the coast is clear, sail to the coordinates and find your [[Whirlpool]]. [[Whirlpool]]s are hard to see since they blend in with the water, running into one will stop your ship and you cannot pass through them. It's a single water tile. Park your Ship next to it and cast your line into the swirling water tile. Once you've cast, your line will get pulled under and a few moments will pass. '''Do not interrupt the [[Fishing]] process, even as monsters spawn.''' Interrupting the fishing process will reduce your chances of finding [[Whirlpool]] rewards. It's best to have people with you to assist in combat while you are [[Fishing]].\n\nKill and loot the creatures. You have chances to get items directly from the [[Whirlpool]] as well as from the monsters that spawn.\n\n[[file:WPAction1.PNG|300px|Whirlpool Mayhem]]\n\n===Whirlpool Rewards===\n* Barnacle Encrusted Hat\n* Barnacle Encrusted Robe\n* Barnacle Encrusted Gloves\n* Barnacle Encrusted Apron\n* Barnacle Encrusted Boots\n* Barnacle Encrusted Spellbook\n* A Dead Man's Chest (Bone Armor)\n* A Dead Man's Arms (Bone Armor)\n* A Dead Man's Legs (Bone Armor)\n* A Dead Man's Hands (Bone Armor)\n* Ship Paints\n* Treasure Chest (Cosmetic)\n* A Sunken Treasure Chest\n* Ring of Aves\n* Ancient Anchor\n* [[Ship Recipes]]\n* Forged Metal\n* Ship Rib\n* [[Message in a Bottle]]\n* [[Wood|Bloodwood Log]]\n* [[Wood|Frostwood Log]]\n* [[Wood|Heartwood Log]]\n* [[Meta_Talismans#Relic_Qualities|Crumbling Relics]] or [[Meta_Pets#Relic_Qualities|Crumbling Relics]]\n\n==See Also==\n*[[Ships]]\n*[[Ship Commands]]\n*[[Galleons]]\n*[[Ship Upgrades]]\n*[[Ship Repair Kit]]\n*[[Cannons]]\n*[[Cannon Balls]]"
+          }
+        ]
+      }
+    }
+  }
+}

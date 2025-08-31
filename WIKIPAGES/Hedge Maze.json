@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "1419": {
+        "pageid": 1419,
+        "ns": 0,
+        "title": "Hedge Maze",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "Description:\n[[Category:Atlas]]\n[[Category:Places of Note]]\n[[File:HedgeMazeRadar.PNG|Hedge Maze located in between the Southern Farms of Britain and Eastern Farms of Skara Brae|425px|thumb|right|This is a Birds Eye View of the Hedge Maze located in between the Southern Farms of Britain and Eastern Farms of Skara Brae.]]\n__TOC__\n==Notes==\n* Little is known behind the true purpose of the Hedge Maze, save for the Wizard Relvinian created this maze to practice demonic arts and that there is even less known of him or what become of him.\n* In the center of this maze is evidence of an underground [[Asylum]] that would suggest perhaps Relvinian may have been holding local Farmers.\n* There are a few [[Farmer|Farmers]] and sometimes [[Healer|Wandering Healers]] will get trapped in the Maze.\n* The Hedges do not block LOS(Line Of Sight) which can allow you to use spells and ranged attacks, but be forewarned the same can be used on you!\n\n==Maze==\n[[File:HedgeMazeLevelMaze.PNG|Center of the Hedge Maze|425px|thumb|right|The Center of the Hedge Maze is filled with dangers and mystery!]]\nThe Entrance of Hedge Maze can be found on any corner as well as a few spots on each side between the corners. The entrance to [[Asylum]] is underneath the main Farmers Home. This is one of Britiannia's most well known landmark and you may find within the hedges:\n* Many micro-biomes of desert, swamp, and forest.\n* Gazebos and Gardens\n* Temples and Towers\n\n<gallery mode=\"packed\" class=\"right\">\nFile:HedgeMazeLevelMazeCornerEntrance.PNG|One of the four corners that acts as an entrance to the Hedge Maze.\nFile:HedgeMazeLevelMazeSideEntrance.PNG|One of the many side entrances between the corners of the Hedge Maze.\nFile:HedgeMazeLevelMazeWanderingHealer.PNG|One of the trapped Wandering Healers that found themselves lost in this maze.\nFile:HedgeMazeLevelMazeGazebo.PNG|One of the many Gazebos you can find scattered throughout the maze. This one contains an Ankh, in case you find yourself in need of one!\nFile:HedgeMazeLevelMazeTower.PNG|The infamous Unicorn Tower also located in the center of the Hedge Maze. The entrance is well hidden and many lichs can be found pondering how and why such a tower exists.\nFile:HedgeMazeLevelMazeFarmers.PNG|The Farmers Home in the center of the Maze, it is unknown why these simple Sosarians brave the center of this maze. It is a remarkable reminder that even in the perils of evil, there are those that would shine a beacon of hope for the King's lands of Britannia.\nFile:HedgeMazeLevelMazeAsylumEntrance.PNG|The Entrance to the Asylum Dungeon, beware this is a no-mount zone upon entering! This building is located in the center of the maze and is a hidden basement beneath the Farmers Building.\n</gallery>\n\n===Monsters===\n{| border=\"1\" \"\n|-\n| align=\"center\" style=\"background-color:#000; color:#FFF;\" | '''Slayer Group'''\n| align=\"center\" style=\"background-color:#000; color:#FFF;\" | '''Monsters'''\n|-\n| align=\"center\" | [[Slayer_Types#Abyss|Abyss]]\n| align=\"center\" | Daemon, Imp\n|-\n| align=\"center\" | [[Slayer_Types#Elemental|Elemental]]\n| align=\"center\" | Air Elemental\n|-\n| align=\"center\" | [[Slayer_Types#Humanoid|Humanoid]]\n| align=\"center\" | Ettin, Evil Mage, Ratman, Orcish bomber\n|-\n| align=\"center\" | [[Slayer_Types#Undead|Undead]]\n| align=\"center\" | Ancient Lich, Lich\n|-\n| align=\"center\" | None\n| align=\"center\" | Corpser\n|}\n\n===Animals===\nMany various woodland [[Tameables#Taming_Charts|Tameables]] can be found in the Hedges:\n* Bear (Black)\n* Bear (Brown)\n* Bear (Grizzly)\n* Birds\n* Boar\n* Bull\n* Cougar\n* Chicken\n* Cow\n* Eagle\n* Goat\n* Goat (Mountain)\n* Great Hart\n* Hind\n* Horse\n* Panther\n* Pig\n* Sheep\n* Squirrel\n* Wolf (Grey)\n* Wolf (Timber)"
+          }
+        ]
+      }
+    }
+  }
+}

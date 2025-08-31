@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "162": {
+        "pageid": 162,
+        "ns": 0,
+        "title": "Wind",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "[[Category:Atlas]][[Category:Cities]][[Category:Dungeons]]\n[[File:WindDungeonEntranceImage.png|625px|right|]]\n__TOC__\n==Notes==\n*Located west of the Shrine of Chaos, north of [[Despise]], west of the Shrine of Compassion, and north of [[Britain]].\n* <s>Receives the 50% Dungeon Skill Gain Bonus</s>\n*Must have at least 75 [[Magery]] skill to enter.\n*Is both a city and a dungeon.\n*Is NOT a guard protected city.\n*Vendors are red\n\n==[[Champion Spawns]]==\n*None\n==[[Paragons]]==\n*ancient wyrm\n==[[Lockpicking|Locked Chests]]==\n*None\n=Level 1=\n[[File:map_wind.png|right|]]\n===Legend===\n*1. Entrance\n*2. Exit back outside\n*3. Teleporter to and from central courtyard area\n===Monsters===\n*lich, daemon, ancient wyrm, drake, dragon, \n===[[Paragons]]===\n*ancient wyrm \n===[[Lockpicking|Locked Chests]]===\n*None"
+          }
+        ]
+      }
+    }
+  }
+}

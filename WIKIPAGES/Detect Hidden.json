@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "1459": {
+        "pageid": 1459,
+        "ns": 0,
+        "title": "Detect Hidden",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "[[File:Flag_detecting_hidden.gif|thumb]]\n__TOC__\n==Description==\nDetect Hidden is used to reveal Hidden or Invisible players and Traps. The skill must be Invoked and a target reticle will appear. Target a location you wish to reveal in and if the player is hidden in that area and if successful, they will be revealed. The further the hidden character is from your targetted location, the less chance to detect successfully. Detect hidden works against both Hidden, stealthed and invisible characters. Invisible characters are easiest to detect than that of a mage who cast invisibility. Detect Hidden when used in a friended or owned house is always 100% successful. Detect hidden is useful for removing faction traps and pairs well with [[Tracking]].\n\nAt least 50 points in [[Lockpicking]] and [[Detect Hidden]] are required to start training the [[Remove Trap]] skill. [[Tinkering]] is paired well with these skills to remove faction traps.\n\n==Recommended Training==\n:0-50: Buy from [[Thieves Guild]] NPC\n:50-100: Use detect hidden on self\n\n==See Also==\n*[[Stealth]]\n*[[Hiding]]\n*[[Tracking]]\n\n[[Category:Skills]]"
+          }
+        ]
+      }
+    }
+  }
+}

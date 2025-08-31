@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "1598": {
+        "pageid": 1598,
+        "ns": 0,
+        "title": "Mark",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "__TOC__\n==Description==\n[[Mark]] is a spell that allows the caster to bind a [[Rune]] to a location by targeting a blank [[Rune]]. This allows them to [[Recall]] or [[Gate Travel]] to it later.\n\nCasting [[Mark]] requires Black Pearl, Blood Moss and Mandrake Root and costs 20 [[Mana]].\n\nThe words spoken when casting [[Mark]] are Kal Por Ylem and it's a Sixth circle spell.\n\n==Usage==\nTo [[Mark]] the location where you are standing, you will need a blank [[Rune]]. [[Rune]]s can be purchased from the mage shop. Cast the [[Mark]] spell and click on the [[Rune]]. Double click the [[Rune]] and type in the name of the location. This location is now stored within the [[Rune]] and can be traveled to with the [[Gate Travel]] and [[Recall]] spells.\n\nCast the [[Recall]] spell from your spell book or use a [[Recall]] scroll, then target the marked [[Rune]]. You will be teleported to that location. You can also open a [[Runebook]] and simply click on the spell icons shown at each location. (Note: You may also cast recall on [[Ship Rune]]s in the same fashion) [[file:Rune_Felucca.png|thumb]]\n\n\n==See Also==\n*[[Magery Spells]]\n*[[Recall]]\n*[[Gate Travel]]\n*[[Rune]]s\n\n[[Category:Magery Spells]]"
+          }
+        ]
+      }
+    }
+  }
+}

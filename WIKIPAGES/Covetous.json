@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "171": {
+        "pageid": 171,
+        "ns": 0,
+        "title": "Covetous",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "[[Category:Atlas]]\n[[Category:Dungeons]]\n[[File:CovetousDungeonEntranceImage.png|625px|right|]]\n== Notes ==\n*Located south of [[Minoc]], west of [[Vesper]], and northwest of [[Cove]].\n*Receives the 50% Dungeon Skill Gain Bonus.\n\n==Champion Spawn==\nBeware adventurers, deep within this covetous cove, the [[Champion Spawns#Corpse Devourer - Random champion skull|Corpse Devourer]] awaits his dinner on the 5th level! [[Champion Spawns#Corpse Devourer - Random champion skull|Corpse Devourer]] is one of the many [[Champion Spawns|Champions]] that inhabit the lands of Sosaria. \n\n==Dungeon Boss==\nYou may also encounter [[Dungeon_Bosses#Akor|Akor]] by the alter atop the citadel on the 5th level! [[Dungeon_Bosses#Akor|Akor]] is one of the many [[Dungeon_Bosses|Dungeon Bosses]] that can be found in Sosaria.\n\n== [[Paragons]] ==\n*Gazer - Level 1\n*Lich - Level 3\n*Lich Lord - Level 3, Level 5\n*Drake - Level 4b\n*Dragon - Level 4b\n*Shadow Wyrm - Level 4b\n*Poison Elemental - Level 5\n== [[Lockpicking|Locked Chests]] ==\n*3x Low Tier (crates, barrels, kegs) - Level 1(x3)\n= Level 1 =\n[[File:CovetousLevel1Image.png|right|]]\n===Monsters===\nharpy, stone harpy, headless one, gazer, corpser\n===[[Paragons]]===\n*Gazer\n===[[Lockpicking|Locked Chests]]===\n*3x Low Tier (crates, barrels, kegs)\n\n\n\n\n\n\n\n\n\n= Mountain Pass 1 =\n[[File:CovetousMountainPass1Image.png|right|]]\nNo monsters are found on the first mountain pass.\n\n\n\n\n\n\n\n\n\n\n\n\n= Level 2 =\n[[File:CovetousLevel2Image.png|right|]]\n===Monsters===\nmongbat, harpy, stone harpy, headless one, gazer, water elemental, dread spider\n===[[Paragons]]===\n*?\n===[[Lockpicking|Locked Chests]]===\n*None\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n= Mountain Pass 2 =\n[[File:CovetousMountainPass2Image.png|right|]]\n===Monsters===\nskeleton\n\n\n\n\n\n\n\n\n\n\n\n\n\n= Level 3 =\n[[File:CovetousLevel3Image.png|right|]]\n===Monsters===\nlich, lich lord, wraith, shade, spectre, mummy, skeletal knight, bone knight, zombie\n===[[Paragons]]===\n*lich, lich lord\n===[[Lockpicking|Locked Chests]]===\n*None\n\n\n\n= Level 4A =\n[[File:CovetousLevel4AImage.png|right|]]\n===Monsters===\nlich lord, rotting corpse, mummy, wraith, ghoul, imp, skeleton\n===[[Paragons]]===\n*?\n===[[Lockpicking|Locked Chests]]===\n*None\n= Level 4B =\n\n[[File:CovetousLevel4BImage.png|right|]]\n===Monsters===\nshadow wyrm, dragon, drake\n===[[Paragons]]===\n*shadow wyrm, dragon, drake\n===[[Lockpicking|Locked Chests]]===\n*None\n\n\n\n\n= Level 5 =\n\n[[File:CovetousLevel5Image.png|right|]]\n===Monsters===\npoison elemental, werewolf, phoenix matriarch, skeletal dragon, deep earth elemental, lich lord, revenant lion, rotting corpse, nightdragon, Ancient Lich, Akor the Dragon God\n===[[Champion Spawns]]===\n*[[Champion Spawns#Corpse Devourer - Random champion skull|Corpse Devourer]]\n\n===[[Paragons]]===\n*poison elemental\n===[[Lockpicking|Locked Chests]]===\n*None"
+          }
+        ]
+      }
+    }
+  }
+}

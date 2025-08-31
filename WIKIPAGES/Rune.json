@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "1596": {
+        "pageid": 1596,
+        "ns": 0,
+        "title": "Rune",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "[[file:Rune_Felucca.png|thumb]]\n__TOC__\n==Description==\n[[Rune]]s are a useful stone that is useful to everyone in Ultima Online Forever. [[Rune]]s are used to [[Mark]] locations and store them within the [[Rune]], they can then be dropped inside a [[Runebook]] and used to travel back to that location later. [[Rune]]s can be purchased from the Mage shop NPC. [[Gate Travel]], [[Recall]] and [[Mark]] [[Magery Spells]] can be cast on [[Rune]]s. \n\n[[Rune]]s weigh one stone and can not be stacked, once a [[Rune]] is [[Mark]]ed, it may be placed inside of a [[Runebook]], reducing it's weight to the weight of the [[Runebook]]. [[Rune]]s by them selves are not [[Blessed]] and will drop upon dying.\n\n==Usage==\nAcquire a [[Runebook]] (Not Required) which are crafted by players with sufficient [[Inscription]] skill. Cast the [[Mark]] spell on a [[Rune]] which can be purchased from the Mage NPC vendor. Target the [[Rune]] with the [[Mark]] spell while standing in a location you wish to save. Double click on the [[Rune]] and then entered the name of the location. Simply drag and drop the [[Rune]] into the [[Runebook]]. [[file:Open_Runebook.png|thumb]]\n\nDouble click the [[Runebook]] to see a list of [[Rune]]s inside of the book. Clicking the blue button next to the name will consume a recall scroll (See \"Charges\" below). Flipping the page will present you with the [[Gate Travel]] and [[Recall]] spells for that location. Click one and it will cast the spell.\n\nYou cannot cast a [[Gate Travel]] spell if the location is blocked from the other side. You must have sufficient mana to cast these spells.\n\nOf course, you may always cast [[Gate Travel]] and [[Recall]] on a [[Rune]] by itself outside of a [[Runebook]]\n\n==See Also==\n*[[Gate Travel]]\n*[[Recall]]\n*[[Ship Rune]]\n*[[Runebook]]\n\n[[Category:Items]]"
+          }
+        ]
+      }
+    }
+  }
+}

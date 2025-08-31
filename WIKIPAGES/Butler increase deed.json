@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "3569": {
+        "pageid": 3569,
+        "ns": 0,
+        "title": "Butler increase deed",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "[[Category:Items]][[Category:Housing]]\n[[File:Housing_Butler_Increase_Deed_Preview.PNG|thumb|This is a special deed that will increase the number of Butlers that your current home can hold.]]\n\n__TOC__\n=Description=\nThis is a special deed that can be used to increase a home's maximum number of [[Butler|Butlers]] by one, up to 10 total butlers in a home! \n\n==Patch Notes==\n* [https://www.uoforum.com/threads/new-quality-of-life-items.110193/ New Quality of Life Items!]\n\n=Using the Deed=\nIn order to use the deed you must be in a home that you are co-owned, bi-owned, or are the owner of the home. When you double click the deed in a valid home with a valid character you will receive the message:\n\n[[File:Butler_Increase_Deed_Increase_Message.PNG|The message of a successful increase in the number of Butlers that can be in a home when using the Butlers Increase Deed.]]\n\nYou can continue to use these Butlers Increase Deeds until you reach a maximum of 10 where you will receive this message:\n\n[[File:Butler_Increase_Deed_Maximum_Message.PNG|The message when you have reached the most number of maximum butlers in your home when using a Butlers Increase Deed.]]\n\nYou can see the current maximum number of [[Butler|Butlers]] in your home from the House sign Menu under \"Storage\":\n\n[[File:Butler_Increase_Deed_House_Sign_Count.PNG|The House Sign Menu's Storage selection where you can see the current and maximum number of Butlers a home can have.]]\n\n=Located=\nThe Butlers Increase Deed is purchasable with [[Donation_Coin|10000 Donation Coins]] from [[Exotic_Item_Vendor|Nadine the Exotic Item Donation Vendor]] located in front of the [[Britain|West Britain Bank]].\n\n[[File:Butler_Increase_Deed_Location.PNG|The Butlers Increase Deed will increase your homes maximum butler count by 1 up to a maximum of 10 Butlers.]]"
+          }
+        ]
+      }
+    }
+  }
+}

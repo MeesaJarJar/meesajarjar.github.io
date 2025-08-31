@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "10": {
+        "pageid": 10,
+        "ns": 0,
+        "title": "Magery",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "[[File:MageryFlag.gif|thumb]]\n__TOC__\n==Description==\nMagery is used to cast [[Magery_Spells|Magery Spells]], there are many types of spells such as harmful spells, buffing spells, healing spells and polymorph spells. There are a total of 64 spells that can be cast by a high leveled mage. Magery is coupled well with [[Evaluate Intelligence]] for damage boosts and [[Meditation]] to gain [[Mana]] more quickly.\n\nSpells work in \"Circles\", each circle of spell is a little bit harder to cast than the next and costs more [[Mana]].\n\nCasting spells in quick succession is vital in Player vs Player scenarios and is not necessarily restricted to \"Mages\", some warriors choose to apply to Magery skill to their template, allowing them to cast [[Cure]] or [[Recall]] without needing much [[Intelligence]] or [[Mana]].\n\n==Reagents==\n[[Reagents]] are used for Magery, [[Inscription]] and [[Alchemy]]. You must have [[Reagents]] to cast [[Magery_Spells|Magery Spells]] and the spell will fail to even attempt without the required reagents in your backpack. The reagents required for each spell vary and can be found in your spell book, see [[Magery_Spells|Magery Spells]]. See a quick list of [[Reagents]] below.\n\n{|\n| [[File:Black_Pearl.png]]\n| Black Pearl\n| [[File:Blood_Moss.png]]\n| Blood Moss\n| [[File:Garlic.png]]\n| Garlic\n| [[File:Ginseng.png]]\n| Ginseng\n|-\n| [[File:Mandrake Root.png]]\n| Mandrake Root\n| [[File:Nightshade.png]]\n| Nightshade\n| [[File:Spiders'_Silk.png]]\n| Spiders' Silk\n| [[File:Sulfurous_Ash.png]]\n| Sulfurous Ash\n|}\n\n==Success Chance==\nThe table below shows the a spells mana requirement, minimum Magery skill requirement and skill requirement to achieve 99% success. At the minimum required level, you will have an approximately 2% chance to cast. Aside from spell circles 1, 7 and 8, with every extra 1.0 points of Magery adds an extra 2-3% chance to your spell success rate.\n\n{|cellpadding=\"5\" cellspacing=\"0\" border=\"1\" width=\"40%\"\n! style=\"background-color:#000; color:#FFFFFF;\" | Spell Circle\n! style=\"background-color:#000; color:#FFFFFF;\" | Int Required\n! style=\"background-color:#000; color:#FFFFFF;\" | Min Skill\n! style=\"background-color:#000; color:#FFFFFF;\" | 99% Skill\n|-align=\"center\"\n| First\n| 4\n| 1.1\n| 40.1\n|-align=\"center\"\n| Second\n| 6\n| 6.1\n| 50.1\n|-align=\"center\"\n| Third\n| 9\n| 16.1\n| 60.1\n|-align=\"center\"\n| Fourth\n| 11\n| 26.1\n| 70.1\n|-align=\"center\"\n| Fifth\n| 14\n| 38.1\n| 80.1\n|-align=\"center\"\n| Sixth\n| 20\n| 51.8\n| 90.1\n|-align=\"center\"\n| Seventh\n| 40\n| 60.1\n| \n|-align=\"center\"\n| Eighth\n| 50\n| 80.1\n| \n|}\n\n===Scrolls===\nWhen using a scroll, the spell is counted as 2 spell circles lower. For example, if a player casts the 5th Circle spell Magic Reflection from a scroll, the success chance would align approximately with 3rd Circle spell cast normally.\n\n==Recommended Leveling==\n:Magery 0-48 Buy skill from Grandmaster Mage NPC\n:Magery 48 - 62.8 Cast Mana Drain on self\n:Magery 62.8 - 75.5 Cast Invisibility on Self\n:Magery 75.5 - 100.0 Cast Mana Vampire on Self\n\nThis will also efficiently train up [[Meditation]], [[Evaluating Intelligence]] and [[Resisting Spells]].\n\n==See Also==\n*[[Alchemy]]\n*[[Evaluate Intelligence]]\n*[[Intelligence]]\n*[[Inscription]]\n*[[Magery_Spells|Magery Spells]]\n*[[Mana]]\n*[[Meditation]]\n*[[Reagents]]\n*[[Resisting Spells]]\n\n[[Category:Player_vs_Monster]]\n[[Category:Player_vs_Player]]\n[[Category:Skills]]"
+          }
+        ]
+      }
+    }
+  }
+}

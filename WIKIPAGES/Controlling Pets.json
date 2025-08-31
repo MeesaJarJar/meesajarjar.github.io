@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "196": {
+        "pageid": 196,
+        "ns": 0,
+        "title": "Controlling Pets",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "__TOC__\n==Description==\nWhen controlling a pet, every time a command is issued, a check for the ability to control is made. The success or failure of these checks has an influence on the level of happiness or also called loyalty of the pet.\n\n==Loyalty Gains and Decreases==\n:Every bad command (= command that did not work) reduces pet loyalty (-1 point), every good command (command that worked) increases (loyalty +1).\n\n:Once at every hour, pet loyalty is reduced by 10% of the max loyalty. This applies to all movables at the same time - meaning if you fed your pet to \"Wonderfully Happy\" (= max) and the update happens 5 seconds later it will be reduced.\n\n:Feeding a pet has a chance of 50% to raise the pet's loyalty level (loyalty +10) - \"You pet looks happier.\"\n\n:Putting a pet in stable will restore it to full loyalty - this is a very good option for an unhappy pet.\n\n:A pet that reaches a loyalty of <= 0 will become untame and go wild again. It is trivial to retame the pet for a previous owner, but significantly harder to retame by a new one (see [[Animal Taming]] for details).\n\nUsing the Animal Lore skill on any creature, you can check the Loyalty Rating which is a measurement of the current happiness of the creature. </br></br>Here is a listing from Highest to Lowest Rating:\n* Wonderfully Happy\n* Extremely Happy\n* Very Happy\n* Rather Happy\n* Happy\n* Content\n* Content, I Suppose\n* Unhappy\n* Rather Unhappy\n* Extremely Unhappy\n* Confused\n\n==Bonding==\nIf the owner of the pet possess the minimum [[Animal Taming]] skill as real skill (use 'show real' option on the skill sheet to check), the pet will bond after a period of 7 days when fed with correct food the first time. Subsequent feeding within these 7 days will show a timer with the time left to bond. Correct food can be determined by using [[Animal Lore]] on the pet.\n\nBonded Pets can be resurrected with bandages using both a [[Veterinary]] skill and an [[Animal Lore]] skill of 80+. You'll have to seek out a player who has these skills if you don't have it yourself.\n\nBonded Pets will also be able to recall with the owner, when commanded to follow before the recall.\n\nTIP: Putting pets in stables, after the bonding timer started, is a great way to ensure they survive the 7 day period of bonding.\n\n==Transferring Pets==\nPets can only be transferred, when the target player of the transfer is able to command the pet. Transferring a pet will open a trade window, which both parties have to accept. Transferring a freshly tamed animal may take a few minutes when the pet in question was engaged in combat before or during the taming process.\n\n==Pet Commands==\nIn general all pets in range can be commanded with the 'all' keyword. This can be substituted by the exact name of the pet. Should there be more than none with the same name, only the first pet will respond (e.g. 'a horse').\n\n* (all/name) come: Commands the pet(s) to come and follow\n* (name) drop: Command the pet to drop everything it holds\n* (all/name) follow: Command the pet(s) to follow a target (shows target pointer)\n* (all/name) follow me: Command the pet(s) to follow you\n* (name) friend: Commands the pet to accept moving commands from a third person (person must be able to control the pet)\n* (all/name) guard [me]: Commands the pet(s) to guard you\n* (all/name) kill: Command the pet(s) to attack a target (shows target pointer)\n* (name) release: Releases the pet into the wild - pet goes untame (will show confirmation window)\n* (all/name) stay: Commands the pet(s) to stay at their current location\n* (all/name) stop: Commands the pet(s) to stop their current activity (guarding, following, fighting, waiting, etc.)\n* (name) transfer: Designates a new owner of the pet (will open a trade window) the previous owner loses command\n\n==Pet Control Calculator==\n{{PetControllCalculator}}\n\n==See Also==\n* [[Animal Taming]]\n* [[Animal_Lore|Animal Lore]]\n* [[Pets]]\n* [[Protecting_Your_Pets|Protecting Your Pets]]\n* [[Stable|Stables]]\n* [[Tameables]]\n* [[Veterinary]]\n\n[[Category:Skills]]"
+          }
+        ]
+      }
+    }
+  }
+}

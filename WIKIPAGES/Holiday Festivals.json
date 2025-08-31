@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "2382": {
+        "pageid": 2382,
+        "ns": 0,
+        "title": "Holiday Festivals",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "==Holiday Festival/Bazaar==\nWe are excited to announce Ultima Online Forever's Holiday Festivals!\nThese will be announced via discord during the holiday periods.\n\nThis is a heads up to get your vendor items ready to sell! During this event we will have auctions, live events, tournaments, and more.\nFay has done an outstanding job creating a whole new area for this.\n\n<gallery class=\"center\" widths=\"250px\" heights=\"250px\">\nFile:SummerFestival2.PNG|'''Summer Festival'''<br />\nFile:bazaar1.png|'''Winter Festival'''<br />\n</gallery>\n\n==Auction==\nDuring the festival we have an auction area that will be utilized.\n\n[[File:SummerFestivalAuction.PNG|Frame|Auction Area]]\n\n==Gambling==\nThere will also be an area set aside for gambling! This will include poker tables and slots.\n\n[[File:SummerFestGamble.PNG|Frame|Gambling Area]]\n\n==Festival Vendor==\nDuring this festival you will be able to go to the festival location, pick a shop, then place a vendor for 1 week in that location. This location will be advertised non stop with gates to all towns during its time. There will be casino games, auctions, bomberman, events and much more through out the entire 10 days that the event will run where the focus will be on trade and having fun.\n\n* How this will work is there will be many tents/buildings, and it will be a first come first serve.\n* You will need to have an OPEN HOUSE SPOT on one of your (3) accounts to take a vendor.\n* You will simply run into a shop and click on the sign and claim the house, then place your vendor.\n* Houses with no vendors will be removed after 12 hours.\n* Vendors with no items will be removed after 2 hours.\n* You may place as many vendors in one shop as you can fit.\n* You may let others place vendors within your shop.\n* There will be bankers available.\n\n[[File:SummerFestival1.PNG|Frame|Festival Vendors]]\n\nOnce you find a sign that means that shop is currently open for rent! \nSimply click the sign and click \"Claim House\".\n\n<gallery class=\"center\" widths=\"250px\" heights=\"250px\">\nFile:Summerbazz1.PNG|'''Summer Vendors'''<br />\nFile:bazaar.png|'''Winter Vendors'''<br />\n</gallery>\n\nPLEASE NOTE: You will need an open house spot to claim a shop.\n\nDIDN'T GET A SHOP? NO PROBLEM!\nMany shop owners are renting out vendors within their shop. Simply double click one of the pink deeds on the ground once you find one and if their rental price suits you, accept!\nThose setting up vendors may want to bank items before coming to the festival and pull items from bank to vendor. To prevent stealing inside your vendor home."
+          }
+        ]
+      }
+    }
+  }
+}

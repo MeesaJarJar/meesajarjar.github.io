@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "157": {
+        "pageid": 157,
+        "ns": 0,
+        "title": "Destard",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "[[Category:Atlas]]\n[[Category:Dungeons]]\n[[File:DestardDungeonEntranceImage.png|625px|right|]]\n__TOC__\n==Notes==\n*Located south of [[Factions|Minax]] base, southeast of [[Skara Brae]] and northwest of [[Trinsic]]. \n*Receives the 50% Dungeon Skill Gain Bonus.\n==Champion Spawn==\nBeware adventurers, within this den of dragons [[Champion Spawns#Rikktor - Skull of Power|Rikktor]] guards his loot hoard! [[Champion Spawns#Rikktor - Skull of Power|Rikktor]] is one of the many [[Champion Spawns|Champions]] that inhabit the lands of Sosaria. \n\n==Dungeon Boss==\nYou may also encounter [[Dungeon_Bosses#Fafnir|Fafnir]] as well if you are truly unlucky! [[Dungeon_Bosses#Fafnir|Fafnir]] is one of the many [[Dungeon_Bosses|Dungeon Bosses]] that can be found in Sosaria.\n\n==[[Paragons]]==\n*drake - Level 1\n*young dragon - Level 1\n*shadow wyrm - Level 2\n*efreet - Level 1\n==[[Lockpicking|Locked Chests]]==\n*3x Low Tier (crates, barrels, kegs) - Level 1(x3)\n*2x High Tier (large wooden or metal chests) - Level 3 (x2)\n= Level 1 =\n[[File:Destard_1.png|right|]]\n===Legend===\n*1. Entrance\n*2. Low Tier (crates, barrels, kegs) [[Lockpicking|Locked Chest]]\n*3. Champion Spawn - [[Champion Spawns#Rikktor - Skull of Power|Rikktor]]\n*4. Ankh\n*5. Purple Moongate - Can only enter while dead, takes you to [[Despise]] Level 3.\n*6. To Level 2\n===Monsters===\n*drake, pathaleo drake, dragon, wyvern, young dragon, giant serpent, greater dragon, elder dragon, murderer NPC, water elemental, dire wolf, efreet\n===[[Paragons]]===\n*drake, young dragon, efreet\n===[[Lockpicking|Locked Chests]]===\n*3x Low Tier (crates, barrels, kegs)\n= Level 2 =\n[[File:Destard_2.png|right|]]\n===Monsters===\n*gargoyle, wyvern, blazing gargoyle, dragon, shadow wyrm, evil mage NPC, daemon, skeleton\n===[[Paragons]]===\n*shadow wyrm\n===[[Lockpicking|Locked Chests]]===\n*None\n= Level 3 =\n[[File:Destard_3.png|right|]]\n===Legend===\n*1. From Level 2\n*2. High Tier (large wooden or metal chests) [[Lockpicking|Locked Chest]]\n*3. Portal to [[Deceit]] Level 4\n*4. Portal to [[Terathan Keep]]\n===Monsters===\n*giant serpent, fire elemental, elder dragon, ancient wyrm\n===[[Paragons]]===\n*?\n===[[Lockpicking|Locked Chests]]===\n*2x High Tier (large wooden or metal chests)"
+          }
+        ]
+      }
+    }
+  }
+}

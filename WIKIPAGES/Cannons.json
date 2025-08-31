@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "1553": {
+        "pageid": 1553,
+        "ns": 0,
+        "title": "Cannons",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "__TOC__\n==Description==\n[[Cannons]] were introduced in the [[Naval Warfare Reborn]] expansion. They are attached to all Ships and Galleons by default and can be loaded with [[Cannon Balls]]. [[Cannons]] do different damage depending on the level and type of your [[Ships]] or [[Galleons]] and the amount of [[Cannons]] present on the ship also depends on the [[Ships]] or [[Galleons]].\n\n==Usage==\n[[Cannons]] by default are already \"Deployed\" on a ship, they can be retracted with the ''''Retract the Cannons'''' command and deployed with the ''''Deploy the Cannons'''' command. Once the [[Cannons]] are deployed, you can see them on the outer edge of your Ship. To fire the [[Cannons]], you must load them with [[Cannon Balls]]. Double click the [[Cannon Balls]] in your inventory and target any single cannon on each side of the ship and wait. You can see how many [[Cannon Balls]] each cannon has by single clicking on a cannon.\n\nAfter you've deployed and loaded your [[Cannons]] with [[Cannon Balls]], you can then issue the \"Fire Left\" or \"Fire Right\" [[Ship Commands]], this will give you a target reticle, allowing you to aim at an enemy ship, player or creature.\n\nThe [[Cannons]] will each fire one time, consuming a single [[Cannon Ball|Cannon Balls]] from each cannon. Note that [[Cannons]] are not entirely accurate and can sometimes miss.\n\n==Upgrades==\n[[Cannons]] damage can be factored by many things. Here are some of those factors:\n:[[Cannons]] do higher damage depending on the type of [[Ships]] or [[Galleons]] you have.\n:[[Cannons]] damage can be increased with [[Ship Upgrades]].\n:[[Cannons]] do more damage on higher level ships.\n:[[Cannons]] do different amounts of damage to different things. Such as players, other ships or NPCs.\n\n==Images==\nFiring Cannons:\n:[[file:Ac5df96b43697b39d2a83da868bbc167.gif]]\n\n==See Also==\n*[[Cannon Balls]]\n*[[Galleons]]\n*[[Ships]]\n*[[Ship Upgrades]]\n*[[Naval Warfare Reborn]]\n*[[Blacksmithing]]"
+          }
+        ]
+      }
+    }
+  }
+}

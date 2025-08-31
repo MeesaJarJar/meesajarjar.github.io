@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "1404": {
+        "pageid": 1404,
+        "ns": 0,
+        "title": "Buccaneer's Den",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "[[Category:Atlas]]\n[[Category:Cities]]\n\n[[File:map_bucsden.png|Upright|right|Buccaneer's Den]]\n__TOC__\n== Notes ==\nBuccaneer's Den is a free for all zone, when you are in this area you will be grey and open to attack from others with no repercussions.\nVirtue: None\n\n[[Sigil]]: None\n\n[[Control Point]]: None\n== [[:Category:Shops|Shops]] ==\n* [[Bank]]\n* [[Blacksmith]]\n* [[Carpenter]]\n* [[Fisher]]\n* [[Thieves_Guild#Forgers_Paints|Forger]]\n* [[Healer]]\n* [[Inn]]\n* [[Mage]]\n* [[Provisioner]]\n* [[Stable]]\n* [[Tailor]]\n* [[Tanner]]\n* [[Tavern]]\n* [[Thieves_Guild|Thieves Guild]]\n\n\n== [[:Category:Shops|Points of Interest]] ==\n*1. Entrance to tunnel system underneath town. Another hidden entrance can be found around 38°35'S 95°45'E.\n*2. [[Thieves_Guild|Pirate's Den (Thieves Guild)]]\n*3. Teleporter to west of [[Vesper]]\n*4. Moongate\n\n== Tunnels / Solen Hives ==\nWithin the winding tunnel system you will find some creatures crawling around. Be on the look out for: red solen worker, black solen worker, red solen queen, black solen queen and red solen infiltrators.\n\n<gallery mode=\"packed\" class=\"right\">\nFile:Bucs_Den_Pirates_Den.png|Pirate's Den\nFile:solenEntrance.png|Hidden Entrance\nFile:solenStairs.png|Stairs to town\nFile:solenSpawn.png|Solen\n</gallery>"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "17": {
+        "pageid": 17,
+        "ns": 0,
+        "title": "Archery",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "[[File:ArcheryFlag.gif|thumb]]\n__TOC__\n==Description==\n[[Archery]] is a skill for ranged fighting for the use of bows and crossbows. This is used against creatures and players to keep a safe distance from them. The difficulty with archery is keeping a safe enough distance not to be hit but close enough that the target does not extend outside of your firing range. \n\nAs an archer you will need arrows or bolts. If you train [[Fletching|Fletching skill]] you will have a 99% chance of success to make these with only 30% skill level. You will need to gather wood from the forest and kill birds or harpies for feathers. Also, centaurs, ratmen mages and juka lords are usually good sources of free arrows. Alternatively, you could buy arrows from any town fletcher or archer.\n\n== Recommended Training ==\n:0.0: Purchase the skill from any town fletcher\n:50-100: Simply kill creatures in dungeons for the experience boost that dungeons grant\n\n==Rare Wood Arrows and Bolts==\nCrafters can make arrows/bolts using [[Fletching| Fletching skill]] from the rare woods harvested from [[Lumberjacking|Lumberjacking skill]]. These arrows/bolts give a flat bonus in damage in PVM only, these bonuses do NOT apply to PVP.\n{| border=\"1\" \"\n|-\n| align=\"center\" style=\"background-color:#000; color:#FFF;\" | '''Wood Type'''\n| align=\"center\" style=\"background-color:#000; color:#FFF;\" | '''Damage Bonus'''\n|-\n| align=\"center\" | Oak</br>[[Image:OakLog.png]]\n| align=\"center\" | '''+1'''\n|-\n| align=\"center\" | Ash</br>[[Image:AshLog.png]]\n| align=\"center\" | '''+1'''\n|-\n| align=\"center\" | Yew</br>[[Image:YewLog.png]]\n| align=\"center\" | '''+2'''\n|-\n| align=\"center\" | Heartwood</br>[[Image:HeartwoodLog.png]]\n| align=\"center\" | '''+3'''\n|-\n| align=\"center\" | Bloodwood</br>[[Image:BloodwoodLog.png]]\n| align=\"center\" | '''+4'''\n|-\n| align=\"center\" | Frostwood</br>[[Image:FrostwoodLog.png]]\n| align=\"center\" | '''+5'''\n|-\n|}\n\n==See Also==\n* [[Macing]]\n* [[Swordsmanship]]\n* [[Fencing]]\n* [[Wrestling]]\n* [[Tactics]]\n* [[Anatomy]]\n* [[Fletching]]\n\n[[Category:Skills]]"
+          }
+        ]
+      }
+    }
+  }
+}

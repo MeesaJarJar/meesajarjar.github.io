@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "3549": {
+        "pageid": 3549,
+        "ns": 0,
+        "title": "Power Scroll Storage Bookshelf",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "[[Category:Items]][[Category:Containers]][[Category:Housing]]\n[[File:Power_Scroll_Storage_Bookshelf_Preview.PNG|thumb|This is a special container that holds all of the Power Scrolls.]]\n\n__TOC__\n=Description=\nThis is a special container that holds all of the [[Power_Scrolls|Power Scrolls]] listed by Name and separated by Power Level. You can drag and drop the single or bagged [[Power_Scrolls|Power Scrolls]] on to the Power Scroll Storage Bookshelf or use the \"Deposit\" button to store them in the Power Scroll Storage Bookshelf. You can click the blue button next to any of the green numbers that represent the Amount of [[Power_Scrolls|Power Scroll]] you have for that Name and Power Level to retrieve a single [[Power_Scrolls|Power Scroll]]. The Power Scroll Storage Bookshelf has a maximum of 300 [[Power_Scrolls|Power Scrolls]] and these stored [[Power_Scrolls|Power Scrolls]] do not count against the lockdown/secure counts of the home. The Power Scroll Storage Bookshelf is dyable with a [[Dye_Tub#Furniture_Dye_Tub|Furniture Dye Tub]] and comes unhued, Hue 0, when purchased.\n\n==Warning==\n* '''If this container is not locked down, and you choose to use an axe to destroy the item, all items within the container will be deleted!'''\n\n==Patch Notes==\n* [https://www.uoforum.com/threads/new-quality-of-life-items.110193/ new-quality-of-life-items.110193]\n* [https://uoforum.com/threads/8-7-8-0-quality-of-life-items-redo-and-more.110199/ 8-7-8-0-quality-of-life-items-redo-and-more.110199]\n\n=Retrieving Power Scrolls=\nYou can click the blue button next to any of the green numbers that represent the Amount of [[Power_Scrolls|Power Scroll]] you have for that Name and Power Level to retrieve a single [[Power_Scrolls|Power Scroll]]. If you cannot carry the [[Power_Scrolls|Power Scroll]] due to weight or item count limitations, the [[Power_Scrolls|Power Scroll]] will drop to your feet!\n\n[[File:Power_Scroll_Storage_Bookshelf_Menu.PNG|The Power Scroll Storage Bookshelf that holds all of the Power Scrolls listed by Name and separated by Power Level. You can drag and drop the single or bagged Power Scrolls on to the Power Scroll Storage Bookshelf or use the \"Deposit\" button to store them in the Power Scroll Storage Bookshelf. You can click the blue button next to any of the green numbers that represent the Amount of Power Scroll you have for that Name and Power Level to retrieve a single Power Scroll. The Power Scroll Storage Bookshelf has a maximum of 300 Power Scrolls.]]\n\n=Depositing Power Scrolls=\nThere are 3 ways you can deposit [[Power_Scrolls|Power Scrolls]] into the Power Scroll Storage Bookshelf:\n* You can drag and drop a single [[Power_Scrolls|Power Scroll]] on to the Power Scroll Storage Bookshelf.\n* You can drag and drop a bag filled with [[Power_Scrolls|Power Scrolls]] on to the Power Scroll Storage Bookshelf.\n* There is a \"Deposit\" button that will automatically place any of these [[Power_Scrolls|Power Scrolls]] from your backpack into the Power Scroll Storage Bookshelf!\n\n=Storage=\nThe Power Scroll Storage Bookshelf's stored [[Power_Scrolls|Power Scroll]] do not count against the lockdown/secure counts of the home and currently have a maximum storage capacity of 300 [[Power_Scrolls|Power Scrolls]].\n\n=Displayability=\nThe Power Scroll Storage Bookshelf can be turned to face south or east by dropping the item in those directions from your player or able to be turned while locked down with an [[Decorator_Tools#Interior_Decorator_Tool|Interior Decorator Tool]] or a [[Decorator_Tools#Royal_Decorator_Tool|Royal Decorator Tool]].\n\nThe Power Scroll Storage Bookshelf is dyable with a [[Dye_Tub#Furniture_Dye_Tub|Furniture Dye Tub]] and comes unhued, Hue 0, when purchased.\n\n=Located=\nThe Power Scroll Storage Bookshelf is purchasable with [[Donation_Coin|4500 Donation Coins]] from [[Exotic_Item_Vendor|Nadine the Exotic Item Donation Vendor]] located in front of the [[Britain|West Britain Bank]]."
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "1541": {
+        "pageid": 1541,
+        "ns": 0,
+        "title": "Naval Warfare Reborn",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "[[file:GYvmGrt.jpg|thumb]]\n__TOC__\n=Description=\nIn January 2015 Ultima Online Forever released a new expansion changing the sea content dramatically. Sailing in Ultima Online has never been more exciting, profitable or dangerous. A series of new Ships such as [[Galleons]] were added, which have immense firing power, and [[Cannons]] were added to the existing dragon ships. These [[Galleons]] are now craftable with resources that are highly sought after and obtained in deep sea through [[Fishing]] as well as old resources such as [[Ingots]] or [[Wood|Logs]].\n\nThe movement and control systems have been changed, sailing in a boat is now \"Smooth\" and fluid as it coasts across the waters. Additionally, piloting a ship is now much easier as it can be 100% controlled with the mouse similar to running on a horse when on land.\n\nMany items were also added in the expansion, such as [[Ship Upgrades]], usable ship objects like [[Cannon Balls]] and [[Ship Repair Kit]]s and much more, see the list below.\n\n=New Items and Features=\n\n==Movement & Control==\n*Smooth Movement: Boats now move gracefully across the ocean and no longer jump from tile to tile.\n*Mouse Controlled Movement: You can now take control of the ship and move it with your mouse. See [[Ship Commands]]\n\n==Items & Ships==\n[[file:104px-TokunoGalleon.png|thumb]]\n*[[Cannons]]: Used to fire [[Cannon Balls]] at enemy vessels, monsters and players. See [[Ship Commands]]\n*[[Cannon Balls]]: Fired from the [[Cannons]] and crafted with [[Blacksmithing]] using [[Ingots]].\n*[[Ship Upgrades]]: Craftable Deeds that can be applied to a ship, having your ship destroyed removes their upgrades. See [[Ship Upgrades]]\n*[[Ship Repair Kit]]s: Used to repair the ship when it has taken damage. Crafted with [[Tinkering]] using [[Ingots]]\n*[[Grappling Hook]]s: Used to board enemy vessels from your own ship, crafted with [[Tailoring]] using [[Cloth]] and [[Ingots]].\n*[[Special Fishing Net]]s: [[Special Fishing Net]]s already existed but they now capture pets from enemy players, transferring them to your boat. See [[Special Fishing Net]]\n*[[Galleons]]: Large and Powerful ships, they have more health and more damage. Each Galleon has different amounts of cannons, damage and durability. See [[Galleons]]\n**[[Galleons|Tokuno Galleon]]\n**[[Galleons|Orc Galleon]]\n**[[Galleons|Gargoyle Galleon]]\n**[[Galleons|Britain Galleon]]\n\n==Whirlpools==\n[[file:NVxete5.png|thumb]]\n[[Whirlpool]]s were added in the [[Naval Warfare Reborn]] expansion, these [[Whirlpool]]s can be located by paying an NPC 10,000 gold pieces to tell you the location of [[Whirlpool]]s when they occur. This only needs to be done once. [[Whirlpool]]s occur often and people fight for their rewards. [[Fishing]] is required to pull reward from the [[Whirlpool]]s and you not only have to worry about other pirates, but the monsters that dwell within. See [[Ship Upgrades]]\n\n==Whirlpool Rewards==\n*[[Barnacle Encrusted Hat]]\n*[[Barnacle Encrusted Robe]]\n*[[Barnacle Encrusted Gloves]]\n*[[Barnacle Encrusted Apron]]\n*[[Barnacle Encrusted Boots]]\n*[[Barnacle Encrusted Tome]]\n*[[Dead Man's Skull]] (Bone Armor)\n*[[A Dead Man's Chest]] (Bone Armor)\n*[[A Dead Man's Arms]] (Bone Armor)\n*[[A Dead Man's Legs]] (Bone Armor)\n*[[A Dead Man's Hands]] (Bone Armor)\n*[[Ship Paint]]s\n*[[Treasure Chest (Cosmetic)]]\n*[[A Sunken Treasure Chest]]\n*[[Ring of Aves]]\n*[[Ancient Anchor]]\n*[[Ship Recipe]]s\n*[[Message in a Bottle]]\n*[[Forged Metal]]\n*[[Ship Rib]]\n*[[Bloodwood Log]]\n*[[Frostwood Log]]\n*[[Heartwood Log]]\n*[[Booger Hue Cloth]]\n\n=Mechanic Changes=\n*Planks have been removed from ships. You now Embark / Disembark from the ship. See [[Ship Commands]]\n*You can no longer control a ship while dead.\n*You may now add \"Friends\" such as deckhands or officers to your ship. See [[Ships]]\n*Smooth Movement has been added to ships.\n*Boats are now controllable with the mouse. See [[Ship Commands]]\n*Boat keys have been removed and replaced with [[Ship Rune]]s. See [[Ships]]\n*Other players may no longer control your boat, unless \"friended\". See [[Ships]]\n*[[Special Fishing Net]]s now also have the capability to capture pets from another boat and transfer them to your own. See [[Special Fishing Net]]\n\n=See Also=\n*[[Ships]]\n*[[Ship Commands]]\n*[[Whirlpool]]s\n*[[Galleons]]\n*[[Ship Upgrades]]\n*[[Ship Repair Kit]]\n*[[Cannons]]\n*[[Cannon Balls]]\n\n=Contributors=\nThe community would like to thank the following brave adventurers who contributed their time and experiences for others to enjoy:\n* Colin#1767"
+          }
+        ]
+      }
+    }
+  }
+}

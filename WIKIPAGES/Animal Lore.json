@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "188": {
+        "pageid": 188,
+        "ns": 0,
+        "title": "Animal Lore",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "[[File:Flag_animal_lore.gif|thumb]]\n__TOC__\n==Description==\n[[Animal Lore]] is a knowledge skill similar to [[Anatomy]], on the subject of animals and monsters in general. It has 3 main uses, which are: getting information on animals and monsters, aiding [[Veterinary]] and controlling tamed pets. The skill can be trained directly by using it on a tame creature or indirectly by taming a creature or healing it with [[Bandages]] ([[Veterinary]] skill). It is possible to gain skill by targeting a single creature over and over. The success of taming a pet is in no way influenced by the skill as this relies solely on the skill in [[Animal Taming]].\n\n==Animals and Monsters==\nThis is the only active use of the skill. Using the skill and targeting a tamed animal will get you a Gump with detailed info on [[Stats]], [[Skills]] as well as loyalty.\n\n[[File:AnimalLoreP1.jpg]] [[File:AnimalLoreP2.jpg]] [[File:AnimalLoreP3.jpg]]\n\nThe chance to succeed is (skill / 120) * 100 in percent. Wild animals and monsters can only be used when the players skill is 110 or higher. There is no difficulty rating on different animals or monsters.\n\n=== Support for [[Veterinary]] ===\n[[Animal Lore]] adds to the points healed with skill/5. It also enables curing at skill 60 and resurrecting bonded tames at skill 80 given, that the [[Veterinary]] skill is at least at the same level.\n\n=== Controlling Pets ===\nWhenever a command is issued to a tamed pet, a check is made, if the command succeeds or fails. The chance for success are determined by the taming difficulty, the skill in [[Animal Taming]], the skill in [[Animal Lore]] as well as the current loyalty of the pet. Basically both [[Animal Taming]] and [[Animal Lore]] are taken into the equation and the ratio is 4 parts [[Animal Taming]] and 1 part [[Animal Lore]].\n\nFor further details, please have a look at [[Controlling Pets]].\n\n===Loyalty===\nPets will lose Loyalty Rating over time as they become unhappy, or fail to respond to a command. If a creatures Loyalty Rating drops too low, it will become \"wild\" meaning it will no longer have the status of \"(tame)\". This [[Protecting_Your_Pets|may have further consequences for being a bad owner and failing to maintain a creature's happiness!]] Using the Animal Lore skill on any creature, you can check the Loyalty Rating which is a measurement of the current happiness of the creature. </br></br>Here is a listing from Highest to Lowest Rating:\n* Wonderfully Happy\n* Extremely Happy\n* Very Happy\n* Rather Happy\n* Happy\n* Content\n* Content, I Suppose\n* Unhappy\n* Rather Unhappy\n* Extremely Unhappy\n* Confused\n\n==Recommended Training==\n:From 0 - 120 you may Heal, Cure or Resurrect Pets with bandages \n:Use [[Animal Lore]] directly on pets or creatures\n:Tame Pets\n\n==See Also==\n* [[Animal Taming]]\n* [[Controlling_Pets|Controlling Pets]]\n* [[Pets]]\n* [[Protecting_Your_Pets|Protecting Your Pets]]\n* [[Stable|Stables]]\n* [[Tameables]]\n* [[Veterinary]]\n\n[[Category:Skills]]"
+          }
+        ]
+      }
+    }
+  }
+}

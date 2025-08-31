@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "68": {
+        "pageid": 68,
+        "ns": 0,
+        "title": "Provocation",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "[[File:ProvokeFlag.gif|thumb]]\n__TOC__\n==Description==\nThe [[Provocation]] skill allows a player to make two creatures fight each other. It's a bard skill that must be used with [[Musicianship]] and it's arguable one of the best Player vs Monster skills and has little investment. It goes well with [[Animal Taming]], Warriors and even [[Magery]].\n\n==Usage== \nActivate the skill and you may be prompted to select an instrument on first use, instruments are not automatically selected so you have to set your instrument once the first time. You will be presented with a target reticle, select the creature followed by selecting a second creature within range. If successful, the creature will begin attacking it's target. You may attack the creatures and the [[Provocation]] will not be interrupted unless you've left their range.\n\n==Range==\nThe range of all bard skills is 8 tiles, each 15 points in the skill increases the range by a single tile. Bards have to be within the range of the target to use the ability on it or it will fail. Bards must remain within their range or the effects of the skill will wear off.\n\n==Instruments==\n{| width=\"75%\"\n|[[File:Bamboo Flute.png]] Bamboo Flute\n|[[File:Drum.png]] Drum \n|[[File:Lap harp.png]] Lap Harp\n|-\n|[[File:Lute.png]] Lute\n|[[File:Standing harp.png]] Standing Harp \n|[[File:Tambourine.png]] Tambourine \n|[[File:Tambourine tassel.png]] Tambourine (tassel)\n|}\n\n==Recommended Leveling==\n:0-50: Buy from NPC\n:50-65: Skeletons or Zombies (Can be provoked to yourself)\n:65-80: Skeletal Knights (Can be provoked to yourself)\n:80-100: Rotting Corpses (Can be provoked to yourself)\n\n==See Also==\n*[[Peacemaking]]\n*[[Musicianship]]\n*[[Discordance]]\n\n[[Category:Skills]]"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "2241": {
+        "pageid": 2241,
+        "ns": 0,
+        "title": "Rares",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "__TOC__\n\n==Description==\nRare items, most commonly decorative, come in various forms in Ultima Online Forever:\n# Monster Drop Rares: Some dropping from specific monsters, some having a chance to drop from any monster\n# Event Rares: Specially created rares which will drop during an event\n# Stealable Rares: Classic UO rares that spawn regularly\n\nThe information provided here is by no means exhaustive. If you find a curious item, you are best advised to stash it away and ask the wise wizards on the [http://www.uoforum.com UOF Forums] or [[Discord]] if the item is truly a rare.\n\n==Monster Drop Rares==\n[[File:Rares.jpg|150px|right]]A large number of rares can drop from any monster in the land. An example of these items is provided to the right. It is unknown at this stage if any of the shown items are limited to dropping only from specific monsters.\n\nPrior to the release of the rares detailed above, a number of other rares dropped and continue to drop from specific monsters:\n\n==Monster Specific Drops==\n{{:Mob_Dropped_Rares}}\n\n==Statues==\nAll animals and monsters in the lands have a chance to drop a small statue version of itself. These will most commonly be in the same normal hue as the monster itself but on occasion the statues will have a rarer hue. During a [[Holiday Monsters]] period, they may take on the hue of the holiday monster. Other known rare hues are pure white, paragon, fallon and blaze.\n\nOne of the most impressive statue collections belongs to Decoy. His statue filled keep can be found on the west side of Ice Island:\n[[File:DecoyHouse4.png|400px|center]]\n\n[[Category:Items]]\n[[Category:Rares]]"
+          }
+        ]
+      }
+    }
+  }
+}

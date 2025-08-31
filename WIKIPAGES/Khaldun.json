@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "161": {
+        "pageid": 161,
+        "ns": 0,
+        "title": "Khaldun",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "[[Category:Dungeons]]\n[[Category:Atlas]]\n[[File:KhaldunDungeonEntranceImage.png|625px|right|]]\n__TOC__\n==Notes==\n*Located southwest of [[Trinsic]].\n*Receives the 50% Dungeon Skill Gain Bonus.\n*To enter, you must say aloud \"Fallax veramocor malum\" while near the Khaldun Gatekeeper.\n*OPEN PVP DUNGEON, you are automatically flagged here\n==[[Champion Spawns]]==\n*None\n==[[Paragons]]==\n*?\n==[[Lockpicking|Locked Chests]]==\n*6x High Tier (large wooden or metal chests)\n=Level 1=\n[[File:khaldun_1.png|right|]]\n===Legend===\n*1. Entrance\n*2. Khaldun Gatekeeper\n*3. To Level 2. Say aloud \"Fallax veramocor malum\" while near the Khaldun Gatekeeper to enter.\n===Monsters===\n*None\n===[[Paragons]]===\n*None\n===[[Lockpicking|Locked Chests]]===\n*None\n=Level 2=\n[[File:khaldun_2.png|right|]]\n===Legend===\n*1. From Level 1\n*2. Ankh\n*3. High Tier (large wooden or metal chests) [[Lockpicking|Locked Chest]]\n*4. Room with Puzzle Lock chests\n===Monsters===\n*murderer NPC, undead knight, slave NPC, dark skeletal mage, ancient lich, balron, dark skeletal knight, chaos spirit, blood daemon, bone knight\n===[[Paragons]]===\n*?\n===[[Lockpicking|Locked Chests]]===\n*6x High Tier (large wooden or metal chests)"
+          }
+        ]
+      }
+    }
+  }
+}

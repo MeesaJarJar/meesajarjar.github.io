@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "2228": {
+        "pageid": 2228,
+        "ns": 0,
+        "title": "House Decay",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "[[Category:Player vs Player]][[Category:Housing]]\n__TOC__\n==Description==\nCustom placed houses in Ultima Online Forever must be refreshed regularly to prevent them from decaying and eventually collapsing. It takes approximately 4 weeks for a house to go from newly refreshed to collapsed.\n\n==Refreshing==\nTo refresh, the owner, a co-owner or friend of the house can:\n* Double click the house sign\n* Use a house teleporter tile\n* Open one of the house doors\n\nUpon refreshing, you will receive the message: \"Your house's age and contents have been refreshed\".\n\n==Stages==\n[[File:Signstate.png|right]]\nTo view the stage a house is in, simply single click the house sign but note that ghosts cannot view the state of a houses decay. A delay has also been added to prevent people from using scripts to click house signs too frequently. If you click the sign too often, you will be disconnected - Be conservative with your clicking!\n\nThe decay stages are as follows:\n\n* Like New: Approximately 1 hour\n* Slightly Worn: Approximately 1 week\n* Somewhat Worn: Approximately 1 week\n* Fairly Worn: Approximately 1 week\n* Greatly Worn: A little under 1 week\n* In Danger of Collapsing (IDOC): Currently ~6 hours\n\nThe IDOC stage has been known to vary across the years of Ultima Online Forever and can be tweaked by the Game Masters. You are best advised to do your own investigations!\n\n'''Note:''' As these are approximate values, you are advised not to take chances with house decaying. If you are planning to go away for a long period of time, consider adding a trusted friend to keep it refreshed and perhaps store you most valuable items in your character's bank box where they cannot be lost. There have been unfortunate occasions where a house refresh fell within the period of a server revert!\n\nDon't think that your house decay won't go unnoticed. There are many \"IDOC Hunters\" around that will scour the lands looking for houses in decaying states. For those who do not have time to run around the lands clicking signs, there is also Norton the Building Inspector.\n\n==Loot Distribution==\nFollowing changes made in [https://www.uoforum.com/threads/august-2017-patch-notes.97352/ August] and [https://www.uoforum.com/threads/september-2017-patch-notes.97792/ September] 2017, the loot at an IDOC will no longer drop to the ground as before. Instead every item dropped on a fallen house will have:\n* A 50% chance at becoming over-world loot which is forwarded to any and all over world monster spawns. Over-time this means you may kill a mongbat and obtain a major item from these idocs.\n* And 50% chance of that item dropping on an ettin which spawns as that house falls. If there is a lot of loot in the house, quite a few ettins will spawn - Be prepared to fight them and other IDOC hunters off!\n\n==Building Inspector==\n[[File:Nortoninspector.png|150px|right]][[File:Nortoncoordinates.png|150px|right]]Norton, the building inspector can be found in Britain and for the right amount of gold he will tell you the exact coordinates to a house that is in danger of collapsing, if indeed there is currently a house in that state on the server! Some may not have anything in it at all, or some...might be filled to the brim with loot! It's up to you to go find it and battle it out against other players to reap all the rewards.\n\nTo see if Norton has any secrets to spill simply drop gold on him in larger and larger quantities until he gives up the coordinates. 5000 gold pieces will typically give information if there is currently an IDOC. He re-rolls onto the next building every TWO hours but this is subject to change at the whim of the Game Masters. Be ready to screenshot or write down the coordinates and then go find the in danger of collapsing hovel!\n\n==Ageless Houses==\nThere are a handful of custom houses on the server that are ageless. These were prizes handed out during [[Raffles]]. In this state, the houses will not go through the normal decay stages and therefore does not need to be refreshed."
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "1740": {
+        "pageid": 1740,
+        "ns": 0,
+        "title": "Shipwright",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "__TOC__\n== Notes ==\nUsually found with [[Mapmaker]]s. \n== Locations ==\n[[Britain]], [[Jhelom]], [[Ocllo]], [[Skara Brae]], [[Trinsic]], [[Vesper]], [[Yew]](x2)\n== Merchandise == \n*Small, medium, and large boat deed\n*Small, medium, and large dragon boat deed\n== Training ==\n[[Carpentry]], [[Tactics]], [[Wrestling]]\n[[Category:Atlas]]\n[[Category:Shops]]"
+          }
+        ]
+      }
+    }
+  }
+}

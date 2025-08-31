@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "3198": {
+        "pageid": 3198,
+        "ns": 0,
+        "title": "Captcha",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "[[File:Captcha_Captcha_Menu.PNG|thumb|The Captcha menu appears when afk activity from a skill is detected. You have 5 attempts within 5 minutes to answer the Captcha or the skill will be blocked from use for the next 4 hours.]]\n__TOC__\n==Description==\nThe Captcha system was introduced around March 2022 in order to deter illegal [https://www.uoforever.com/rules.php Unattended Macroing] activity that has been defined in the [https://www.uoforever.com/rules.php Terms of Use(Rules)]. If actions that are being performed by a player meet the systems auto-detecting features, a \"Captcha\" menu will appear and the player will have 5 attempts within 5 minutes to answer the request. If you fail to provide an answer, the [[Skills|skill]] that triggered the \"Captcha\" will no longer be allowed to be used by this player for the next 4 hours. This will be indicated by a debuff incon that will appear on the debuff bar with the time remaining, along with message stating that you have failed and will be punished.\n\n[[File:Captcha_Failure_Message.PNG|685px]]\n[[File:Captcha_Failure_Debuff.PNG]]\n\n===Notes===\n* [https://www.uoforum.com/threads/server-patch-notes-8-1-2-0.109999/ Patch Notes 8.1.2.0]\n* Reduced the amount of random font colors allowed by the captcha script. Only the most visible colors should be drawn now.\n* Added forgiveness. Occasionally you will be able to be forgiven by an accidently missing a captcha. Forgiveness is not granted very often, you should do your best to never use it, it is meant to help with emergency situations.\n\n==Contributors==\nThe community would like to thank the following brave adventurers who contributed their time and experiences for others to enjoy:\n* Tarek#6446"
+          }
+        ]
+      }
+    }
+  }
+}

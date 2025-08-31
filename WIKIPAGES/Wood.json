@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "1584": {
+        "pageid": 1584,
+        "ns": 0,
+        "title": "Wood",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "__TOC__\n==Description==\n[[Lumberjacking]] is used to gather wood from trees. Equipping an Axe and double clicking it will bring up a targeting reticle, targeting a tree that has not been chopped recently will then gather logs. Using an axe on logs turns them into boards. Boards have the same weight as logs. There are various types of wood that can be gathered after you've reached 100 Lumberjacking.\n\n==Types of Wood==\nThere are various different types of wood which grant different bonuses to items crafted by [[Carpentry]] as well as [[Fletching]]. To collect colored woods from trees you will need 100 or higher [[Lumberjacking]].\n\nThe skill levels required to collect/convert each type of board are:\n{| class=\"wikitable\"\n! Skill \n! Wood\n|-\n| 0\n| [[File:plainLog.png]]Plain\n|-\n| 101\n| [[File:oakLog.png]]Oak\n|-\n| 105\n| [[File:ashLog.png]]Ash\n|-\n| 106\n| [[File:yewLog.png]]Yew\n|-\n| 110\n| [[File:heartwoodLog.png]]Heartwood\n|-\n| 115\n| [[File:bloodwoodLog.png]]Bloodwood\n|-\n| 116\n| [[File:frostwoodLog.png]]Frostwood\n|}\n\n==See Also==\n*[[Lumberjacking]]\n*[[Ships]]\n*[[Galleons]]"
+          }
+        ]
+      }
+    }
+  }
+}

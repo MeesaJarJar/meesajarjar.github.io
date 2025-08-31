@@ -1,0 +1,27 @@
+{
+  "batchcomplete": "",
+  "warnings": {
+    "main": {
+      "*": "Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes."
+    },
+    "revisions": {
+      "*": "Because \"rvslots\" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used."
+    }
+  },
+  "query": {
+    "pages": {
+      "1413": {
+        "pageid": 1413,
+        "ns": 0,
+        "title": "Skara Brae",
+        "revisions": [
+          {
+            "contentformat": "text/x-wiki",
+            "contentmodel": "wikitext",
+            "*": "[[File:Map_skarabrae.png|Upright|right|Skara Brae]]\n__TOC__\n== Notes ==\nVirtue: Spirituality\n\n[[Sigil]]: Animal Affinity - 100% chance to control a tamed creature you can control, and increases creature skill gain by 10%.\n\n[[Control Point]]: None\n== [[:Category:Atlas|Shops]] ==\n* [[Alchemist]] x2\n* [[Bank]]\n* [[Beekeeper]]\n* [[Blacksmith]]\n* [[Butcher]] x2\n* [[Carpenter]]\n* [[Farmer]]\n* [[Fisher]] x2\n* [[Fletcher]]\n* [[Healer]]\n* [[Inn]] x2\n* [[Mage]] x2\n* [[Mapmaker]]\n* [[Provisioner]]\n* [[Scribe]]\n* [[Shipwright]]\n* [[Stable]]\n* [[Tailor]]\n* [[Weaponsmith]] and [[Armorer]] x2\n== [[:Category:Atlas|Places of Interest]] ==\n*1. Animal Farm - [[Sheep]], Goat, Cow\n*2. Ranger Guild\n*3. Moongate\n*4. Docks - To cross the dock here, simply say aloud \"I wish to cross\"\n*5. Sigil stand - Sigil of Animal Affinity - 100% chance to control a tamed creature you can control, and increases creature skill gain by 10%. For use in [[Factions]].\n[[Category:Atlas]]\n[[Category:Cities]]"
+          }
+        ]
+      }
+    }
+  }
+}
