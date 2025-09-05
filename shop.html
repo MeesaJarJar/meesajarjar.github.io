@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Shop</title>
+<title>Meesa Jar Jar's UOF Vendor Search</title>
 <style>
 body {
   font-family: Arial, sans-serif;
@@ -205,6 +205,48 @@ body {
 .item-tooltip strong {
   color: #ff9c00;
 }
+#filterControls {
+  position: fixed;       /* stays fixed on screen */
+  top: 10px;             /* distance from top */
+  left: 10px;            /* distance from left */
+  z-index: 10010;        /* above everything else */
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+}
+#filterControls input, #filterControls select, #filterControls button {
+  background: #222;
+  color: #eee;
+  border: 2px solid #444;
+  border-radius: 6px;
+  padding: 6px 8px;
+  font-size: 14px;
+  transition: all 0.2s ease;
+}
+#filterControls input:focus, #filterControls select:focus {
+  border-color: #ff9c00;
+  outline: none;
+  box-shadow: 0 0 6px #ff9c00;
+}
+#filterControls button {
+  cursor: pointer;
+}
+#filterControls button:hover {
+ 
+  color: #111;
+  transform: scale(1.05);
+}
+#dragHandle {
+  cursor: grab;
+  user-select: none;
+  margin-right: 6px;
+}
+#dragHandle:active {
+  cursor: grabbing;
+}
 
 </style>
 </head>
@@ -212,8 +254,8 @@ body {
 <div id="vanta-bg"></div>
  <div id="content">
  <div id="itemTooltip" class="item-tooltip"></div>
-
-<div style="display: flex; align-items: center; gap: 10px; margin: 15px;">
+<div id="filterControls">
+  <div id="dragHandle" style="cursor: grab; padding: 0 6px; font-weight:bold; color:#ff9c00;">☰</div>
   <input type="text" id="searchInput" placeholder="Search Properties..." oninput="filterImages()">
   <input type="number" id="minPrice" placeholder="Min Price" style="width: 100px;" oninput="filterImages()">
   <input type="number" id="maxPrice" placeholder="Max Price" style="width: 100px;" oninput="filterImages()">
@@ -275,6 +317,28 @@ function createFloatingImages() {
 
   const minPrice = parseFloat(document.getElementById('minPrice').value) || 0;
   const maxPrice = parseFloat(document.getElementById('maxPrice').value) || Infinity;
+const filterControls = document.getElementById('filterControls');
+const dragHandle = document.getElementById('dragHandle');
+
+let offsetX = 0, offsetY = 0, isDragging = false;
+
+dragHandle.addEventListener('mousedown', (e) => {
+  isDragging = true;
+  offsetX = e.clientX - filterControls.offsetLeft;
+  offsetY = e.clientY - filterControls.offsetTop;
+  document.body.style.userSelect = 'none'; // prevent text selection
+});
+
+document.addEventListener('mousemove', (e) => {
+  if (!isDragging) return;
+  filterControls.style.left = (e.clientX - offsetX) + 'px';
+  filterControls.style.top = (e.clientY - offsetY) + 'px';
+});
+
+document.addEventListener('mouseup', () => {
+  isDragging = false;
+  document.body.style.userSelect = 'auto';
+});
 
   const filteredData = csvData.filter(row => {
     const props = (row[3] || '').toLowerCase();
