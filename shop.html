@@ -213,7 +213,18 @@ body {
  <div id="content">
  <div id="itemTooltip" class="item-tooltip"></div>
 
-<input type="text" id="searchInput" placeholder="Search Properties..." oninput="filterImages()">
+<div style="display: flex; align-items: center; gap: 10px; margin: 15px;">
+  <input type="text" id="searchInput" placeholder="Search Properties..." oninput="filterImages()">
+  <input type="number" id="minPrice" placeholder="Min Price" style="width: 100px;" oninput="filterImages()">
+  <input type="number" id="maxPrice" placeholder="Max Price" style="width: 100px;" oninput="filterImages()">
+  <select id="sortBy" onchange="filterImages()">
+    <option value="name">Name</option>
+    <option value="price">Price</option>
+  </select>
+  <button id="sortDirection" onclick="toggleSortDirection()">Asc</button>
+</div>
+
+
 
 <div id="imageContainer"></div>
 <div id="resultbox"></div>
@@ -240,11 +251,19 @@ let csvData = [];
 let selectedObject = null;
 let currentSearchString = "";
 let sortDirections = {};
+let sortBy = 'name';
+let sortDir = 'asc';
+
 
 fetch('vendorsaleitemdata.csv').then(r=>r.text()).then(text=>{
   csvData = text.split(/\r?\n/).filter(l=>l.trim()!=="").map(l=>l.split('|'));
   createFloatingImages();
 });
+function toggleSortDirection() {
+  sortDir = sortDir === 'asc' ? 'desc' : 'asc';
+  document.getElementById('sortDirection').innerText = sortDir === 'asc' ? 'Asc' : 'Desc';
+  createFloatingImages();
+}
 
 function filterImages(){
   currentSearchString = document.getElementById('searchInput').value.toLowerCase();
@@ -253,7 +272,35 @@ function filterImages(){
 function createFloatingImages() {
   const container = document.getElementById('imageContainer');
   container.innerHTML = '';
-  const filteredData = csvData.filter(row => (row[3] || '').toLowerCase().includes(currentSearchString));
+
+  const minPrice = parseFloat(document.getElementById('minPrice').value) || 0;
+  const maxPrice = parseFloat(document.getElementById('maxPrice').value) || Infinity;
+
+  const filteredData = csvData.filter(row => {
+    const props = (row[3] || '').toLowerCase();
+    const priceMatch = (row[3] || '').match(/\[Price:\s*([^\]]+)\]/i);
+    const price = priceMatch ? parseFloat(priceMatch[1].replace(/[^0-9.-]+/g,"")) : 0;
+
+    return props.includes(currentSearchString) && price >= minPrice && price <= maxPrice;
+  });
+	// Sort filteredData
+	const sortField = document.getElementById('sortBy').value;
+	filteredData.sort((a, b) => {
+	  let valA, valB;
+	  if(sortField === 'name') {
+		valA = (a[2] || '').toLowerCase();
+		valB = (b[2] || '').toLowerCase();
+	  } else if(sortField === 'price') {
+		const priceA = (a[3] || '').match(/\[Price:\s*([^\]]+)\]/i);
+		const priceB = (b[3] || '').match(/\[Price:\s*([^\]]+)\]/i);
+		valA = priceA ? parseFloat(priceA[1].replace(/[^0-9.-]+/g,"")) : 0;
+		valB = priceB ? parseFloat(priceB[1].replace(/[^0-9.-]+/g,"")) : 0;
+	  }
+	  if(valA < valB) return sortDir === 'asc' ? -1 : 1;
+	  if(valA > valB) return sortDir === 'asc' ? 1 : -1;
+	  return 0;
+	});
+
   filteredData.slice(1).forEach(row => {
     const itemID = (row[1] || '').replace(/"/g, '');
     const hue = (row[7] || '0').replace(/[^\d]/g, '');
@@ -262,7 +309,9 @@ function createFloatingImages() {
     img.style.width = 'auto';
     img.style.height = 'auto';
     img.style.maxWidth = '150px';
+	
     const tooltip = document.getElementById('itemTooltip');
+
 
     img.addEventListener('mousemove', e => {
       const priceMatch = (row[3] || '').match(/\[Price:\s*([^\]]+)\]/i);
