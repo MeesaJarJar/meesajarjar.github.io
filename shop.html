@@ -181,12 +181,38 @@ body {
   position: relative;
   z-index: 1; /* above vanta background */
 }
+.item-tooltip {
+  position: absolute;
+  background: rgba(20, 20, 20, 0.95);
+  color: #eee;
+  padding: 10px;
+  border-radius: 8px;
+  border: 2px solid #ff9c00;
+  max-width: 300px;
+  font-size: 14px;
+  z-index: 10002;
+  pointer-events: none;
+  display: none;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+}
+.item-tooltip img {
+  max-width: 60px;
+  max-height: 60px;
+  object-fit: contain;
+  display: block;
+  margin-bottom: 6px;
+}
+.item-tooltip strong {
+  color: #ff9c00;
+}
 
 </style>
 </head>
 <body>
 <div id="vanta-bg"></div>
  <div id="content">
+ <div id="itemTooltip" class="item-tooltip"></div>
+
 <input type="text" id="searchInput" placeholder="Search Properties..." oninput="filterImages()">
 
 <div id="imageContainer"></div>
@@ -224,56 +250,116 @@ function filterImages(){
   currentSearchString = document.getElementById('searchInput').value.toLowerCase();
   createFloatingImages();
 }
-
-function createFloatingImages(){
+function createFloatingImages() {
   const container = document.getElementById('imageContainer');
   container.innerHTML = '';
-  const filteredData = csvData.filter(row => (row[3]||'').toLowerCase().includes(currentSearchString));
-  filteredData.slice(1).forEach(row=>{
-    const itemID = (row[1]||'').replace(/"/g,'');
-    const hue = (row[7]||'0').replace(/[^\d]/g,'');
+  const filteredData = csvData.filter(row => (row[3] || '').toLowerCase().includes(currentSearchString));
+  filteredData.slice(1).forEach(row => {
+    const itemID = (row[1] || '').replace(/"/g, '');
+    const hue = (row[7] || '0').replace(/[^\d]/g, '');
     const img = document.createElement('img');
     img.src = `./UOItems/${itemID}_${hue}.png`;
-    img.style.width='auto';
-    img.style.height='auto';
-    img.style.maxWidth='150px';
+    img.style.width = 'auto';
+    img.style.height = 'auto';
+    img.style.maxWidth = '150px';
+    const tooltip = document.getElementById('itemTooltip');
 
-    img.addEventListener('click', function(event){
-      const matchingRows = csvData.filter(r => (r[1]||'').replace(/"/g,'') === itemID);
-      if(selectedObject){selectedObject.style.outline=''; selectedObject.style.backgroundColor=''; selectedObject=null;}
-      if(matchingRows && matchingRows.length > 0){
+    img.addEventListener('mousemove', e => {
+      const priceMatch = (row[3] || '').match(/\[Price:\s*([^\]]+)\]/i);
+      const price = priceMatch ? priceMatch[1] : '';
+      tooltip.innerHTML = `
+        <img src="./UOItems/${itemID}_${hue}.png" 
+             style="max-width:60px;max-height:60px;margin-bottom:5px;
+                    background:#fff;border-radius:6px;padding:4px;">
+        <div><strong>${(row[2] || '').trim()}</strong></div>
+
+
+        <div style="display:inline-flex;align-items:center;">
+          <img src="./goldicon.png" style="height:14px;width:auto;margin-right:4px;">
+          <span>${price}</span>
+        </div>
+		<div>
+  ${(row[3] || '')
+    .split('],[')
+    .map(s => s.replace(/[\[\]]/g,'').trim())
+    .join('<br>')}
+</div>
+	  <div style="position: relative; display: inline-block; margin-top:5px;">
+	  <img src="./Felucca.png" 
+		   style="max-width:200px; max-height:150px; display:block;" id="tooltipMap">
+	  <div id="mapMarker" style="
+		  width: 8px;
+		  height: 8px;
+		  background: radial-gradient(circle at 30% 30%, #ff4d4d, #b30000);
+		  border: 2px solid #fff;
+		  border-radius: 50%;
+		  position: absolute;
+		  transform: translate(-50%, -50%) rotate(45deg);
+		  box-shadow: 0 2px 6px rgba(0,0,0,0.4);
+		  pointer-events: none;">
+	  </div>
+	</div>
+
+
+        <div>Vendor: ${(row[6] || '').trim()}</div>
+      `;
+      const mapWidth = 200;
+      const mapHeight = 150;
+      const fullMapWidth = 6144;
+      const fullMapHeight = 4096;
+      const markerX = ((row[4] || 0) / fullMapWidth) * mapWidth;
+      const markerY = ((row[5] || 0) / fullMapHeight) * mapHeight;
+      const marker = tooltip.querySelector('#mapMarker');
+      marker.style.left = markerX + 'px';
+      marker.style.top = markerY + 'px';
+      tooltip.style.left = e.pageX + 15 + "px";
+      tooltip.style.top = e.pageY + 15 + "px";
+      tooltip.style.display = "block";
+    });
+
+    img.addEventListener('mouseleave', () => {
+      tooltip.style.display = "none";
+    });
+
+    img.addEventListener('click', function(event) {
+      const matchingRows = csvData.filter(r => (r[1] || '').replace(/"/g, '') === itemID);
+      if(selectedObject) {
+        selectedObject.style.outline = '';
+        selectedObject.style.backgroundColor = '';
+        selectedObject = null;
+      }
+      if(matchingRows && matchingRows.length > 0) {
         const clickedRowIndex = matchingRows.findIndex(r => 
           r[0].trim() === row[0].trim() &&
           r[7].replace(/[^\d]/g,'') === hue
         );
-        if(clickedRowIndex > 0){
+        if(clickedRowIndex > 0) {
           const clickedRow = matchingRows.splice(clickedRowIndex, 1)[0];
           matchingRows.unshift(clickedRow);
         }
         let tableHTML = `<table class='itemsTable' id="itemsTable"><thead><tr>
-		<th onclick="sortTable(0,'string',event)">Serial</th>
-		<th onclick="sortTable(1,'string',event)">ItemID</th>
-		<th onclick="sortTable(2,'string',event)">Name</th>
-		<th onclick="sortTable(3,'string',event)">Properties</th>
-		<th onclick="sortTable(4,'number',event)">Price</th>
-		<th onclick="sortTable(5,'string',event)">Loc X</th>
-		<th onclick="sortTable(6,'string',event)">Loc Y</th>
-		<th onclick="sortTable(7,'string',event)">Vendor Name</th>
-		<th onclick="sortTable(8,'string',event)">Hue</th>
-
-          </tr></thead><tbody>`;
-        const escapeHtml = s => (s||'').replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/'/g,"&#039;");
-        matchingRows.forEach(r=>{
-          const serial=(r[0]||'').trim();
-          const id=(r[1]||'').trim();
-          const name=(r[2]||'').trim();
-          const props=(r[3]||'').trim();
-          const x=(r[4]||'').trim();
-          const y=(r[5]||'').trim();
-          const vendor=(r[6]||'').trim();
-          const hueVal=(r[7]||'0').trim();
-          const priceMatch=props.match(/\[Price:\s*([^\]]+)\]/i);
-          const price=priceMatch ? priceMatch[1] : '';
+          <th onclick="sortTable(0,'string',event)">Serial</th>
+          <th onclick="sortTable(1,'string',event)">ItemID</th>
+          <th onclick="sortTable(2,'string',event)">Name</th>
+          <th onclick="sortTable(3,'string',event)">Properties</th>
+          <th onclick="sortTable(4,'number',event)">Price</th>
+          <th onclick="sortTable(5,'string',event)">Loc X</th>
+          <th onclick="sortTable(6,'string',event)">Loc Y</th>
+          <th onclick="sortTable(7,'string',event)">Vendor Name</th>
+          <th onclick="sortTable(8,'string',event)">Hue</th>
+        </tr></thead><tbody>`;
+        const escapeHtml = s => (s || '').replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/'/g,"&#039;");
+        matchingRows.forEach(r => {
+          const serial = (r[0] || '').trim();
+          const id = (r[1] || '').trim();
+          const name = (r[2] || '').trim();
+          const props = (r[3] || '').trim();
+          const x = (r[4] || '').trim();
+          const y = (r[5] || '').trim();
+          const vendor = (r[6] || '').trim();
+          const hueVal = (r[7] || '0').trim();
+          const priceMatch = props.match(/\[Price:\s*([^\]]+)\]/i);
+          const price = priceMatch ? priceMatch[1] : '';
           tableHTML += `<tr>
             <td>${escapeHtml(serial)}</td>
             <td>${escapeHtml(id)}</td>
@@ -290,15 +376,17 @@ function createFloatingImages(){
         const resultBox = document.getElementById('resultbox');
         resultBox.style.display = 'block';
         resultBox.innerHTML = `<span id="closeResultBox">X</span>` + tableHTML;
-        img.style.outline='thick double #4CAF50';
-        img.style.backgroundColor='#ffffffba';
-        selectedObject=img;
+        img.style.outline = 'thick double #4CAF50';
+        img.style.backgroundColor = '#ffffffba';
+        selectedObject = img;
       }
       event.stopPropagation();
     });
+
     container.appendChild(img);
   });
 }
+
 
 document.addEventListener('click', function(e){
   if(selectedObject){selectedObject.style.outline=''; selectedObject.style.backgroundColor=''; selectedObject=null;}
