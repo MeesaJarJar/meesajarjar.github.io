@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shop</title>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background: #ffffff;
+  color: #eee;
+  margin: 0;
+  padding: 0;
+}
+#searchInput {
+  width: 300px;
+  padding: 10px 12px;
+  margin: 15px;
+  border-radius: 8px;
+  border: 2px solid #444;
+  background: #222;
+  color: #eee;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+#searchInput:focus {
+  border-color: #ff9c00;
+  outline: none;
+  box-shadow: 0 0 10px #ff9c00;
+}
+
+#imageContainer {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  justify-content: flex-start;
+}
+
+#imageContainer img {
+  max-width: 150px;
+  max-height: 150px;
+  width: auto;
+  height: auto;
+  margin: 6px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 2px solid transparent;
+  transition: all 0.3s ease;
+  object-fit: contain;
+}
+
+#imageContainer img:hover {
+  transform: scale(1.15);
+  border-color: #ff9c00;
+  box-shadow: 0 4px 12px rgba(255, 156, 0, 0.5);
+}
+
+#resultbox {
+  display: none;
+  position: fixed;
+  top: 10%;
+  left: 5%;
+  right: 5%;
+  max-height: 80%;
+  overflow: auto;
+  background: #1c1c1c;
+  color: #eee;
+  padding: 20px;
+  border: 3px solid #ff9c00;
+  border-radius: 12px;
+  z-index: 10001;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.7);
+}
+.itemsTable td img {
+  max-width: 50px;
+  max-height: 50px;
+  width: auto;
+  height: auto;
+  border-radius: 6px;
+  margin: 2px 0;
+  transition: transform 0.2s ease;
+  object-fit: contain;
+}
+
+.itemsTable th, .itemsTable td {
+  border: 1px solid #444;
+  padding: 8px;
+  text-align: left;
+  transition: all 0.2s ease;
+}
+.itemsTable th {
+  cursor: pointer;
+  background: #222;
+  color: #ff9c00;
+  position: sticky;
+  top: 0;
+}
+.itemsTable th:hover {
+  background: #ff9c00;
+  color: #111;
+  text-shadow: 0 0 3px #000;
+}
+.itemsTable tr:nth-child(even) {
+  background: #1a1a1a;
+}
+.itemsTable tr:hover {
+  background: #333;
+  color: #ff9c00;
+  transform: scale(1.01);
+}
+.itemsTable td img {
+  max-width: 50px;
+  max-height: 50px;
+  border-radius: 6px;
+  margin: 2px 0;
+  transition: transform 0.2s ease;
+}
+.itemsTable td img:hover {
+  transform: scale(1.2);
+  box-shadow: 0 2px 8px rgba(255, 156, 0, 0.5);
+}
+
+.floating-image {
+  position: absolute;
+  user-select: none;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
+  border: 6px solid transparent;
+  border-radius: 10px;
+  max-width: 150px;
+  object-fit: contain;
+}
+.floating-image:hover {
+  transform: scale(1.1);
+  border-color: #ff9c00;
+  box-shadow: 0 6px 20px rgba(255,156,0,0.6);
+}
+
+.enlarged-image img {
+  max-width: 400px;
+  max-height: 400px;
+  width: auto;
+  height: auto;
+  background-color: black;
+  border-radius: 10px;
+  object-fit: contain;
+}
+
+#closeResultBox {
+  display:block;
+  cursor:pointer;
+  position:absolute;
+  top:0;
+  right:10px;
+  margin:1%;
+  padding:4px;
+  background-color:#ffffffba;
+  border-radius:8px;
+  font-size:20px;
+  font-weight:bold;
+  z-index:10002;
+  border:2px solid black;
+  box-shadow:2px 2px 4px rgba(0,0,0,0.5);
+  transition: all 0.2s ease;
+}
+#closeResultBox:hover {
+  background-color: #ff9c00;
+  color: #111;
+  transform: scale(1.1);
+}
+
+#vanta-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0; /* background layer */
+}
+
+#content {
+  position: relative;
+  z-index: 1; /* above vanta background */
+}
+
+</style>
+</head>
+<body>
+<div id="vanta-bg"></div>
+ <div id="content">
+<input type="text" id="searchInput" placeholder="Search Properties..." oninput="filterImages()">
+
+<div id="imageContainer"></div>
+<div id="resultbox"></div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.cells.min.js"></script>
+  <script>
+    VANTA.CELLS({
+      el: "#vanta-bg",
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      minHeight: 200.00,
+      minWidth: 200.00,
+      scale: 1.00,
+      color1: 0x5fc5c5,
+      color2: 0x3599f2,
+      size: 2.70,
+      speed: 0.50
+    });
+  </script>
+  
+<script>
+let csvData = [];
+let selectedObject = null;
+let currentSearchString = "";
+let sortDirections = {};
+
+fetch('vendorsaleitemdata.csv').then(r=>r.text()).then(text=>{
+  csvData = text.split(/\r?\n/).filter(l=>l.trim()!=="").map(l=>l.split('|'));
+  createFloatingImages();
+});
+
+function filterImages(){
+  currentSearchString = document.getElementById('searchInput').value.toLowerCase();
+  createFloatingImages();
+}
+
+function createFloatingImages(){
+  const container = document.getElementById('imageContainer');
+  container.innerHTML = '';
+  const filteredData = csvData.filter(row => (row[3]||'').toLowerCase().includes(currentSearchString));
+  filteredData.slice(1).forEach(row=>{
+    const itemID = (row[1]||'').replace(/"/g,'');
+    const hue = (row[7]||'0').replace(/[^\d]/g,'');
+    const img = document.createElement('img');
+    img.src = `./UOItems/${itemID}_${hue}.png`;
+    img.style.width='auto';
+    img.style.height='auto';
+    img.style.maxWidth='150px';
+
+    img.addEventListener('click', function(event){
+      const matchingRows = csvData.filter(r => (r[1]||'').replace(/"/g,'') === itemID);
+      if(selectedObject){selectedObject.style.outline=''; selectedObject.style.backgroundColor=''; selectedObject=null;}
+      if(matchingRows && matchingRows.length > 0){
+        const clickedRowIndex = matchingRows.findIndex(r => 
+          r[0].trim() === row[0].trim() &&
+          r[7].replace(/[^\d]/g,'') === hue
+        );
+        if(clickedRowIndex > 0){
+          const clickedRow = matchingRows.splice(clickedRowIndex, 1)[0];
+          matchingRows.unshift(clickedRow);
+        }
+        let tableHTML = `<table class='itemsTable' id="itemsTable"><thead><tr>
+		<th onclick="sortTable(0,'string',event)">Serial</th>
+		<th onclick="sortTable(1,'string',event)">ItemID</th>
+		<th onclick="sortTable(2,'string',event)">Name</th>
+		<th onclick="sortTable(3,'string',event)">Properties</th>
+		<th onclick="sortTable(4,'number',event)">Price</th>
+		<th onclick="sortTable(5,'string',event)">Loc X</th>
+		<th onclick="sortTable(6,'string',event)">Loc Y</th>
+		<th onclick="sortTable(7,'string',event)">Vendor Name</th>
+		<th onclick="sortTable(8,'string',event)">Hue</th>
+
+          </tr></thead><tbody>`;
+        const escapeHtml = s => (s||'').replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/'/g,"&#039;");
+        matchingRows.forEach(r=>{
+          const serial=(r[0]||'').trim();
+          const id=(r[1]||'').trim();
+          const name=(r[2]||'').trim();
+          const props=(r[3]||'').trim();
+          const x=(r[4]||'').trim();
+          const y=(r[5]||'').trim();
+          const vendor=(r[6]||'').trim();
+          const hueVal=(r[7]||'0').trim();
+          const priceMatch=props.match(/\[Price:\s*([^\]]+)\]/i);
+          const price=priceMatch ? priceMatch[1] : '';
+          tableHTML += `<tr>
+            <td>${escapeHtml(serial)}</td>
+            <td>${escapeHtml(id)}</td>
+            <td>${escapeHtml(name)}</td>
+            <td>${escapeHtml(props)}</td>
+            <td style="font-weight:bold;color:#ff9c00;"><img src="./goldicon.png"><div>${escapeHtml(price)}</div></td>
+            <td>${escapeHtml(x)}</td>
+            <td>${escapeHtml(y)}</td>
+            <td>${escapeHtml(vendor)}</td>
+            <td><img src="./UOItems/${escapeHtml(id)}_${escapeHtml(hueVal)}.png"><br>${escapeHtml(hueVal)}</td>
+          </tr>`;
+        });
+        tableHTML += `</tbody></table>`;
+        const resultBox = document.getElementById('resultbox');
+        resultBox.style.display = 'block';
+        resultBox.innerHTML = `<span id="closeResultBox">X</span>` + tableHTML;
+        img.style.outline='thick double #4CAF50';
+        img.style.backgroundColor='#ffffffba';
+        selectedObject=img;
+      }
+      event.stopPropagation();
+    });
+    container.appendChild(img);
+  });
+}
+
+document.addEventListener('click', function(e){
+  if(selectedObject){selectedObject.style.outline=''; selectedObject.style.backgroundColor=''; selectedObject=null;}
+  document.getElementById('resultbox').style.display='none';
+});
+
+document.addEventListener('click', function(e){
+  if(e.target && e.target.id==='closeResultBox'){
+    document.getElementById('resultbox').style.display='none';
+    if(selectedObject){selectedObject.style.outline=''; selectedObject.style.backgroundColor=''; selectedObject=null;}
+  }
+});
+
+function sortTable(n, type, event){
+  event.stopPropagation();
+  const table = document.getElementById("itemsTable");
+  const rows = Array.from(table.rows).slice(1);
+  let dir = sortDirections[n] === 'asc' ? 'desc' : 'asc';
+  rows.sort((a, b) => {
+    let x = a.getElementsByTagName("TD")[n].innerText;
+    let y = b.getElementsByTagName("TD")[n].innerText;
+    if(type==='number'){
+      x = parseFloat(x.replace(/[^0-9.-]+/g,""))||0;
+      y = parseFloat(y.replace(/[^0-9.-]+/g,""))||0;
+    } else {
+      x = x.toLowerCase();
+      y = y.toLowerCase();
+    }
+    if(x < y) return dir==='asc' ? -1 : 1;
+    if(x > y) return dir==='asc' ? 1 : -1;
+    return 0;
+  });
+  rows.forEach(row => table.tBodies[0].appendChild(row));
+  sortDirections[n] = dir;
+}
+
+
+</script>
+</div>
+</body>
+</html>
