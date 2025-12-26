@@ -1,0 +1,27 @@
+{
+  "name": "uo-replaced-artwork-gallery",
+  "version": "1.0.0",
+  "description": "A gallery website to display Ultima Online replaced artwork by MeesaJarJar",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server -p 8080 -o",
+    "serve": "npx http-server -p 8080"
+  },
+  "keywords": [
+    "ultima-online",
+    "artwork",
+    "gallery",
+    "uo",
+    "game-art"
+  ],
+  "author": "MeesaJarJar",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MeesaJarJar/meesajarjar.github.io"
+  },
+  "homepage": "https://meesajarjar.github.io",
+  "devDependencies": {
+    "eslint": "^9.39.2"
+  }
+}
