@@ -18,6 +18,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     const galleryElement = document.getElementById('gallery');
     const loadingElement = document.getElementById('loading');
     const errorElement = document.getElementById('error');
+    const searchInput = document.getElementById('search-input');
 
     try {
         // Load artwork for each folder
@@ -31,6 +32,9 @@ document.addEventListener('DOMContentLoaded', async () => {
             errorElement.textContent = 'No artwork found. Please check the folder structure.';
             errorElement.style.display = 'block';
         }
+
+        // Setup search functionality
+        setupSearch();
     } catch (error) {
         console.error('Error loading gallery:', error);
         loadingElement.style.display = 'none';
@@ -41,6 +45,59 @@ document.addEventListener('DOMContentLoaded', async () => {
     // Setup lightbox
     setupLightbox();
 });
+
+// Setup search functionality
+function setupSearch() {
+    const searchInput = document.getElementById('search-input');
+    const searchResultsCount = document.getElementById('search-results-count');
+
+    searchInput.addEventListener('input', (e) => {
+        const searchTerm = e.target.value.toLowerCase().trim();
+        filterGallery(searchTerm, searchResultsCount);
+    });
+}
+
+// Filter gallery based on search term
+function filterGallery(searchTerm, resultsCountElement) {
+    const imageItems = document.querySelectorAll('.image-item');
+    const folderSections = document.querySelectorAll('.folder-section');
+    let visibleCount = 0;
+
+    if (!searchTerm) {
+        // Show all items if search is empty
+        imageItems.forEach(item => item.classList.remove('hidden'));
+        folderSections.forEach(section => section.classList.remove('hidden'));
+        resultsCountElement.textContent = '';
+        return;
+    }
+
+    // Filter images by filename
+    imageItems.forEach(item => {
+        const imageName = item.querySelector('.image-name').textContent.toLowerCase();
+        if (imageName.includes(searchTerm)) {
+            item.classList.remove('hidden');
+            visibleCount++;
+        } else {
+            item.classList.add('hidden');
+        }
+    });
+
+    // Hide folder sections that have no visible images
+    folderSections.forEach(section => {
+        const visibleImages = section.querySelectorAll('.image-item:not(.hidden)');
+        const imageCountElement = section.querySelector('.image-count');
+        
+        if (visibleImages.length > 0) {
+            section.classList.remove('hidden');
+            imageCountElement.textContent = `${visibleImages.length} image${visibleImages.length !== 1 ? 's' : ''} shown`;
+        } else {
+            section.classList.add('hidden');
+        }
+    });
+
+    // Update results count
+    resultsCountElement.textContent = `${visibleCount} result${visibleCount !== 1 ? 's' : ''} found`;
+}
 
 // Load artwork from a specific folder
 async function loadFolderArtwork(folder, galleryElement) {

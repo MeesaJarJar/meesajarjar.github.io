@@ -9,12 +9,17 @@
 <body>
     <header>
         <div class="container">
-            <h1>?? UO Replaced Artwork Gallery</h1>
+            <h1>🎨 UO Replaced Artwork Gallery</h1>
             <p class="subtitle">Custom artwork for Ultima Online</p>
         </div>
     </header>
 
     <main class="container">
+        <div class="search-container">
+            <input type="text" id="search-input" class="search-input" placeholder="Search filenames...">
+            <span class="search-results-count" id="search-results-count"></span>
+        </div>
+
         <div id="loading" class="loading">Loading artwork...</div>
         <div id="error" class="error" style="display: none;"></div>
         
